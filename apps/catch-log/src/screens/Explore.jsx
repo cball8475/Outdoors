@@ -16,7 +16,7 @@ import { RODS } from '../data/rods.js'
 import { fishForSpot, spotsForFish, fishInSeason, rigFor } from '../lib/explore.js'
 import { regsSummary } from '../lib/regs.js'
 import { getPosition } from '../lib/capture.js'
-import { solunarDay } from '../lib/solunar.js'
+import { sunDay } from '../lib/sunmoon.js'
 import { scoreDay } from '../lib/windows.js'
 import { getCachedTides } from '../lib/tides.js'
 import { fmtRange, fmtDate } from '../lib/format.js'
@@ -100,7 +100,7 @@ function BestTimesMini({ spot }) {
     for (let i = 0; i < 3; i++) {
       const d = new Date()
       d.setDate(d.getDate() + i)
-      const day = solunarDay(d, spot.lat, spot.lon)
+      const day = sunDay(d, spot.lat, spot.lon)
       out.push({ day, scored: scoreDay(day, spot.water, preds) })
     }
     return out
@@ -120,7 +120,7 @@ function BestTimesMini({ spot }) {
       ))}
       {next.map(({ day, scored }) => (
         <div key={day.date.toISOString()} className="row between" style={{ fontSize: '0.95rem' }}>
-          <span>{day.moon.emoji} {fmtDate(day.date)}</span>
+          <span>{fmtDate(day.date)}</span>
           <span><b>{fmtRange(scored.windows[0].start, scored.windows[0].end)}</b> <span className="badge">{scored.windows[0].score}</span></span>
         </div>
       ))}

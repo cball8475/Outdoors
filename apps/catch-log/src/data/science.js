@@ -19,7 +19,7 @@ export const SCIENCE = [
     factor: 'Moving water (tide current)',
     evidence: 'strong',
     what: 'Current moves bait; predators set up where current delivers it (points, creek mouths, jetty tips, pier pilings). Slack water is usually the slowest bite.',
-    use: 'The app\'s tide factor scores mid-tide (fastest flow) highest. Plan to be fishing during the middle 2–4 hours of a rising or falling tide. Inside creeks/the MarshWalk, the last half of the falling tide pulls bait out of the marsh.',
+    use: 'The app\'s tide factor scores mid-tide (fastest flow) highest, and the Times screen flags big-tide days from NOAA data (bigger range = faster current). Plan to be fishing during the middle 2–4 hours of a rising or falling tide. Inside creeks/the MarshWalk, the last half of the falling tide pulls bait out of the marsh.',
   },
   {
     factor: 'Low light (dawn & dusk)',
@@ -43,7 +43,7 @@ export const SCIENCE = [
     factor: 'Solunar majors/minors & moon phase',
     evidence: 'weak',
     what: 'Popular since 1926 but poorly supported: a 2023 peer-reviewed trout study found NO relationship between catch rate and solunar periods, moon phase, or illumination (air temp predicted better). Bass research (Univ. of Florida) found no new/full moon boost. Some reef fish show species-specific lunar effects.',
-    use: 'Shown in the app because it costs nothing. It gets only 20% of the window score. The moon\'s real effect on inshore fishing is through TIDES: new/full moons make bigger tides and stronger currents.',
+    use: 'NOT used in this app (removed Oct 2026). The moon\'s one real effect on inshore fishing is through TIDES: new/full moons make bigger tides and faster current. The Times screen shows that directly as "Big tides / Small tides vs average" from NOAA data.',
   },
   {
     factor: 'Circle hooks & quick releases',
@@ -55,7 +55,7 @@ export const SCIENCE = [
     factor: 'Your own logbook',
     evidence: 'strong',
     what: 'Local patterns beat generic tables. Catch-per-hour by tide stage, light and spot, from YOUR trips, is the same method fisheries scientists use (CPUE).',
-    use: 'Log every trip, even skunks (effort counts). After ~10 trips, Stats → Insights shows catch-per-hour by tide stage, light period and solunar. Trust that over any app\'s prediction, including this one.',
+    use: 'Log every trip, even skunks (effort counts). After ~10 trips, Stats → Insights shows catch-per-hour by tide stage and light period. Trust that over any app\'s prediction, including this one.',
   },
 ]
 

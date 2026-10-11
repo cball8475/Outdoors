@@ -1,5 +1,5 @@
 // Stats: family totals, per-angler personal bests, and Insights (catch per
-// hour by light / tide / solunar, built from YOUR trips).
+// hour by light and tide stage, built from YOUR trips).
 import { useLiveQuery } from 'dexie-react-hooks'
 import { db } from '../lib/db.js'
 import { TopBar, Empty } from '../components/ui.jsx'
@@ -11,7 +11,6 @@ import { speciesName } from './Home.jsx'
 const LABELS = {
   light: { dawn: 'Dawn', day: 'Daytime', dusk: 'Dusk', night: 'Night' },
   tide: { incoming: 'Incoming', outgoing: 'Outgoing', slack: 'Slack' },
-  solunar: { major: 'Major period', minor: 'Minor period', none: 'Outside periods' },
 }
 
 export default function Stats() {
@@ -24,7 +23,7 @@ export default function Stats() {
     ])
     const S = Object.fromEntries(spots.map((s) => [s.id, s]))
     // effort (hours) per condition across finished trips
-    const effort = { light: {}, tide: {}, solunar: {}, hours: 0 }
+    const effort = { light: {}, tide: {}, hours: 0 }
     const tideCache = {}
     for (const t of trips.filter((x) => x.endedAt)) {
       const spot = S[t.spotId]
@@ -36,7 +35,7 @@ export default function Stats() {
       }
       const e = effortForTrip(t, spot, preds)
       effort.hours += e.hours
-      for (const k of ['light', 'tide', 'solunar']) for (const [c, h] of Object.entries(e[k])) effort[k][c] = (effort[k][c] || 0) + h
+      for (const k of ['light', 'tide']) for (const [c, h] of Object.entries(e[k])) effort[k][c] = (effort[k][c] || 0) + h
     }
     const endedIds = new Set(trips.filter((x) => x.endedAt).map((x) => x.id))
     return { anglers, trips, catches, effort, endedCatches: catches.filter((c) => endedIds.has(c.tripId)) }
@@ -144,7 +143,7 @@ function Insights({ effort, catches, trips }) {
       <h2>Insights: catch per hour</h2>
       <small className="muted">
         Fish caught ÷ hours you were actually fishing in each condition, from finished trips. This is your own answer to
-        "do tides/solunar times really matter?" Treat it as noise until you have ~10 trips ({trips} so far).
+        "do we really catch more at dusk, or on a falling tide?" Treat it as noise until you have ~10 trips ({trips} so far).
       </small>
       {trips === 0 ? (
         <Empty>Finish a trip to start building insights.</Empty>
@@ -152,7 +151,6 @@ function Insights({ effort, catches, trips }) {
         <>
           {section('light', 'Light')}
           {section('tide', 'Tide (salt trips)')}
-          {section('solunar', 'Solunar')}
         </>
       )}
     </div>

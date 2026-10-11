@@ -107,7 +107,7 @@ export async function exportCsv() {
   const T = Object.fromEntries(trips.map((t) => [t.id, t]))
   const head = [
     'trip_id', 'trip_date', 'spot', 'water', 'angler', 'species', 'length_in', 'weight_lb',
-    'released', 'caught_at', 'lat', 'lon', 'gps_source', 'light', 'solunar', 'tide', 'tide_pct',
+    'released', 'caught_at', 'lat', 'lon', 'gps_source', 'light', 'tide', 'tide_pct',
     'water_temp_f', 'bait', 'notes',
   ]
   const rows = catches
@@ -118,7 +118,7 @@ export async function exportCsv() {
       return [
         c.tripId, (t.startedAt || '').slice(0, 10), s.name, s.water, A[c.anglerId]?.name,
         SPECIES_BY_ID[c.speciesId]?.name || c.speciesOther || 'Unknown', c.lengthIn, c.weightLb,
-        c.kept ? 'no' : 'yes', c.caughtAt, c.lat, c.lon, c.gpsSource, c.cond?.light, c.cond?.solunar,
+        c.kept ? 'no' : 'yes', c.caughtAt, c.lat, c.lon, c.gpsSource, c.cond?.light,
         c.cond?.tide, c.cond?.tidePct, c.waterTempF ?? t.waterTempF, c.bait, c.notes,
       ].map(csvCell).join(',')
     })

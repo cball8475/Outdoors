@@ -223,7 +223,7 @@ write(
 # What Actually Moves Catch Rates (and What Doesn't)
 
 > Ranked by strength of evidence. The Catch Log app's "best times" score weights these accordingly:
-> saltwater = tide movement 45% · low light 35% · solunar 20%; freshwater = low light 75% · solunar 25%.
+> saltwater = tide movement 55% · dawn/dusk light 45%; freshwater = dawn/dusk light only. Solunar periods are not used.
 
 | Factor | Evidence | What it is | How to use it |
 |---|---|---|---|

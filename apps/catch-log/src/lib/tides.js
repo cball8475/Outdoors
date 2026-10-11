@@ -167,6 +167,44 @@ export function extremesBetween(preds, start, end) {
   return preds.filter((p) => p.t >= s && p.t < e)
 }
 
+/** Mean swing (ft) between consecutive highs and lows in a list of extremes. */
+function meanSwing(list) {
+  let sum = 0
+  let n = 0
+  for (let i = 1; i < list.length; i++) {
+    sum += Math.abs(list[i].v - list[i - 1].v)
+    n++
+  }
+  return n ? sum / n : null
+}
+
+/**
+ * How big are today's tides vs. this station's average?
+ * Bigger tides = faster current = usually better inshore fishing. This is the
+ * moon's real effect on fishing (new/full moon → bigger "spring" tides),
+ * measured from NOAA's own predictions instead of guessed from the moon.
+ * @returns {{range:number, avg:number, pct:number, size:'big'|'average'|'small', label:string}|null}
+ */
+export function tideRangeForDay(preds, start, end) {
+  if (!preds?.length) return null
+  // include the extremes just outside the day so a day's swings are complete
+  const s = start.getTime() - 7 * 3600e3
+  const e = end.getTime() + 7 * 3600e3
+  const day = preds.filter((p) => p.t >= s && p.t < e)
+  const range = meanSwing(day)
+  const avg = meanSwing(preds)
+  if (range == null || !avg) return null
+  const pct = Math.round(((range - avg) / avg) * 100)
+  const size = pct >= 10 ? 'big' : pct <= -10 ? 'small' : 'average'
+  const label =
+    size === 'big'
+      ? `Big tides (${range.toFixed(1)} ft, +${pct}% vs avg): stronger current`
+      : size === 'small'
+        ? `Small tides (${range.toFixed(1)} ft, ${pct}% vs avg): gentler current`
+        : `Average tides (${range.toFixed(1)} ft)`
+  return { range, avg, pct, size, label }
+}
+
 export const STAGE_LABEL = {
   incoming: 'Incoming (rising)',
   outgoing: 'Outgoing (falling)',

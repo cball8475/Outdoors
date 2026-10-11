@@ -4,7 +4,7 @@
 //
 // Sources: SCDNR, SC State Parks, pier websites, USFWS, county parks
 // (researched 10/11/2026). Coordinates from OpenStreetMap; `approx: true`
-// means the point is close but not exact (fine for tides/solunar; use the
+// means the point is close but not exact (fine for tides and sun times; use the
 // Directions button for navigation, which searches by name).
 //
 // Drive = OSRM routing estimate from downtown Florence. It tends to run long

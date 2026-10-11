@@ -5,8 +5,8 @@ import { db, getActiveTrip } from '../lib/db.js'
 import { TopBar, AnglerChip, Thumb, Empty, go } from '../components/ui.jsx'
 import { fmtTime, fmtDate, fmtDuration, fmtLength, fmtWeight } from '../lib/format.js'
 import { SPECIES_BY_ID } from '../data/species.js'
-import { solunarDay, lightPeriodAt } from '../lib/solunar.js'
-import { getCachedTides, stageAt, STAGE_LABEL } from '../lib/tides.js'
+import { sunDay, lightPeriodAt, dayBounds } from '../lib/sunmoon.js'
+import { getCachedTides, stageAt, STAGE_LABEL, tideRangeForDay } from '../lib/tides.js'
 
 export function speciesName(c) {
   return SPECIES_BY_ID[c.speciesId]?.name || c.speciesOther || 'Unknown fish'
@@ -106,13 +106,16 @@ function LiveTrip({ trip }) {
   // "Right now" conditions
   let day = null
   let light = null
-  let nextPeriod = null
   let tideNow = null
+  let range = null
   if (spot) {
-    day = solunarDay(new Date(now), spot.lat, spot.lon)
+    day = sunDay(new Date(now), spot.lat, spot.lon)
     light = lightPeriodAt(now, day)
-    nextPeriod = day.periods.find((p) => p.end.getTime() > now)
     tideNow = tides ? stageAt(tides.predictions, now) : null
+    if (tides) {
+      const b = dayBounds(day.date)
+      range = tideRangeForDay(tides.predictions, b.start, b.end)
+    }
   }
 
   async function endTrip() {
@@ -164,11 +167,7 @@ function LiveTrip({ trip }) {
                 <b style={{ fontSize: '1rem' }}>{fmtTime(day.sunset)}</b>
               </div>
             </div>
-            {nextPeriod && (
-              <p className="muted" style={{ marginTop: 8 }}>
-                {nextPeriod.start.getTime() <= now ? 'Now in' : 'Next'}: solunar {nextPeriod.kind} ({nextPeriod.label.toLowerCase()}) {fmtTime(nextPeriod.start)}–{fmtTime(nextPeriod.end)}
-              </p>
-            )}
+            {range && <p className="muted" style={{ marginTop: 8 }}>🌊 {range.label}</p>}
             {tideNow && (
               <p className="muted">
                 Next {tideNow.next.type === 'H' ? 'high' : 'low'} {fmtTime(tideNow.next.t)} ({tideNow.next.v.toFixed(1)} ft)

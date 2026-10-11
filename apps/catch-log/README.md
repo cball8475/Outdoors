@@ -9,10 +9,10 @@ Offline-first family fishing tracker. It's a web app you install to your phone's
 | **Catches** | Photo (camera or gallery), **GPS + date/time captured automatically**, species, length, weight (lb/oz), released vs kept, bait, notes. |
 | **Trip totals** | Total caught for the whole party, released/kept, leaderboard with each angler's biggest fish, species breakdown, one-tap text summary to share. |
 | **SC limit checker** | Warns *before* you keep an undersize, over-slot, closed-season or over-limit fish (incl. the July 2026 red drum rules and Santee Cooper striper slot). |
-| **Best times** | Solunar majors/minors, sun, moon, **NOAA tides** (salt spots), a 24-hr timeline, top-3 fishing windows with reasons, and a 7-day planner. |
+| **Best times** | **NOAA tides** (salt spots) + dawn/dusk light → top fishing windows with reasons, tide size vs average (the moon's real effect), sun times, a 24-hr timeline, and a 7-day planner. No solunar periods: the evidence doesn't support them. |
 | **Guide** | 28 local species: ID marks, look-alikes, SC limits, fall pattern, bait, lures, and a rig for each of your rods (salt rod, fresh rod, kids' Ugly Stiks). |
 | **ID helper** | Tap what you see (tail spot, chin whiskers, flat body…) → ranked matches. Fully offline. |
-| **Stats & Insights** | Personal bests per angler per species; **catch-per-hour by tide stage, light and solunar** from your own trips. |
+| **Stats & Insights** | Personal bests per angler per species; **catch-per-hour by tide stage and light** from your own trips. |
 | **Backup** | Export everything (with photos) to one file; CSV export for spreadsheets; restore. |
 
 ## Privacy (this repo is public)
@@ -45,7 +45,7 @@ project, not a weekend build. Use these instead:
 cd apps/catch-log
 npm install
 npm run dev        # local dev server (phone on same Wi-Fi: use the "Network" URL)
-npm test           # unit tests: solunar, tides, best-window scoring, SC limit checker, data integrity
+npm test           # unit tests: sun times, tides, best-window scoring, SC limit checker, data integrity
 npm run build      # production build → dist/
 npm run docs       # regenerate ../../fishing/*.md from src/data (single source of truth)
 ```
@@ -70,7 +70,7 @@ Other hosts work too:
 src/
   data/       species.js (ID, regs, baits, rigs, season by month, kid ease) · spots.js · spotInfo.js (online research)
               rods.js · science.js  ← edit these
-  lib/        solunar.js · tides.js (NOAA cache) · windows.js (scoring) · regs.js (limit checker) · explore.js (rankings)
+  lib/        sunmoon.js · tides.js (NOAA cache + tide range) · windows.js (scoring) · regs.js (limit checker) · explore.js (rankings)
               capture.js (photo + GPS) · conditions.js (per-catch snapshot + effort) · backup.js · db.js
   screens/    Home (live trip) · Explore (place→fish, fish→places, spot guide) · StartTrip · CatchForm · TripDetail
               Times · Spots (add your own) · Guide · Stats · Settings

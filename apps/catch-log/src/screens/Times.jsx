@@ -1,15 +1,16 @@
 // ---------------------------------------------------------------------------
-// Times: best windows for a spot + day. Solunar majors/minors, sun, moon,
-// tides (salt), a 24-hour timeline, and a 7-day planner.
+// Times: best windows for a spot + day: tide movement + dawn/dusk light,
+// sun times, tide range vs average (salt), a 24-hour timeline, and a 7-day
+// planner. Solunar periods were removed in Oct 2026 (no evidence they help).
 // Everything here works offline (tides once downloaded).
 // ---------------------------------------------------------------------------
 import { useEffect, useMemo, useState } from 'react'
 import { useLiveQuery } from 'dexie-react-hooks'
 import { db, getSetting, setSetting } from '../lib/db.js'
-import { TopBar, Stars, useOnline, go } from '../components/ui.jsx'
-import { solunarDay, dayKey, dayBounds } from '../lib/solunar.js'
+import { TopBar, useOnline, go } from '../components/ui.jsx'
+import { sunDay, dayKey, dayBounds } from '../lib/sunmoon.js'
 import { scoreDay, WEIGHTS } from '../lib/windows.js'
-import { getCachedTides, downloadTides, extremesBetween, heightAt } from '../lib/tides.js'
+import { getCachedTides, downloadTides, extremesBetween, heightAt, tideRangeForDay } from '../lib/tides.js'
 import { fmtTime, fmtRange, fmtDate, fmtDateLong, todayKey } from '../lib/format.js'
 
 function shiftDay(key, n) {
@@ -94,41 +95,48 @@ function TideStatus({ spot, tides, date }) {
   )
 }
 
+/** Badge for tide size: from NOAA data when cached, else the moon-phase hint. */
+function TideSize({ range, moonTide }) {
+  const info = range || moonTide
+  if (!info) return null
+  const cls = info.size === 'big' ? 'good' : info.size === 'small' ? '' : 'info'
+  return <span className={`badge ${cls}`}>🌊 {info.label}</span>
+}
+
 function DayView({ spot, date, tides, onPickDay }) {
   const preds = tides?.predictions || null
-  const day = useMemo(() => solunarDay(date, spot.lat, spot.lon), [date, spot.lat, spot.lon])
+  const salt = spot.water === 'salt'
+  const day = useMemo(() => sunDay(date, spot.lat, spot.lon), [date, spot.lat, spot.lon])
   const scored = useMemo(() => scoreDay(day, spot.water, preds), [day, spot.water, preds])
   const { start, end } = dayBounds(day.date)
   const hilo = preds ? extremesBetween(preds, start, end) : []
+  const range = salt ? tideRangeForDay(preds, start, end) : null
   const w = scored.usedTides ? WEIGHTS.salt : WEIGHTS.fresh
 
   const week = useMemo(() => {
     const out = []
     for (let i = 0; i < 7; i++) {
       const k = shiftDay(todayKey(), i)
-      const d = solunarDay(k, spot.lat, spot.lon)
+      const d = sunDay(k, spot.lat, spot.lon)
+      const b = dayBounds(d.date)
       const s = scoreDay(d, spot.water, preds)
-      out.push({ key: k, day: d, best: s.windows[0] })
+      out.push({ key: k, day: d, best: s.windows[0], range: salt ? tideRangeForDay(preds, b.start, b.end) : null })
     }
     return out
-  }, [spot.lat, spot.lon, spot.water, preds])
+  }, [spot.lat, spot.lon, spot.water, preds, salt])
 
   return (
     <>
       <TideStatus spot={spot} tides={tides} date={date} />
 
-      <div className="card">
-        <div className="row between">
-          <div>
-            <h2>{fmtDateLong(day.date)}</h2>
-            <div className="muted">
-              ☀️ {fmtTime(day.sunrise)} – {fmtTime(day.sunset)} · {day.moon.emoji} {day.moon.name} ({Math.round(day.moon.fraction * 100)}%)
-            </div>
-          </div>
+      <div className="card stack" style={{ gap: 6 }}>
+        <h2>{fmtDateLong(day.date)}</h2>
+        <div className="muted">
+          🌅 First light {fmtTime(day.firstLight)} · Sunrise {fmtTime(day.sunrise)}
+          <br />
+          🌇 Sunset {fmtTime(day.sunset)} · Last light {fmtTime(day.lastLight)}
         </div>
-        <div className="muted" style={{ fontSize: '0.85rem', marginTop: 4 }}>
-          Solunar day rating <Stars n={day.rating} /> <small>(traditional; weak evidence)</small>
-        </div>
+        {salt && <div><TideSize range={range} moonTide={day.moonTide} /></div>}
       </div>
 
       <div className="card stack">
@@ -143,8 +151,10 @@ function DayView({ spot, date, tides, onPickDay }) {
           </div>
         ))}
         <small className="muted">
-          Score = {scored.usedTides ? `tide movement ${w.tide * 100}% + ` : ''}low light {w.light * 100}% + solunar {w.solunar * 100}%.{' '}
-          <a href="#/guide?tab=science">Why this weighting?</a>
+          {scored.usedTides
+            ? `Score = moving water ${Math.round(w.tide * 100)}% + dawn/dusk light ${Math.round(w.light * 100)}%. `
+            : 'Lakes and rivers have no tides, so dawn and dusk are the windows. Check water temp on site. '}
+          <a href="#/guide?tab=science">Why?</a>
         </small>
       </div>
 
@@ -153,58 +163,40 @@ function DayView({ spot, date, tides, onPickDay }) {
         <div className="legend" style={{ marginTop: 8 }}>
           <span><i style={{ background: 'var(--accent)' }} />Score</span>
           {scored.usedTides && <span><i style={{ background: 'var(--tide)' }} />Tide</span>}
-          <span><i style={{ background: 'var(--major)' }} />Major</span>
-          <span><i style={{ background: 'var(--minor)' }} />Minor</span>
+          <span><i style={{ background: 'var(--surface-2)', border: '1px solid var(--line)' }} />Dark</span>
         </div>
       </div>
 
-      <div className="grid2">
+      {salt && (
         <div className="card">
-          <h3>Solunar</h3>
-          <div className="stack" style={{ gap: 4, fontSize: '0.92rem' }}>
-            {day.periods.map((p, i) => (
-              <div key={i}>
-                <span className={`badge ${p.kind === 'major' ? 'warn' : 'info'}`}>{p.kind}</span> {fmtRange(p.start, p.end)}
-                <div className="muted" style={{ fontSize: '0.8rem' }}>{p.label}</div>
-              </div>
-            ))}
-          </div>
-        </div>
-        <div className="card">
-          <h3>{spot.water === 'salt' ? 'Tides' : 'Moon'}</h3>
-          {spot.water === 'salt' ? (
-            hilo.length ? (
-              <div className="stack" style={{ gap: 4, fontSize: '0.92rem' }}>
-                {hilo.map((h) => (
-                  <div key={h.t}>
-                    <b>{h.type === 'H' ? '▲ High' : '▼ Low'}</b> {fmtTime(h.t)}
-                    <div className="muted" style={{ fontSize: '0.8rem' }}>{h.v.toFixed(1)} ft</div>
-                  </div>
-                ))}
-                <small className="muted">NOAA {spot.tideStation}</small>
-              </div>
-            ) : (
-              <small className="muted">No tide data</small>
-            )
-          ) : (
-            <div className="stack" style={{ gap: 4, fontSize: '0.92rem' }}>
-              <div>Rise {fmtTime(day.moon.rise)}</div>
-              <div>Set {fmtTime(day.moon.set)}</div>
-              <div className="muted" style={{ fontSize: '0.8rem' }}>No tides on lakes/rivers. Light and water temp matter most.</div>
+          <h3>Tides</h3>
+          {hilo.length ? (
+            <div className="grid2" style={{ fontSize: '0.92rem' }}>
+              {hilo.map((h) => (
+                <div key={h.t}>
+                  <b>{h.type === 'H' ? '▲ High' : '▼ Low'}</b> {fmtTime(h.t)}
+                  <div className="muted" style={{ fontSize: '0.8rem' }}>{h.v.toFixed(1)} ft</div>
+                </div>
+              ))}
             </div>
+          ) : (
+            <small className="muted">No tide data</small>
           )}
+          <small className="muted">NOAA station {spot.tideStation}</small>
         </div>
-      </div>
+      )}
 
       <div className="card">
         <h2>Next 7 days</h2>
         <div className="list">
           {week.map((d) => (
             <button key={d.key} className="item" style={{ border: 0, borderRadius: 0, background: 'transparent', textAlign: 'left' }} onClick={() => onPickDay(d.key)}>
-              <div style={{ width: 44, fontSize: '1.4rem', textAlign: 'center' }}>{d.day.moon.emoji}</div>
               <div className="grow">
                 <b>{fmtDate(`${d.key}T12:00`)}</b>
-                <div className="muted" style={{ fontSize: '0.85rem' }}>Best {fmtRange(d.best.start, d.best.end)}</div>
+                <div className="muted" style={{ fontSize: '0.85rem' }}>
+                  Best {fmtRange(d.best.start, d.best.end)}
+                  {d.range ? ` · ${d.range.size === 'big' ? 'big tides' : d.range.size === 'small' ? 'small tides' : 'avg tides'}` : ''}
+                </div>
               </div>
               <div className={`badge ${d.best.score >= 70 ? 'good' : ''}`}>{d.best.score}</div>
             </button>
@@ -215,13 +207,12 @@ function DayView({ spot, date, tides, onPickDay }) {
   )
 }
 
-/** 24-hour SVG: night shading, score area, tide curve, solunar bars. */
+/** 24-hour SVG: night shading, score area, tide curve, best-window outlines. */
 function Timeline({ day, scored, preds }) {
   const W = 600
-  const H = 190
+  const H = 160
   const top = 8
-  const chartH = 110
-  const barY = top + chartH + 14
+  const chartH = 120
   const { start } = dayBounds(day.date)
   const t0 = start.getTime()
   const x = (t) => ((new Date(t).getTime() - t0) / 864e5) * W
@@ -265,19 +256,15 @@ function Timeline({ day, scored, preds }) {
         <rect key={i} x={x(w.start)} y={top} width={x(w.end) - x(w.start)} height={chartH} style={{ fill: 'none', stroke: 'var(--accent)', strokeWidth: i === 0 ? 3 : 1.5 }} rx="4" />
       ))}
       {tidePath && <path d={tidePath} style={{ fill: 'none', stroke: 'var(--tide)', strokeWidth: 2.5 }} />}
-      {/* solunar bars */}
-      {day.periods.map((p, i) => (
-        <rect key={i} x={x(p.start)} y={barY} width={Math.max(4, x(p.end) - x(p.start))} height={p.kind === 'major' ? 14 : 10} rx="3" style={{ fill: p.kind === 'major' ? 'var(--major)' : 'var(--minor)' }} />
-      ))}
       {/* now marker */}
       {Date.now() > t0 && Date.now() < t0 + 864e5 && (
-        <line x1={x(Date.now())} x2={x(Date.now())} y1={top} y2={barY + 14} style={{ stroke: 'var(--stop)', strokeWidth: 2 }} />
+        <line x1={x(Date.now())} x2={x(Date.now())} y1={top} y2={top + chartH} style={{ stroke: 'var(--stop)', strokeWidth: 2 }} />
       )}
       {/* hour ticks */}
       {hours.map((h) => (
         <g key={h}>
           <line x1={(h / 24) * W} x2={(h / 24) * W} y1={top} y2={top + chartH} style={{ stroke: 'var(--line)', strokeWidth: 1 }} />
-          <text x={(h / 24) * W + 3} y={H - 6} style={{ fill: 'var(--muted)', fontSize: 13 }}>
+          <text x={(h / 24) * W + 3} y={H - 8} style={{ fill: 'var(--muted)', fontSize: 13 }}>
             {h === 0 ? '12a' : h < 12 ? `${h}a` : h === 12 ? '12p' : `${h - 12}p`}
           </text>
         </g>

@@ -1,30 +1,38 @@
 // ---------------------------------------------------------------------------
 // "Best times to fish" for one day at one spot.
 //
-// Scores every 15 minutes from 0–100 using factors you can see, weighted by how
-// good the evidence is (details + sources in src/data/science.js):
+// Scores every 15 minutes from 0–100 using only factors with real evidence
+// behind them (details + sources in src/data/science.js):
 //
-//   Saltwater: tide movement 45% · low light (dawn/dusk) 35% · solunar 20%
-//   Freshwater: low light 75% · solunar 25%
+//   Saltwater:  tide movement 55% · low light (dawn/dusk) 45%
+//   Freshwater: low light 100%. Lakes have no tides, and the other strong
+//               factor (water temperature) has to be measured on site.
 //
 // Tide movement = how fast the water is moving (estimated from NOAA highs
-// and lows). Moving water pushes bait around, and slack water is usually dead. Low
-// light = the 75 min either side of sunrise and sunset, when most predators
-// feed hardest. Solunar gets the smallest weight because peer-reviewed tests
-// mostly don't support it.
+// and lows). Moving water pushes bait around; slack water is usually dead.
+// Low light = the 75 min either side of sunrise and sunset, when most
+// predators feed hardest.
 //
-// Then the best non-overlapping 90-minute blocks are picked as "windows",
-// each with plain-English reasons.
+// Solunar major/minor periods were removed in Oct 2026: controlled studies
+// found no link to catch rates.
+//
+// Then the best non-overlapping 90-minute blocks are picked as "windows"
+// (3 for salt, 2 for fresh: dawn and dusk), each with plain-English reasons.
+// Windows only START between 5 AM and 9 PM ("family hours"): night current is
+// real, but a 4 AM suggestion isn't useful with kids. The timeline still
+// shows the full 24 hours.
 // ---------------------------------------------------------------------------
-import { solunarAt, lightPeriodAt, dayBounds } from './solunar.js'
+import { lightPeriodAt, dayBounds } from './sunmoon.js'
 import { rateAt, stageAt, STAGE_LABEL } from './tides.js'
 
 const STEP = 15 * 60 * 1000
 const WINDOW_STEPS = 6 // 6 × 15 min = 90-minute windows
+const FIRST_START_HOUR = 5 // earliest window start (5 AM)
+const LAST_START_HOUR = 21 // latest window start (9 PM)
 
 export const WEIGHTS = {
-  salt: { tide: 0.45, light: 0.35, solunar: 0.2 },
-  fresh: { tide: 0, light: 0.75, solunar: 0.25 },
+  salt: { tide: 0.55, light: 0.45 },
+  fresh: { tide: 0, light: 1 },
 }
 
 function lightScore(t, day) {
@@ -38,14 +46,8 @@ function lightScore(t, day) {
   return 0.25 + 0.35 * frac
 }
 
-function solunarScore(t, day) {
-  const p = solunarAt(t, day)
-  if (!p) return 0
-  return p.kind === 'major' ? 1 : 0.7
-}
-
 /**
- * @param {object} day     result of solunarDay()
+ * @param {object} day     result of sunDay()
  * @param {'salt'|'fresh'} water
  * @param {Array|null} preds  cached NOAA predictions (salt spots), or null
  * @returns {{slots:Array, windows:Array, usedTides:boolean}}
@@ -53,7 +55,7 @@ function solunarScore(t, day) {
 export function scoreDay(day, water, preds) {
   const { start, end } = dayBounds(day.date)
   const haveTides = water === 'salt' && Array.isArray(preds) && preds.length > 0
-  // If a salt spot has no tide data cached, fall back to freshwater weights.
+  // A salt spot with no tide data cached falls back to light only.
   const w = haveTides ? WEIGHTS.salt : WEIGHTS.fresh
 
   // Peak tide speed for the day so the tide factor is relative (0–1).
@@ -68,19 +70,23 @@ export function scoreDay(day, water, preds) {
   const slots = []
   for (let t = start.getTime(); t < end.getTime(); t += STEP) {
     const light = lightScore(t, day)
-    const sol = solunarScore(t, day)
     let tide = 0
     if (haveTides && maxRate > 0) {
       const r = rateAt(preds, t)
       tide = r == null ? 0 : Math.abs(r) / maxRate
     }
-    const score = Math.round(100 * (w.tide * tide + w.light * light + w.solunar * sol))
-    slots.push({ t, score, light, sol, tide })
+    const score = Math.round(100 * (w.tide * tide + w.light * light))
+    slots.push({ t, score, light, tide })
   }
 
   // Pick the best non-overlapping 90-minute blocks.
-  const sums = slots.map((_, i) =>
-    i + WINDOW_STEPS <= slots.length
+  const howMany = haveTides ? 3 : 2
+  const familyHours = (t) => {
+    const h = new Date(t).getHours()
+    return h >= FIRST_START_HOUR && h < LAST_START_HOUR
+  }
+  const sums = slots.map((slot, i) =>
+    i + WINDOW_STEPS <= slots.length && familyHours(slot.t)
       ? slots.slice(i, i + WINDOW_STEPS).reduce((s, x) => s + x.score, 0) / WINDOW_STEPS
       : -1,
   )
@@ -88,7 +94,7 @@ export function scoreDay(day, water, preds) {
   const windows = []
   const order = sums.map((s, i) => [s, i]).filter(([s]) => s >= 0).sort((a, b) => b[0] - a[0])
   for (const [avg, i] of order) {
-    if (windows.length >= 3) break
+    if (windows.length >= howMany) break
     if (taken.slice(i, i + WINDOW_STEPS).some(Boolean)) continue
     for (let k = i; k < i + WINDOW_STEPS; k++) taken[k] = true
     const s = slots[i].t
@@ -115,7 +121,5 @@ function explain(s, e, day, preds) {
     const st = stageAt(preds, mid)
     if (st) out.push(`${STAGE_LABEL[st.stage]}${st.stage.startsWith('slack') ? '' : `, ${st.pct}% through`}`)
   }
-  const p = solunarAt(mid, day) || solunarAt(s, day) || solunarAt(e, day)
-  if (p) out.push(`Solunar ${p.kind} (${p.label.toLowerCase()})`)
   return out
 }

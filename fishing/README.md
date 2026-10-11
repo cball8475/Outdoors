@@ -18,17 +18,19 @@
 
 ## Best windows: Oct 12–17, 2026
 
-Windows below come from the Catch Log engine with real NOAA tides (Springmaid station);
-score 0–100 = tide movement + low light + solunar.
+Windows below come from the Catch Log engine with real NOAA tides (Springmaid station).
+Score 0–100 = moving water (55%) + dawn/dusk light (45%). Tide size compares each day's tide range with the yearly average.
 
-| Day | Myrtle Beach State Park Pier (best) | Score | Why |
-|---|---|---|---|
-| Mon 10/12 | 6:45–8:15 PM | 76 | Dusk + rising tide + moonset |
-| **Tue 10/13** | **6:15–7:45 AM** | **79** | Dawn + rising mid-tide (high 9:47 AM) |
-| **Wed 10/14** | **6:45–8:15 AM** | **79** | Dawn + rising mid-tide (high 10:29 AM) |
-| Thu 10/15 | 7:15–8:45 AM | 79 | Dawn + rising mid-tide (high 11:16 AM) |
-| Fri 10/16 | 7:15–8:45 AM | 74 | Dawn + rising tide |
-| **Sat 10/17** | ⚠️ MBSP mostly closed 6:00–11:30 AM | — | Take a Kid Fishing event (8–11 AM) is **sold out**. Fish Springmaid or Surfside that morning instead, or MBSP after 11:30. |
+| Day | Myrtle Beach State Park Pier (best) | Score | Why | Tide size |
+|---|---|---|---|---|
+| Mon 10/12 | 6:15–7:45 AM | 94 | Dawn + rising tide | Average (+9%) |
+| **Tue 10/13** | **6:15–7:45 AM** | **99** | Dawn + rising mid-tide (high 9:47 AM) | Average |
+| **Wed 10/14** | **6:45–8:15 AM** | **99** | Dawn + rising mid-tide (high 10:29 AM) | Small (−12%) |
+| **Thu 10/15** | **7:15–8:45 AM** | **99** | Dawn + rising mid-tide (high 11:16 AM) | Small (−23%) |
+| Fri 10/16 | 7:15–8:45 AM | 93 | Dawn + rising tide | Small (−32%) |
+| **Sat 10/17** | ⚠️ MBSP mostly closed 6:00–11:30 AM | — | Take a Kid Fishing event (8–11 AM) is **sold out**. Fish Springmaid or Surfside that morning instead, or MBSP after 11:30. | Small (−37%) |
+
+Tides shrink through the week (heading toward the first-quarter moon), so early in the week brings stronger current.
 
 Freshwater option, closer to home: **Prestwood Lake (Hartsville, ~37 min)**, bobber + worm for bream off the Lawton Park
 shoreline, any day at dusk (6:15–7:45 PM). Catch-and-release for the kids per the advisory.
@@ -69,10 +71,10 @@ beyond those 2 go in velcro rod straps for a one-hand carry; kids carry their ow
 
 [apps/catch-log](../apps/catch-log/README.md): logs trips and catches with photo, GPS, time, species, size, weight and
 released/kept, with party totals and per-person leaderboards. The main angler is the default; everyone else in the crew is one tap away.
-Includes best times (tides + solunar), SC limit warnings, an ID helper, and catch-per-hour insights. Works offline.
+Includes best times (tide movement + dawn/dusk), SC limit warnings, an ID helper, and catch-per-hour insights. Works offline.
 
-**About "major/minor" solunar times:** the app shows them, but the evidence is weak (a 2023 peer-reviewed study found no
-link to catch rates). Tide movement, low light and water temperature matter more, so the app weights those higher.
+**No solunar "major/minor" times:** they were removed because the evidence doesn't support them (a 2023 peer-reviewed study
+found no link to catch rates). The moon's real effect, bigger or smaller tides, is shown directly from NOAA data.
 → [science.md](science.md)
 
 ## Index

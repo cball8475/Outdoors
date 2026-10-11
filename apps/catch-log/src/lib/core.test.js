@@ -1,8 +1,8 @@
 // Unit tests for the offline math + rules. Run: npm test
 import { describe, it, expect } from 'vitest'
 import 'fake-indexeddb/auto'
-import { solunarDay, solunarAt, lightPeriodAt, phaseName } from './solunar.js'
-import { heightAt, rateAt, stageAt, parseNoaaGmt, refreshStations, getCachedTides } from './tides.js'
+import { sunDay, lightPeriodAt, moonTideHint } from './sunmoon.js'
+import { heightAt, rateAt, stageAt, parseNoaaGmt, refreshStations, getCachedTides, tideRangeForDay } from './tides.js'
 import { checkCatch, keptCounts, pickRegs, regsSummary, spotWaters } from './regs.js'
 import { scoreDay } from './windows.js'
 import { SPECIES, SPECIES_BY_ID } from '../data/species.js'
@@ -10,37 +10,31 @@ import { SPOTS } from '../data/spots.js'
 
 const SPRINGMAID = { lat: 33.656, lon: -78.917 }
 
-describe('solunar', () => {
-  it('computes sun, moon, and 2 majors + minors for a Myrtle Beach day', () => {
-    const d = solunarDay('2026-10-11', SPRINGMAID.lat, SPRINGMAID.lon)
+describe('sun + moon', () => {
+  it('computes sun times and a moon-based tide hint for a Myrtle Beach day', () => {
+    const d = sunDay('2026-10-11', SPRINGMAID.lat, SPRINGMAID.lon)
     expect(d.sunrise).toBeInstanceOf(Date)
     expect(d.sunset > d.sunrise).toBe(true)
-    expect(d.majors.length).toBeGreaterThanOrEqual(1)
-    expect(d.minors.length).toBeGreaterThanOrEqual(1)
-    for (const p of d.periods) {
-      expect(p.end - p.start).toBe(p.kind === 'major' ? 2 * 3600e3 : 3600e3)
-    }
-    // New moon was ~Oct 10, 2026: noon Oct 11 is ~1 day past
-    expect(d.moon.daysFromNewOrFull).toBeLessThan(1.5)
-    expect(d.moon.fraction).toBeLessThan(0.05)
-    expect(d.rating).toBeGreaterThanOrEqual(3)
+    expect(d.firstLight < d.sunrise).toBe(true)
+    expect(d.lastLight > d.sunset).toBe(true)
+    // ~1 day after the Oct 10, 2026 new moon → spring tides
+    expect(d.moonTide.size).toBe('big')
+    expect(d).not.toHaveProperty('periods') // solunar removed
   })
 
-  it('finds the period containing a time, and light periods', () => {
-    const d = solunarDay('2026-10-11', SPRINGMAID.lat, SPRINGMAID.lon)
-    const major = d.majors[0]
-    expect(solunarAt(major.center, d)?.kind).toBe('major')
+  it('light periods', () => {
+    const d = sunDay('2026-10-11', SPRINGMAID.lat, SPRINGMAID.lon)
     expect(lightPeriodAt(d.sunrise, d)).toBe('dawn')
     expect(lightPeriodAt(d.sunset, d)).toBe('dusk')
     const noon = new Date(d.sunrise.getTime() + (d.sunset - d.sunrise) / 2)
     expect(lightPeriodAt(noon, d)).toBe('day')
   })
 
-  it('names phases', () => {
-    expect(phaseName(0)).toBe('New Moon')
-    expect(phaseName(0.25)).toBe('First Quarter')
-    expect(phaseName(0.5)).toBe('Full Moon')
-    expect(phaseName(0.99)).toBe('New Moon')
+  it('moon tide hint: new/full big, quarters small', () => {
+    expect(moonTideHint(0).size).toBe('big')
+    expect(moonTideHint(0.5).size).toBe('big')
+    expect(moonTideHint(0.25).size).toBe('small')
+    expect(moonTideHint(0.75).size).toBe('small')
   })
 })
 
@@ -79,6 +73,20 @@ describe('tides', () => {
     expect(stageAt(preds, (preds[2].t + preds[3].t) / 2).stage).toBe('outgoing')
   })
 
+  it('tide range vs average flags big and small tide days', () => {
+    // two days: 6 ft swings, then 2 ft swings → avg 4 ft
+    const base = Date.UTC(2026, 9, 10, 0)
+    const p = []
+    for (let i = 0; i < 8; i++) p.push({ t: base + i * 6 * 3600e3, v: i % 2 ? 0 : 6, type: i % 2 ? 'L' : 'H' })
+    for (let i = 8; i < 16; i++) p.push({ t: base + i * 6 * 3600e3, v: i % 2 ? 1 : 3, type: i % 2 ? 'L' : 'H' })
+    const big = tideRangeForDay(p, new Date(base + 6 * 3600e3), new Date(base + 30 * 3600e3))
+    expect(big.size).toBe('big')
+    expect(big.label).toMatch(/Big tides/)
+    const small = tideRangeForDay(p, new Date(base + 54 * 3600e3), new Date(base + 78 * 3600e3))
+    expect(small.size).toBe('small')
+    expect(tideRangeForDay(null, new Date(), new Date())).toBeNull()
+  })
+
   it('downloads + caches a station via injected fetch', async () => {
     const body = { predictions: [{ t: '2026-10-11 00:00', v: '5.75', type: 'H' }, { t: '2027-10-10 06:00', v: '0.3', type: 'L' }] }
     const fetchImpl = async (url) => {
@@ -94,24 +102,30 @@ describe('tides', () => {
 })
 
 describe('best windows', () => {
-  it('returns 3 non-overlapping 90-min windows; salt uses tides', () => {
+  it('salt: 3 non-overlapping 90-min windows using tides; fresh: dawn + dusk only', () => {
     const preds = []
     // synthetic semi-diurnal tide around the test day
     const base = Date.UTC(2026, 9, 10, 0, 0)
     for (let i = 0; i < 12; i++) preds.push({ t: base + i * 6.2 * 3600e3, v: i % 2 ? 0.3 : 5.8, type: i % 2 ? 'L' : 'H' })
-    const day = solunarDay('2026-10-11', SPRINGMAID.lat, SPRINGMAID.lon)
+    const day = sunDay('2026-10-11', SPRINGMAID.lat, SPRINGMAID.lon)
     const salt = scoreDay(day, 'salt', preds)
     expect(salt.usedTides).toBe(true)
     expect(salt.windows).toHaveLength(3)
     const [a, b] = salt.windows
     expect(a.score).toBeGreaterThanOrEqual(b.score)
+    // family hours: every window starts between 5 AM and 9 PM
+    for (const w of salt.windows) expect(w.start.getHours() >= 5 && w.start.getHours() < 21).toBe(true)
     for (let i = 0; i < 3; i++) for (let j = i + 1; j < 3; j++) {
       const x = salt.windows[i]; const y = salt.windows[j]
       expect(x.end <= y.start || y.end <= x.start).toBe(true)
     }
     const fresh = scoreDay(day, 'fresh', null)
     expect(fresh.usedTides).toBe(false)
-    expect(fresh.windows[0].reasons.join(' ')).toMatch(/Dawn|Dusk|Solunar|Night/)
+    expect(fresh.windows).toHaveLength(2)
+    const why = fresh.windows.map((w) => w.reasons.join(' ')).join(' | ')
+    expect(why).toMatch(/Dawn/)
+    expect(why).toMatch(/Dusk/)
+    expect(why).not.toMatch(/olunar/)
   })
 })
 

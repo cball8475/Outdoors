@@ -5,7 +5,7 @@
 //   • Angler defaults to "me" (or whoever's chip you tapped on the trip screen)
 //   • Species: quick picks from this spot + search
 //   • Length / weight / released, with live SC size & creel warnings
-//   • Conditions snapshot (light, solunar, tide) saved for Stats → Insights
+//   • Conditions snapshot (light, tide stage) saved for Stats → Insights
 // ---------------------------------------------------------------------------
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { useLiveQuery } from 'dexie-react-hooks'
