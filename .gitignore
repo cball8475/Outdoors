@@ -1,0 +1,22 @@
+# ------------------------------------------------------------------
+# This repo is PUBLIC. Anything with personal identifiers stays local.
+# Put license scans/photos, IDs, registrations, etc. in /private —
+# git will never pick them up.
+# ------------------------------------------------------------------
+private/
+
+# Belt-and-suspenders: block common license/ID file names anywhere
+*license*.pdf
+*license*.jpg
+*license*.jpeg
+*license*.png
+*license*.heic
+*License*.pdf
+*License*.jpg
+*License*.jpeg
+*License*.png
+*License*.heic
+
+# OS junk
+.DS_Store
+Thumbs.db
