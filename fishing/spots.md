@@ -21,33 +21,33 @@ You need an SC saltwater license (16+) for everything below **except** fishing *
 | **Surfside Pier**<br>Surfside Beach | 72 mi · ~1h 43m | Pier (814 ft, concrete), rebuilt March 2024; elevator | Bluefish, Whiting (Southern Kingfish), Red Drum, Spanish Mackerel | 5/5 | Check in at Perry's Bait & Tackle at the pier.<br>💲 $14/day; kids under 12 $2; parking $4/hr |
 | **Garden City Pier**<br>Garden City Beach | 74 mi · ~1h 47m | Pier (668 ft) | Red Drum, Southern Flounder, Black Drum | 4/5 | Listed for sale in Feb 2026. Call 843-651-9700 to confirm it's open before driving.<br>💲 Adults $12, kids 12 & under $6 (24-hr wristband) |
 | **Murrells Inlet MarshWalk / Morse Park Landing**<br>Murrells Inlet | 75 mi · ~1h 46m | Docks + boardwalk | Spotted Seatrout, Red Drum, Southern Flounder, Sheepshead | 5/5 | Fish the falling tide near creek mouths. Tide here runs ~1 hr behind the ocean piers (station: Parsonage Creek). Great crabbing for kids.<br>💲 Free (parking may cost) |
-| **Huntington Beach SP: Murrells Inlet South Jetty**<br>Murrells Inlet | 79 mi · ~1h 54m | Jetty + surf (~1 mile beach walk from the north lot) | Red Drum, Southern Flounder, Sheepshead, Spotted Seatrout, Black Drum | 2/5 | Rocks are slick: life jackets for little ones. Flounder: drag finger mullet on a Carolina rig parallel to the rocks. North End Road can close on very high tides.<br>💲 Park entry $8 adult / $4 ages 6–15 |
-| **Pawleys Island (surf & creek)**<br>Pawleys Island | 85 mi · ~1h 59m | Surf + creek (PIER CLOSED: rebuild ~14–18 months from ~Sept 2026) | Whiting (Southern Kingfish), Florida Pompano, Red Drum, Spotted Seatrout, Southern Flounder | 4/5 | South-end inlet and creek for trout/flounder; surf troughs for whiting and pompano on sand fleas.<br>💲 Free; very limited parking |
+| **Huntington Beach SP: Murrells Inlet South Jetty**<br>Murrells Inlet | 78 mi · ~1h 56m | Jetty + surf (~1 mile beach walk from the north lot) | Red Drum, Southern Flounder, Sheepshead, Spotted Seatrout, Black Drum | 2/5 | 2.4-mile round-trip beach walk (bring a wagon). Rocks are slick: life jackets for little ones, stay on the flat top. Fish tight to the rocks; flounder on finger mullet along the inlet side. North End Road gate stays shut until after the morning high tide on king-tide days (Oct 10–13, 2026).<br>💲 Park entry $8 adult / $4 ages 6–15 |
+| **Pawleys Island (surf & creek)**<br>Pawleys Island | 87 mi · ~2h 08m | Surf + creek (PIER CLOSED: rebuild ~14–18 months from ~Sept 2026) | Whiting (Southern Kingfish), Florida Pompano, Red Drum, Spotted Seatrout, Southern Flounder | 4/5 | South end: last 2–3 hrs of the falling tide where Pawleys Creek meets the ocean for flounder/reds; surf troughs for whiting and pompano on sand fleas. OCT 2026: crews digging a new inlet south of the public lot, so anglers can get cut off. No lifeguards; rip currents at the north end.<br>💲 Free; very limited parking |
 | **Georgetown: East Bay Park / Winyah Bay**<br>Georgetown | 72 mi · ~1h 51m | 2 boat ramps + floating docks | Red Drum, Spotted Seatrout, Southern Flounder, Black Drum, Striped Bass | 4/5 | Playground on site. Launch point for Winyah Bay jetties and creeks if you rent a skiff.<br>💲 Free |
 | **Garris Landing (Cape Romain NWR)** ⚠️ 2 hr+<br>Awendaw | 111 mi · ~2h 44m | 1,000-ft fishing pier on the ICW + ramp | Red Drum, Spotted Seatrout, Southern Flounder, Sheepshead | 3/5 | Remote, no services. Call the refuge first (843-928-3264): the ramp has closed for dredging before. Edge of the 2-hour range.<br>💲 Free |
-| **Mount Pleasant Pier** ⚠️ 2 hr+<br>Mount Pleasant (Charleston) | 136 mi · ~2h 37m | Harbor pier under the Ravenel Bridge | Red Drum, Spotted Seatrout, Southern Flounder, Sheepshead | 5/5 | Edge of range (~2 hrs+). Great family day with Memorial Waterfront Park.<br>💲 $7 adult / $4 ages 12 & under; free limited parking |
+| **Mount Pleasant Pier** ⚠️ 2 hr+<br>Mount Pleasant (Charleston) | 136 mi · ~2h 37m | Harbor pier under the Ravenel Bridge | Red Drum, Spotted Seatrout, Southern Flounder, Sheepshead | 5/5 | Edge of range (~2 hrs+). Great family day with Memorial Waterfront Park (playground + splash pad).<br>💲 $7 adult / $4 ages 12 & under; free limited parking |
 | **Folly Beach Pier** ⚠️ 2 hr+<br>Folly Beach | 144 mi · ~2h 54m | Ocean pier (~1,049 ft) | Red Drum, Whiting (Southern Kingfish), Bluefish, Florida Pompano, King Mackerel | 4/5 | Over 2 hours. Save it for a Charleston weekend.<br>💲 $7 adult / $4 ages 12 & under; parking $15–25 in season |
 
 ## Freshwater
 
 | Spot | Drive | Access | Fall targets | Kids | Notes |
 |---|---|---|---|---|---|
-| **Great Pee Dee River: US 76/301 Bridge Landing**<br>East of Florence | 8 mi · ~15m | Limited bank near landing; ramp (paved, unverified) | Blue Catfish, Flathead Catfish, Channel Catfish, Bluegill, Largemouth Bass, Bowfin, Striped Bass | 2/5 | This bridge is the blue catfish line: 25/day upstream, 150/day downstream. The app applies the stricter rule. Strong current; not for little kids.<br>💲 Free |
+| **Great Pee Dee River: US 76/301 Bridge Landing**<br>East of Florence | 13 mi · ~21m | SCDNR "Highway 301" ramp (1 lane) + bank by the ramp; no restrooms | Blue Catfish, Flathead Catfish, Channel Catfish, Bluegill, Largemouth Bass, Bowfin, Striped Bass | 2/5 | This bridge is the blue catfish line: 25/day upstream, 150/day downstream. The app applies the stricter rule. Strong current; not for little kids.<br>💲 Free |
 | **Lynches River County Park**<br>Coward | 14 mi · ~27m | River bank; ADA paddle launch; canoe/kayak rentals | Redbreast Sunfish, Bluegill, Channel Catfish, Bowfin | 5/5 | Closest family spot. Nature center + canopy walk. Park open 9am–sunset; nature center Tue–Sat.<br>💲 Free |
 | **Prestwood Lake (Lawton Park)**<br>Hartsville | 24 mi · ~37m | Shoreline at Lawton Park; kayak dock (unverified); 1-lane ramp at Sonovista Park | Largemouth Bass, Bluegill, Redear Sunfish | 5/5 | Playground + easy bank access. Bobber + worm for bream right off the Lawton Park shoreline.<br>💲 Free |
-| **Lake Robinson**<br>Hartsville (Darlington Co.) | 33 mi · ~54m | Public ramp; fishing pier near the plant (current status unverified) | Largemouth Bass, Bluegill, Channel Catfish | 3/5 | Not the Greenville "Lake Robinson": its 12″ bass rule does NOT apply here. Statewide bass rules.<br>💲 Free |
-| **Lee State Park**<br>Bishopville | 28 mi · ~44m | Artesian Lake banks + Lynches River banks; ramp 4 mi north at US 15 | Channel Catfish, Redbreast Sunfish, Bluegill | 5/5 | Park LENDS rods (tackle loaner). Worms on Artesian Lake = easy stocked catfish for kids.<br>💲 Park entry (see SC Parks) |
-| **Lake Ashwood (SCDNR)**<br>Lee County | 39 mi · ~54m | Fishing pier (ADA); ramp, 10 hp max | Channel Catfish, Largemouth Bass, Bluegill, Redear Sunfish | 5/5 | CLOSED TUESDAYS, daylight only. State-lake limits (SC Reg 123-210): 3 bass, 15 bream, 5 catfish per day; NO MINNOWS as bait.<br>💲 Free |
-| **Little Pee Dee State Park**<br>Dillon | 40 mi · ~53m | 75-ft dock on 54-acre Lake Norton; ramp (electric only) | Largemouth Bass, Bluegill, Channel Catfish | 5/5 | Playground; rent a jon boat for the bream beds along the lake edges.<br>💲 Park entry; jon boat rental |
-| **Cheraw State Park (Lake Juniper)**<br>Cheraw | 39 mi · ~56m | Banks; BOARDWALK CLOSED (tree damage); ramp 10 hp max | Largemouth Bass, Bluegill, Channel Catfish | 4/5 | Jon boats seat 4 MAX, so a family of 6 needs two boats. Adult required in canoes/kayaks. Tackle loaner available.<br>💲 Canoe/kayak/jon boat $15/hr |
-| **Carolina Sandhills NWR**<br>McBee | 46 mi · ~1h 17m | Bank fishing on open lakes; electric-only ramps on larger lakes | Largemouth Bass, Bluegill, Channel Catfish | 5/5 | OXPEN LAKE IS YOUTH-ADULT ONLY: a kid under 16 must be fishing (up to 2 adults). Martins Lake closes Nov 1. Check USFWS rules.<br>💲 Free |
+| **Lake Robinson**<br>Hartsville (Darlington Co.) | 36 mi · ~54m | Duke Energy public ramp, north end (pier + restrooms unconfirmed since 2017) | Largemouth Bass, Bluegill, Channel Catfish | 2/5 | Not the Greenville "Lake Robinson": its 12″ bass rule does NOT apply here. Statewide bass rules.<br>💲 Ramp fee unknown |
+| **Lee State Park**<br>Bishopville | 26 mi · ~39m | Artesian Lake banks + Lynches River banks; ramp 4 mi north at US 15 | Channel Catfish, Redbreast Sunfish, Bluegill | 5/5 | Park LENDS rods (tackle loaner). Worms on Artesian Lake = easy stocked catfish for kids.<br>💲 Park entry (see SC Parks) |
+| **Lake Ashwood (SCDNR)**<br>Lee County | 38 mi · ~49m | Fishing pier (ADA); ramp, 10 hp max | Channel Catfish, Largemouth Bass, Bluegill, Redear Sunfish | 5/5 | CLOSED TUESDAYS, daylight only. State-lake limits (SC Reg 123-210): 3 bass, 15 bream, 5 catfish per day; NO MINNOWS as bait.<br>💲 Free |
+| **Little Pee Dee State Park**<br>Dillon | 41 mi · ~56m | 75-ft dock on 54-acre Lake Norton; ramp (electric only) | Largemouth Bass, Bluegill, Channel Catfish | 5/5 | Playground; rent a jon boat for the bream beds along the lake edges.<br>💲 Park entry; jon boat rental |
+| **Cheraw State Park (Lake Juniper)**<br>Cheraw | 38 mi · ~54m | Banks; BOARDWALK CLOSED (tree damage); ramp 10 hp max | Largemouth Bass, Bluegill, Channel Catfish | 4/5 | Jon boats seat 4 MAX, so a family of 6 needs two boats. Adult required in canoes/kayaks. Tackle loaner available.<br>💲 Canoe/kayak/jon boat $15/hr |
+| **Carolina Sandhills NWR**<br>McBee | 44 mi · ~1h 06m | Bank fishing on open lakes; electric-only ramps on larger lakes | Largemouth Bass, Bluegill, Channel Catfish | 5/5 | OXPEN LAKE IS YOUTH-ADULT ONLY: a kid must be fishing (max 2 adults). Lake Bee pier has restrooms + shelters. Refuge rules: Mays/Honkers bass 12″ min, 5/day; Oxpen catfish 5/day; electric motors only. Martins Lake closes Nov 1.<br>💲 Free |
 | **Black River State Park (The Meadows)**<br>Salters | 47 mi · ~1h 14m | Riverbank (unverified); kayak/canoe launch | Largemouth Bass, Bluegill, Redbreast Sunfish, Channel Catfish, Bowfin | 3/5 | New park, soft opening: Tue/Thu/Sat 8am–5pm only.<br>💲 $3 adult / $1 ages 6–15 |
-| **Santee State Park (Lake Marion)**<br>Santee | 72 mi · ~1h 29m | ADA fishing pier next to the park store; 2 ramps | Crappie, Largemouth Bass, Striped Bass, Bluegill, Blue Catfish, White Perch | 5/5 | October crappie on minnows near brush from the pier. Santee Cooper striper season opens Oct 1. 3 playgrounds.<br>💲 Park entry |
-| **Santee NWR (Lake Marion)**<br>Summerton | 68 mi · ~2h 21m | Ponds and impoundments; lake access | Largemouth Bass, Bluegill, Crappie | 3/5 | Cantey Bay + refuge ponds CLOSED Nov 1–Feb 28. Go in October or wait for March.<br>💲 Free signed refuge permit required |
-| **Lake Moultrie: Fred L. Day Pier**<br>Cross | 76 mi · ~2h 02m | Fishing pier (SCDNR bank-fishing list); ramp | Blue Catfish, Channel Catfish, Crappie, Bluegill | 3/5 | Cut shad on the bottom for fall catfish. No restrooms (unverified).<br>💲 Free |
+| **Santee State Park (Lake Marion)**<br>Santee | 74 mi · ~1h 35m | ADA fishing pier next to the park store; 2 ramps | Crappie, Largemouth Bass, Striped Bass, Bluegill, Blue Catfish, White Perch | 5/5 | October crappie on minnows near brush from the pier. Santee Cooper striper season opens Oct 1. 3 playgrounds.<br>💲 Park entry |
+| **Santee NWR (Lake Marion)**<br>Summerton | 65 mi · ~1h 18m | Ponds and impoundments; lake access | Largemouth Bass, Bluegill, Crappie | 3/5 | Free self-issued refuge fishing permit. Cantey Bay + refuge ponds CLOSED Nov 1–Mar 1. 2026 deer hunts close trails: Cuddo/Pine Island Oct 16–18 + Oct 30–Nov 1; Bluff Unit youth hunt Oct 24–25.<br>💲 Free signed refuge permit required |
+| **Lake Moultrie: Fred L. Day Pier**<br>Cross | 79 mi · ~2h 07m | Fishing pier (SCDNR bank-fishing list); ramp | Blue Catfish, Channel Catfish, Crappie, Bluegill, White Perch | 2/5 | Cut shad on the bottom for fall catfish. NO restrooms, inside a hunting WMA. With little kids, use Hatchery Landing (new platforms + restrooms) or Amos Lee Gourdine, Russellville (new playground) instead.<br>💲 Free |
 | **Lake Wateree State Park** ⚠️ 2 hr+<br>Winnsboro | 76 mi · ~2h 06m | Park banks; 2-lane ramp; kayaks $40/half day | Striped Bass, Crappie, Largemouth Bass, Channel Catfish | 4/5 | Park store sells tackle and licenses.<br>💲 Park entry |
-| **Lake Murray: Saluda Dam North Rec Area pier**<br>Lexington/Irmo | 92 mi · ~1h 51m | Fishing pier at the dam | Striped Bass, Largemouth Bass, Crappie, Channel Catfish | 4/5 | Lake Murray striper rule: 21″ min Oct 1–May 31, 5/day.<br>💲 Free |
-| **Poinsett State Park**<br>Wedgefield | 64 mi · ~1h 38m | 10-acre lake; jon boats $10/hr | Bluegill, Largemouth Bass, Channel Catfish | 4/5 | Small, quiet lake. Good backup when the coast is blown out.<br>💲 Park entry |
+| **Lake Murray: Saluda Dam North Rec Area pier**<br>Lexington/Irmo | 90 mi · ~1h 52m | Fishing pier at the dam | Striped Bass, Largemouth Bass, Crappie, Channel Catfish | 4/5 | Lake Murray striper rule: 21″ min Oct 1–May 31, 5/day.<br>💲 Free |
+| **Poinsett State Park**<br>Wedgefield | 65 mi · ~1h 41m | 10-acre lake; jon boats $10/hr | Bluegill, Largemouth Bass, Channel Catfish | 4/5 | Small, quiet lake. Good backup when the coast is blown out.<br>💲 Park entry |
 
 ## Eating advisories (SCDES): read before keeping freshwater fish
 
@@ -56,7 +56,7 @@ Most Pee Dee-area rivers have one. Check the live map before keeping fish: https
 
 | Water / spot | Advisory |
 |---|---|
-| Great Pee Dee River: US 76/301 Bridge Landing | Great Pee Dee (check which segment): NC line→I-95 (PCB+mercury) blue cat 1/month; bowfin, largemouth, redear 1/week. I-95→Winyah Bay: bowfin & largemouth 1/month, redear 1/week. Kids under 14: don't eat. |
+| Great Pee Dee River: US 76/301 Bridge Landing | Great Pee Dee (I-95 → Winyah Bay): largemouth & bowfin 1 meal/month; redear 1/week; channel cat, bluegill, crappie unrestricted. (Above I-95: blue cat 1/month, PCBs.) Kids under 14: don't eat. |
 | Lynches River County Park | Lynches (US 15→Pee Dee): DO NOT EAT bowfin or channel catfish; pickerel & largemouth 1/month; redear 1/week; bluegill & redbreast OK. Kids under 14: don't eat. |
 | Prestwood Lake (Lawton Park) | Largemouth 1 meal/week (SCDES). Kids under 14: don't eat. |
 | Lake Robinson | DO NOT EAT bowfin; largemouth 1/month; bluegill, pickerel, warmouth 1/week. Kids under 14: don't eat. |
@@ -170,6 +170,94 @@ Most Pee Dee-area rivers have one. Check the live map before keeping fish: https
 - Closed for annual maintenance Feb–Mar 2026; listed for sale at $15M. ([source](https://www.wmbfnews.com/2026/03/04/residents-weigh-garden-city-pier-sale-listing/))
 - Rain shelter at the end; live entertainment usually Fri–Sun nights. ([source](https://www.visitmyrtlebeach.com/article/exploring-myrtle-beach-area-piers))
 - [Website](https://www.pieratgardencity.com/) · (843) 651-9700
+
+### Murrells Inlet MarshWalk / Morse Park Landing
+- **Status:** Open; no closures found (10/11/2026)
+- **Where to fish:** Veterans Pier (south end of the MarshWalk, ~1,000 ft over the marsh): crab with ring or drop nets at high tide near the pier's end; mud minnows or shrimp on the bottom by the pilings for flounder and small reds on a rising tide (UNVERIFIED). Morse Park Landing crab dock (1.3 mi south): chicken-neck crabbing at high tide.
+- **Kids:** Railed boardwalk and pier, little shade. Low tide leaves parts of the pier over mud. Evenings are a bar/live-music crowd, so come in the morning. Morse Park has a small playground and pavilion but no restrooms and no seats on the crab dock (bring chairs). Restrooms likely only in restaurants.
+- **Hours:** No posted hours for the boardwalk, Veterans Pier or Morse Park Landing (UNVERIFIED)
+- **Cost:** Free to walk, fish and crab. Parking near Veterans Pier ~$5 (2026 blog); some restaurant lots validate. Adults 16+ need an SC saltwater license ($15/yr resident); under 16 free.
+- **Facilities:** bait: Perry's Bait & Tackle, 3965 Hwy 17 Bus, on the MarshWalk strip · food: MarshWalk restaurants (Bovine's, Claw House, Creek Ratz, Dead Dog Saloon, Drunken Jack's, Wahoo's, Wicked Tuna) · parking: Restaurant/private lots, some paid (~$5). Morse Park unpaved lot fills by evening.
+- **Rules:** SC license for 16+, except crabbing with 3 or fewer drop nets, fold-up traps or handlines. Blue crabs: 5" minimum, release egg-bearing females, 1 bushel/person/day (verify with SCDNR).
+- Crab Veterans Pier at high tide (low tide can leave sections dry); arrive early on summer weekends. ([source](https://kayakcambria.com/where-to-go-crabbing-in-murrells-inlet-sc/))
+- The adjacent Murrells Inlet Boat Landing (4139 Hwy 17 Bus) reopened with realigned parking (May 2025). ([source](https://www.yahoo.com/news/ribbon-cutting-planned-newly-realigned-141639496.html))
+- Morse Park reviews: no bathroom, unpaved lot, small playground; low tide is best for shelling. ([source](https://wanderlog.com/place/details/211391/morse-park-landing))
+- [Website](https://www.marshwalk.com/)
+
+### Huntington Beach SP: Murrells Inlet South Jetty
+- **Status:** Open; tide alert Oct 10–13, 2026; Nature Center Marsh Boardwalk closed for construction
+- **Where to fish:** South jetty at the park's north tip, 1.2 mi walk from North Beach Access #8. Jetty tip and rocks: reds and black drum on cut or live mullet (cut shrimp for drum). Fish tight to the rocks instead of casting far. Inlet-side beach along the jetty: flounder on finger mullet. Surf troughs on the walk out (UNVERIFIED).
+- **Kids:** 2.4-mile round-trip beach walk with no shade, so bring a wagon and water. Rocks are slick and the inlet current is strong: keep kids on the flat jetty top in life jackets. Restroom at the North Day-Use lot only. Playground by Spoonbills at the south end. No dogs on the north end.
+- **Hours:** Park 6 AM–9 PM during Daylight Saving Time (through Nov 1, 2026), then 6 AM–6 PM. Oct 10–13, 2026: North End Road gate stays closed until after the morning high tide.
+- **Cost:** $8 adult; $4 ages 6–15; 5 and under free. Adults 16+ also need an SC saltwater license.
+- **Facilities:** restrooms · bait: None in the park; Perry's Bait & Tackle in Murrells Inlet · rentals: Free beach wheelchairs; free Waymaker track chair Apr–Nov 15 (reserve ahead) · food: Gift shop (snacks, drinks, ice) + Spoonbills Ice Cream at the South Beach Access · parking: Included with admission; park closes when full on weekends/holidays (arrive before 10 AM or after 2 PM) · ADA
+- **Rules:** SC saltwater license 16+; SCDNR limits. Dogs banned from the north lot to the jetty. Be off the beach by park closing.
+- Tide alert Oct 10–13, 2026: North End Road and Oyster Shell Landing may open late or close until after the morning high tide. ([source](https://southcarolinaparks.com/huntington-beach/access-guide))
+- Charter report (Apr 2, 2026): reds 14 to 30+ in. on the Murrells Inlet jetties in shallow water; black drum around the full moon (UNVERIFIED). ([source](https://fishingbooker.com/reports/view/115388))
+- Local advice: fish close to the rock, bring finger mullet (cast net), and use a wagon for the 1+ mile walk. ([source](https://forum.charlestonfishing.com/t/flounder-fishing/67516))
+- [Website](https://southcarolinaparks.com/huntington-beach) · 843-237-4440
+
+### Pawleys Island (surf & creek)
+- **Status:** Beach open; pier closed; south-end inlet construction underway Oct 2026
+- **Where to fish:** South end: surf near the lot for whiting and drum. Where Pawleys Creek turns toward the ocean, the last 2–3 hours of the falling tide for flounder and reds (1/4-oz jig + Gulp, finger mullet or shrimp). North Causeway bridge: flounder; at night ladyfish, sheepshead, reds. Creeks on a rising tide for trout and reds.
+- **Kids:** No lifeguards ever. Rip currents near Midway Inlet (north end) caused drownings in 2025: no swimming there. Strong current at the south-end inlet. Oct 2026: heavy equipment digging a new inlet just south of the lot. No shade.
+- **Hours:** Beach open year-round; no parking in public beach lots 11 PM–6 AM.
+- **Cost:** Free beach and parking. SC saltwater license 16+ ($15/yr resident); under 16 free.
+- **Facilities:** bait: Pawleys Island Outdoors, 9790 Ocean Hwy (UNVERIFIED) · food: None on the beach; Hwy 17 restaurants · parking: Free south-end lot (~75 spaces, accessible walkway) at the end of Springs Ave + ~141 spaces at 8 other accesses · ADA
+- **Rules:** The pier is private (HOA) and closed. Dogs on leash May 1–Sep 30, 8 AM–8 PM. Remove gear nightly and fill holes (sea turtles).
+- Oct 2, 2026: crews are digging a new inlet south of the public lot and diking Pawleys Creek. Police warned anglers they could be cut off on the Prince George side. ([source](https://coastalobserver.com/crews-dig-new-inlet-for-pawleys-creek/))
+- Pier rebuild expected to start ~Sept 2026 and take 14–18 months (HOA-owned). ([source](https://coastalobserver.com/pier-rebuilding-expected-to-start-before-ian-anniversary/))
+- Aug 2025: rip-current warnings and buoys added at the north end after drownings near Shell Road and Midway Inlet. ([source](https://coastalobserver.com/town-will-go-beyond-signs-after-drownings-in-rip-currents/))
+- [Website](https://www.townofpawleysisland.com/) · 843-237-1698 (Town Hall, M–F 9–5)
+
+### Georgetown: East Bay Park / Winyah Bay
+- **Status:** Open (Aug 2026 article); possible parking-lot construction
+- **Where to fish:** Floating docks at the East Bay public ramp where the Sampit meets Winyah Bay: shrimp on the bottom for reds, flounder and blue catfish; chicken-neck crabbing (UNVERIFIED). Morgan Park shoreline and boardwalk just south. Hobcaw Point and Winyah Bay piers on the old US 17 bridge for reds, flounder, crabs (current access UNVERIFIED).
+- **Kids:** Playground on a cushioned surface; shaded pavilion with upgraded restrooms; 1-mile loop trail; disc golf. Docks have boat traffic and current, so put little kids in life jackets and stay clear of launching boats.
+- **Hours:** Opens 7 AM; closing time not published. Morgan Park next door: dawn–dusk.
+- **Cost:** Free. Adults 16+ need an SC saltwater license (no licensed pier here).
+- **Facilities:** restrooms · bait: None on site; South Island Bait Shop, 7113 S Island Rd (UNVERIFIED) · food: Front Street restaurants ~2 blocks away · parking: Free; ample at the ramp. A 75-space lot rebuild is planned (Jan 2026 bid), so construction is possible. · ADA
+- **Rules:** SC license 16+, except crabbing with 3 or fewer drop nets or handlines. No fishing off highway bridges unless posted.
+- Aug 2026: 5-acre park, upgraded restrooms in an open-air pavilion, free, opens 7 AM. ([source](https://www.islands.com/2237794/east-bay-park-south-carolinas-tucked-away-peninsula-park-lovely-stop-views-winyah-bay-sporty-trail/))
+- Hobcaw and Winyah Bay piers: good for crabbing and rays, reds and trout when conditions allow (Jan 2026 guide). ([source](https://fishingbooker.com/blog/?p=48961))
+- City of Georgetown 843-545-4001 (UNVERIFIED for this park)
+
+### Garris Landing (Cape Romain NWR)
+- **Status:** Open (FWS; May 2026 article)
+- **Where to fish:** The long refuge pier across the marsh to the ICW: fish or crab from the end on mid-to-high tide (low tide leaves a narrow, shallow channel). Reds and flounder along grass edges on moving water; sheepshead at the pilings on fiddlers or shrimp; creek mouths into the ICW for reds and trout under a popping cork.
+- **Kids:** Long, unshaded pier walk, so bring water, sunscreen and bug spray. Mudflats and oysters at low tide, so stay on the pier. Boat ramp and ferry traffic at the landing. No pets on the pier. Quiet and good for crabbing with kids.
+- **Hours:** Sunrise to sunset (FWS); gate closes nightly.
+- **Cost:** Free. Adults 16+ need an SC saltwater license (not a licensed pier).
+- **Facilities:** restrooms · bait: None on site; Sewee Outpost, Awendaw (bait, tackle, deli) · food: None on site; Sewee Outpost deli · parking: Free gravel lot (~20–25 trailer spaces); fills on weekends and Bulls Island ferry days
+- **Rules:** State fishing rules + license; crabbing with 3 or fewer drop nets/handlines needs no license. No pets on the pier, no camping.
+- FWS: fishing and crabbing allowed from the Garris Landing pier; signs at the kiosk list allowed activities. ([source](https://www.fws.gov/refuge/cape-romain/visit-us))
+- May 2026: clean restrooms; no bait, food or rentals; lot fills on busy weekends. ([source](https://unearththevoyage.com/?p=287143))
+- [Website](https://www.fws.gov/refuge/cape-romain/visit-us) · Sewee Center 843-928-3368; Refuge HQ 843-928-3264
+
+### Mount Pleasant Pier
+- **Status:** Open (CCPRC listing updated Oct 5, 2026)
+- **Where to fish:** Shallow (shore) end around the grass at high tide: reds on cut mullet, mud minnows or shrimp. Along the pilings on the incoming tide: sheepshead on fiddlers, mussels or barnacle clusters. Mid-depth: flounder and trout on live mullet (Carolina rig). Over-slot bull reds are catch-and-release.
+- **Kids:** Wide 1,250-ft concrete pier with a big covered pavilion, rocking chairs and swings. The park below has a playground and splash pad (opened June 2025). No standing on railings, no pets.
+- **Hours:** Pier Oct–Dec 7 AM–10 PM (Apr–Sep 6 AM–10 PM). Café, gift shop + restrooms: Oct 8 AM–7 PM; Nov 8 AM–sunset; Dec 8 AM–5 PM.
+- **Cost:** Fishing pass $7 adult; $4 kids 12 and under. Walking free. Cashless (cash-to-card kiosk on site).
+- **Facilities:** restrooms · bait: River Watch Café sells frozen bait · rentals: Rod $15/day + $25 deposit · food: River Watch Café & Gift Shop (sandwiches, ice cream, smoothies) · parking: Free but limited
+- **Rules:** Pass visible. Blanket license per SCDNR 2014 (UNVERIFIED for 2026). 2 rods per person; crabbing up to 2 lines; hooks 4/0 or smaller; cut bait under 2 in.; no shark fishing; cast nets for bait only.
+- Cast Off Fishing Tournament Sat Oct 17, 2026, 7 AM–2 PM, with a Biggest Youth Catch (12 and under) prize. Youth entry $9, register on site; chaperone required for 15 and under. ([source](https://www.ccprc.com/listing/mount-pleasant-pier/21/))
+- Expanded Memorial Waterfront Park opened June 2025 with a water play area and new playground under the Ravenel Bridge. ([source](https://www.yahoo.com/news/mount-pleasant-celebrate-opening-expanded-120107621.html))
+- Sheepshead: hook through a barnacle cluster or cracked mussel so they crush the shell. ([source](https://www.carolinasportsman.com/?p=109083))
+- [Website](https://www.ccprc.com/listing/mount-pleasant-pier/21/) · (843) 762-9946
+
+### Folly Beach Pier
+- **Status:** Open (CCPRC listing updated Oct 5, 2026)
+- **Where to fish:** Near the beach in the shallow surf: whiting, black drum, trout (whiting in 2–5 ft on a moving tide). Mid-pier: straight down beside the pilings for sheepshead and black drum. End/diamond platform: bluefish, Spanish and king mackerel, fall bull reds on finger or cut mullet.
+- **Kids:** ~1,045-ft pier with railings and a 25-ft-wide deck; some shade. Cleaning tables, outdoor showers. No lifeguards; no pets. Birds steal bait, so keep containers closed.
+- **Hours:** Apr–Oct 6 AM–10 PM; Nov 7 AM–sunset; Dec–Feb 8 AM–sunset. No fishing after sunset in winter months.
+- **Cost:** Fishing pass $7 adult; $4 kids 12 and under. Walk-ons free. Lot parking: Oct $10, Nov–Feb $5.
+- **Facilities:** restrooms · bait: On-site gift + tackle shop (frozen bait) · rentals: Rod $15/day + $25 deposit · food: Koko's on the Pier; snacks, ice cream · parking: County pier lot (seasonal fee) · ADA
+- **Rules:** Daily pass replaces the SC license. 2 rods per person; hooks 4/0 or smaller; cut bait under 2 in.; no wire leaders for bottom fishing; kings on trolley rigs only. No shark fishing.
+- Rental rods come with double hooks: put half a shrimp on each; dropping straight down by the pilings often beats casting. The shop waives the first line lost to a shark, ray or the reef. ([source](https://www.follycurrent.com/2024/05/catching-some-fun/))
+- June 2026: black drum and trout in the shallow surf; mackerel and bluefish toward the end; the pass means no license needed. ([source](https://www.islands.com/2191427/edwin-s-taylor-folly-beach-fishing-pier-south-carolina-diamond-deck-ocean-views/))
+- [Website](https://www.ccprc.com/listing/folly-beach-pier/5/) · (843) 762-9516
 
 ### Great Pee Dee River: US 76/301 Bridge Landing
 - **Status:** Open; no closure notices found (checked 10/11/2026)

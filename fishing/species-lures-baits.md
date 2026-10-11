@@ -272,7 +272,7 @@
   - *wateree:* 14" min TL · 5/person/day. Lake Wateree: 14″ minimum, 5/day.
   - *ashwood:* 3/person/day. Lake Ashwood (SC Reg 123-210): 3 bass/day. No minnows or shiners as bait.
 - **Oct–Nov:** Follow shad into creek arms and shallow flats; feed hard as water cools into the 60s°F. One of the best months of the year.
-- **Where (kid-friendliest first):** Prestwood Lake (Lawton Park) · Little Pee Dee State Park · Lake Ashwood (SCDNR) · Carolina Sandhills NWR · Santee State Park (Lake Marion) · Cheraw State Park (Lake Juniper)
+- **Where (kid-friendliest first):** Prestwood Lake (Lawton Park) · Lake Ashwood (SCDNR) · Little Pee Dee State Park · Carolina Sandhills NWR · Santee State Park (Lake Marion) · Cheraw State Park (Lake Juniper)
 - **Bait:** Live shiners · Nightcrawlers (small bass)
 - **Lures:** Buzzbait / walking topwater (dawn) · Lipless crankbait (shad color) · Spinnerbait · ChatterBait · 5″ stick worm (wacky or Texas)
 - **Rig it:**
@@ -289,7 +289,7 @@
 - **SC limits:** 30/person/day. 30/day bream aggregate (bluegill, redear, warmouth, redbreast), no size limit.
   - *ashwood:* 15/person/day. Lake Ashwood (SC Reg 123-210): 15 bream/day incl. redbreast.
 - **Oct–Nov:** Leave the shallow beds for brush piles and docks in 6–12 ft.
-- **Where (kid-friendliest first):** Lynches River County Park · Prestwood Lake (Lawton Park) · Lee State Park · Little Pee Dee State Park · Lake Ashwood (SCDNR) · Carolina Sandhills NWR
+- **Where (kid-friendliest first):** Lynches River County Park · Prestwood Lake (Lawton Park) · Lee State Park · Lake Ashwood (SCDNR) · Little Pee Dee State Park · Carolina Sandhills NWR
 - **Bait:** Red wigglers · Crickets · Pieces of nightcrawler
 - **Lures:** 1/32 oz tube or curly-tail jig · Beetle Spin · Small inline spinner
 - **Rig it:**
@@ -351,7 +351,7 @@
 - **Look-alikes:** Bluegill: small mouth, ear flap.
 - **SC limits:** 8" min TL · 20/person/day. 8″ minimum, 20/day statewide (incl. Santee Cooper).
 - **Oct–Nov:** Move from mid-depth brush piles to creek channels and suspend near shad. October minnow bite on Santee Cooper brush.
-- **Where (kid-friendliest first):** Santee State Park (Lake Marion) · Lake Murray: Saluda Dam North Rec Area pier · Lake Wateree State Park · Lake Moultrie: Fred L. Day Pier · Santee NWR (Lake Marion)
+- **Where (kid-friendliest first):** Santee State Park (Lake Marion) · Lake Murray: Saluda Dam North Rec Area pier · Lake Wateree State Park · Santee NWR (Lake Marion) · Lake Moultrie: Fred L. Day Pier
 - **Bait:** Live crappie minnows
 - **Lures:** 1/16–1/8 oz jig with 2″ tube or curly tail · Small hair jig
 - **Rig it:**
@@ -367,7 +367,7 @@
 - **SC limits:** No size limit. No statewide creel listed in the 2026–27 guide (verify on posted signs).
   - *ashwood:* 5/person/day. Lake Ashwood (SC Reg 123-210, eff. 5/26/2023): 5 catfish/day. No minnows as bait.
 - **Oct–Nov:** SCDNR: "October could be a very good month for catfish." Fish move deeper as water cools.
-- **Where (kid-friendliest first):** Lynches River County Park · Lee State Park · Little Pee Dee State Park · Lake Ashwood (SCDNR) · Carolina Sandhills NWR · Cheraw State Park (Lake Juniper)
+- **Where (kid-friendliest first):** Lynches River County Park · Lee State Park · Lake Ashwood (SCDNR) · Little Pee Dee State Park · Carolina Sandhills NWR · Cheraw State Park (Lake Juniper)
 - **Bait:** Nightcrawlers · Chicken liver · Cut shad · Stink bait (punch bait)
 - **Lures:** Not a lure fish
 - **Rig it:**
@@ -386,7 +386,7 @@
   - *pee-dee-upper:* max 2 over 32" · 25/person/day. Pee Dee River NC line → US 301 bridge: 25/day, max 2 over 32″. (Below the bridge: 150/day.)
 - **Eating:** SCDES advisories cover blue catfish on several Pee Dee-area rivers. Check the spot's advisory before keeping any.
 - **Oct–Nov:** Drift or anchor cut bait on channel ledges; big fish start moving to deeper water for winter.
-- **Where (kid-friendliest first):** Santee State Park (Lake Marion) · Lake Moultrie: Fred L. Day Pier · Great Pee Dee River: US 76/301 Bridge Landing
+- **Where (kid-friendliest first):** Santee State Park (Lake Marion) · Great Pee Dee River: US 76/301 Bridge Landing · Lake Moultrie: Fred L. Day Pier
 - **Bait:** Cut gizzard shad · Cut white perch · Cut herring
 - **Lures:** Not a lure fish
 - **Rig it:**
@@ -415,7 +415,7 @@
 - **Look-alikes:** Striped/white bass have stripes.
 - **SC limits:** No size limit. No SC limit found. Verify.
 - **Oct–Nov:** Big schools on Santee Cooper. Fast action and great cut bait for blue cats.
-- **Where (kid-friendliest first):** Santee State Park (Lake Marion)
+- **Where (kid-friendliest first):** Santee State Park (Lake Marion) · Lake Moultrie: Fred L. Day Pier
 - **Bait:** Small minnows · Worms
 - **Lures:** 1/8 oz jigging spoon · Small jig
 - **Rig it:**

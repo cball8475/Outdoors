@@ -808,5 +808,247 @@ export const SPOT_INFO = {
       "https://www.pieratgardencity.com/fish",
       "https://www.wistv.com/2026/02/27/pier-garden-city-sale-15-million/"
     ]
+  },
+  "murrells-marshwalk": {
+    "website": "https://www.marshwalk.com/",
+    "phone": null,
+    "hours": "No posted hours for the boardwalk, Veterans Pier or Morse Park Landing (UNVERIFIED)",
+    "cost": "Free to walk, fish and crab. Parking near Veterans Pier ~$5 (2026 blog); some restaurant lots validate. Adults 16+ need an SC saltwater license ($15/yr resident); under 16 free.",
+    "facilities": {
+      "restrooms": null,
+      "baitShop": "Perry's Bait & Tackle, 3965 Hwy 17 Bus, on the MarshWalk strip",
+      "rentals": null,
+      "food": "MarshWalk restaurants (Bovine's, Claw House, Creek Ratz, Dead Dog Saloon, Drunken Jack's, Wahoo's, Wicked Tuna)",
+      "parking": "Restaurant/private lots, some paid (~$5). Morse Park unpaved lot fills by evening.",
+      "ada": null
+    },
+    "whereToFish": "Veterans Pier (south end of the MarshWalk, ~1,000 ft over the marsh): crab with ring or drop nets at high tide near the pier's end; mud minnows or shrimp on the bottom by the pilings for flounder and small reds on a rising tide (UNVERIFIED). Morse Park Landing crab dock (1.3 mi south): chicken-neck crabbing at high tide.",
+    "kidNotes": "Railed boardwalk and pier, little shade. Low tide leaves parts of the pier over mud. Evenings are a bar/live-music crowd, so come in the morning. Morse Park has a small playground and pavilion but no restrooms and no seats on the crab dock (bring chairs). Restrooms likely only in restaurants.",
+    "rules": "SC license for 16+, except crabbing with 3 or fewer drop nets, fold-up traps or handlines. Blue crabs: 5\" minimum, release egg-bearing females, 1 bushel/person/day (verify with SCDNR).",
+    "extra": [
+      {
+        "tip": "Crab Veterans Pier at high tide (low tide can leave sections dry); arrive early on summer weekends.",
+        "source": "https://kayakcambria.com/where-to-go-crabbing-in-murrells-inlet-sc/"
+      },
+      {
+        "tip": "The adjacent Murrells Inlet Boat Landing (4139 Hwy 17 Bus) reopened with realigned parking (May 2025).",
+        "source": "https://www.yahoo.com/news/ribbon-cutting-planned-newly-realigned-141639496.html"
+      },
+      {
+        "tip": "Morse Park reviews: no bathroom, unpaved lot, small playground; low tide is best for shelling.",
+        "source": "https://wanderlog.com/place/details/211391/morse-park-landing"
+      }
+    ],
+    "status": "Open; no closures found (10/11/2026)",
+    "sources": [
+      "https://www.marshwalk.com/",
+      "https://kayakcambria.com/where-to-go-crabbing-in-murrells-inlet-sc/",
+      "https://www.dnr.sc.gov/fish/swfaqs.html"
+    ]
+  },
+  "huntington-jetty": {
+    "website": "https://southcarolinaparks.com/huntington-beach",
+    "phone": "843-237-4440",
+    "hours": "Park 6 AM–9 PM during Daylight Saving Time (through Nov 1, 2026), then 6 AM–6 PM. Oct 10–13, 2026: North End Road gate stays closed until after the morning high tide.",
+    "cost": "$8 adult; $4 ages 6–15; 5 and under free. Adults 16+ also need an SC saltwater license.",
+    "facilities": {
+      "restrooms": true,
+      "baitShop": "None in the park; Perry's Bait & Tackle in Murrells Inlet",
+      "rentals": "Free beach wheelchairs; free Waymaker track chair Apr–Nov 15 (reserve ahead)",
+      "food": "Gift shop (snacks, drinks, ice) + Spoonbills Ice Cream at the South Beach Access",
+      "parking": "Included with admission; park closes when full on weekends/holidays (arrive before 10 AM or after 2 PM)",
+      "ada": true
+    },
+    "whereToFish": "South jetty at the park's north tip, 1.2 mi walk from North Beach Access #8. Jetty tip and rocks: reds and black drum on cut or live mullet (cut shrimp for drum). Fish tight to the rocks instead of casting far. Inlet-side beach along the jetty: flounder on finger mullet. Surf troughs on the walk out (UNVERIFIED).",
+    "kidNotes": "2.4-mile round-trip beach walk with no shade, so bring a wagon and water. Rocks are slick and the inlet current is strong: keep kids on the flat jetty top in life jackets. Restroom at the North Day-Use lot only. Playground by Spoonbills at the south end. No dogs on the north end.",
+    "rules": "SC saltwater license 16+; SCDNR limits. Dogs banned from the north lot to the jetty. Be off the beach by park closing.",
+    "extra": [
+      {
+        "tip": "Tide alert Oct 10–13, 2026: North End Road and Oyster Shell Landing may open late or close until after the morning high tide.",
+        "source": "https://southcarolinaparks.com/huntington-beach/access-guide"
+      },
+      {
+        "tip": "Charter report (Apr 2, 2026): reds 14 to 30+ in. on the Murrells Inlet jetties in shallow water; black drum around the full moon (UNVERIFIED).",
+        "source": "https://fishingbooker.com/reports/view/115388"
+      },
+      {
+        "tip": "Local advice: fish close to the rock, bring finger mullet (cast net), and use a wagon for the 1+ mile walk.",
+        "source": "https://forum.charlestonfishing.com/t/flounder-fishing/67516"
+      }
+    ],
+    "status": "Open; tide alert Oct 10–13, 2026; Nature Center Marsh Boardwalk closed for construction",
+    "sources": [
+      "https://southcarolinaparks.com/huntington-beach",
+      "https://southcarolinaparks.com/huntington-beach/access-guide"
+    ]
+  },
+  "pawleys-surf": {
+    "website": "https://www.townofpawleysisland.com/",
+    "phone": "843-237-1698 (Town Hall, M–F 9–5)",
+    "hours": "Beach open year-round; no parking in public beach lots 11 PM–6 AM.",
+    "cost": "Free beach and parking. SC saltwater license 16+ ($15/yr resident); under 16 free.",
+    "facilities": {
+      "restrooms": null,
+      "baitShop": "Pawleys Island Outdoors, 9790 Ocean Hwy (UNVERIFIED)",
+      "rentals": null,
+      "food": "None on the beach; Hwy 17 restaurants",
+      "parking": "Free south-end lot (~75 spaces, accessible walkway) at the end of Springs Ave + ~141 spaces at 8 other accesses",
+      "ada": true
+    },
+    "whereToFish": "South end: surf near the lot for whiting and drum. Where Pawleys Creek turns toward the ocean, the last 2–3 hours of the falling tide for flounder and reds (1/4-oz jig + Gulp, finger mullet or shrimp). North Causeway bridge: flounder; at night ladyfish, sheepshead, reds. Creeks on a rising tide for trout and reds.",
+    "kidNotes": "No lifeguards ever. Rip currents near Midway Inlet (north end) caused drownings in 2025: no swimming there. Strong current at the south-end inlet. Oct 2026: heavy equipment digging a new inlet just south of the lot. No shade.",
+    "rules": "The pier is private (HOA) and closed. Dogs on leash May 1–Sep 30, 8 AM–8 PM. Remove gear nightly and fill holes (sea turtles).",
+    "extra": [
+      {
+        "tip": "Oct 2, 2026: crews are digging a new inlet south of the public lot and diking Pawleys Creek. Police warned anglers they could be cut off on the Prince George side.",
+        "source": "https://coastalobserver.com/crews-dig-new-inlet-for-pawleys-creek/"
+      },
+      {
+        "tip": "Pier rebuild expected to start ~Sept 2026 and take 14–18 months (HOA-owned).",
+        "source": "https://coastalobserver.com/pier-rebuilding-expected-to-start-before-ian-anniversary/"
+      },
+      {
+        "tip": "Aug 2025: rip-current warnings and buoys added at the north end after drownings near Shell Road and Midway Inlet.",
+        "source": "https://coastalobserver.com/town-will-go-beyond-signs-after-drownings-in-rip-currents/"
+      }
+    ],
+    "status": "Beach open; pier closed; south-end inlet construction underway Oct 2026",
+    "sources": [
+      "https://www.townofpawleysisland.com/beach-access-parking/",
+      "https://www.townofpawleysisland.com/beach-rules/",
+      "https://forum.charlestonfishing.com/t/pawleys-island-fishing/58305"
+    ]
+  },
+  "georgetown-east-bay": {
+    "website": null,
+    "phone": "City of Georgetown 843-545-4001 (UNVERIFIED for this park)",
+    "hours": "Opens 7 AM; closing time not published. Morgan Park next door: dawn–dusk.",
+    "cost": "Free. Adults 16+ need an SC saltwater license (no licensed pier here).",
+    "facilities": {
+      "restrooms": true,
+      "baitShop": "None on site; South Island Bait Shop, 7113 S Island Rd (UNVERIFIED)",
+      "rentals": null,
+      "food": "Front Street restaurants ~2 blocks away",
+      "parking": "Free; ample at the ramp. A 75-space lot rebuild is planned (Jan 2026 bid), so construction is possible.",
+      "ada": true
+    },
+    "whereToFish": "Floating docks at the East Bay public ramp where the Sampit meets Winyah Bay: shrimp on the bottom for reds, flounder and blue catfish; chicken-neck crabbing (UNVERIFIED). Morgan Park shoreline and boardwalk just south. Hobcaw Point and Winyah Bay piers on the old US 17 bridge for reds, flounder, crabs (current access UNVERIFIED).",
+    "kidNotes": "Playground on a cushioned surface; shaded pavilion with upgraded restrooms; 1-mile loop trail; disc golf. Docks have boat traffic and current, so put little kids in life jackets and stay clear of launching boats.",
+    "rules": "SC license 16+, except crabbing with 3 or fewer drop nets or handlines. No fishing off highway bridges unless posted.",
+    "extra": [
+      {
+        "tip": "Aug 2026: 5-acre park, upgraded restrooms in an open-air pavilion, free, opens 7 AM.",
+        "source": "https://www.islands.com/2237794/east-bay-park-south-carolinas-tucked-away-peninsula-park-lovely-stop-views-winyah-bay-sporty-trail/"
+      },
+      {
+        "tip": "Hobcaw and Winyah Bay piers: good for crabbing and rays, reds and trout when conditions allow (Jan 2026 guide).",
+        "source": "https://fishingbooker.com/blog/?p=48961"
+      }
+    ],
+    "status": "Open (Aug 2026 article); possible parking-lot construction",
+    "sources": [
+      "https://www.islands.com/2237794/east-bay-park-south-carolinas-tucked-away-peninsula-park-lovely-stop-views-winyah-bay-sporty-trail/",
+      "https://www.howsyourriver.com/access_sites/east-bay-park"
+    ]
+  },
+  "garris-landing": {
+    "website": "https://www.fws.gov/refuge/cape-romain/visit-us",
+    "phone": "Sewee Center 843-928-3368; Refuge HQ 843-928-3264",
+    "hours": "Sunrise to sunset (FWS); gate closes nightly.",
+    "cost": "Free. Adults 16+ need an SC saltwater license (not a licensed pier).",
+    "facilities": {
+      "restrooms": true,
+      "baitShop": "None on site; Sewee Outpost, Awendaw (bait, tackle, deli)",
+      "rentals": null,
+      "food": "None on site; Sewee Outpost deli",
+      "parking": "Free gravel lot (~20–25 trailer spaces); fills on weekends and Bulls Island ferry days",
+      "ada": null
+    },
+    "whereToFish": "The long refuge pier across the marsh to the ICW: fish or crab from the end on mid-to-high tide (low tide leaves a narrow, shallow channel). Reds and flounder along grass edges on moving water; sheepshead at the pilings on fiddlers or shrimp; creek mouths into the ICW for reds and trout under a popping cork.",
+    "kidNotes": "Long, unshaded pier walk, so bring water, sunscreen and bug spray. Mudflats and oysters at low tide, so stay on the pier. Boat ramp and ferry traffic at the landing. No pets on the pier. Quiet and good for crabbing with kids.",
+    "rules": "State fishing rules + license; crabbing with 3 or fewer drop nets/handlines needs no license. No pets on the pier, no camping.",
+    "extra": [
+      {
+        "tip": "FWS: fishing and crabbing allowed from the Garris Landing pier; signs at the kiosk list allowed activities.",
+        "source": "https://www.fws.gov/refuge/cape-romain/visit-us"
+      },
+      {
+        "tip": "May 2026: clean restrooms; no bait, food or rentals; lot fills on busy weekends.",
+        "source": "https://unearththevoyage.com/?p=287143"
+      }
+    ],
+    "status": "Open (FWS; May 2026 article)",
+    "sources": [
+      "https://www.fws.gov/refuge/cape-romain/visit-us",
+      "https://www.fws.gov/refuge/cape-romain/visit-us/rules-policies"
+    ]
+  },
+  "mt-pleasant-pier": {
+    "website": "https://www.ccprc.com/listing/mount-pleasant-pier/21/",
+    "phone": "(843) 762-9946",
+    "hours": "Pier Oct–Dec 7 AM–10 PM (Apr–Sep 6 AM–10 PM). Café, gift shop + restrooms: Oct 8 AM–7 PM; Nov 8 AM–sunset; Dec 8 AM–5 PM.",
+    "cost": "Fishing pass $7 adult; $4 kids 12 and under. Walking free. Cashless (cash-to-card kiosk on site).",
+    "facilities": {
+      "restrooms": true,
+      "baitShop": "River Watch Café sells frozen bait",
+      "rentals": "Rod $15/day + $25 deposit",
+      "food": "River Watch Café & Gift Shop (sandwiches, ice cream, smoothies)",
+      "parking": "Free but limited",
+      "ada": null
+    },
+    "whereToFish": "Shallow (shore) end around the grass at high tide: reds on cut mullet, mud minnows or shrimp. Along the pilings on the incoming tide: sheepshead on fiddlers, mussels or barnacle clusters. Mid-depth: flounder and trout on live mullet (Carolina rig). Over-slot bull reds are catch-and-release.",
+    "kidNotes": "Wide 1,250-ft concrete pier with a big covered pavilion, rocking chairs and swings. The park below has a playground and splash pad (opened June 2025). No standing on railings, no pets.",
+    "rules": "Pass visible. Blanket license per SCDNR 2014 (UNVERIFIED for 2026). 2 rods per person; crabbing up to 2 lines; hooks 4/0 or smaller; cut bait under 2 in.; no shark fishing; cast nets for bait only.",
+    "extra": [
+      {
+        "tip": "Cast Off Fishing Tournament Sat Oct 17, 2026, 7 AM–2 PM, with a Biggest Youth Catch (12 and under) prize. Youth entry $9, register on site; chaperone required for 15 and under.",
+        "source": "https://www.ccprc.com/listing/mount-pleasant-pier/21/"
+      },
+      {
+        "tip": "Expanded Memorial Waterfront Park opened June 2025 with a water play area and new playground under the Ravenel Bridge.",
+        "source": "https://www.yahoo.com/news/mount-pleasant-celebrate-opening-expanded-120107621.html"
+      },
+      {
+        "tip": "Sheepshead: hook through a barnacle cluster or cracked mussel so they crush the shell.",
+        "source": "https://www.carolinasportsman.com/?p=109083"
+      }
+    ],
+    "status": "Open (CCPRC listing updated Oct 5, 2026)",
+    "sources": [
+      "https://www.ccprc.com/listing/mount-pleasant-pier/21/",
+      "https://www.ccprc.com/parks/park-facility-rules/mount-pleasant-pier-rules/"
+    ]
+  },
+  "folly-pier": {
+    "website": "https://www.ccprc.com/listing/folly-beach-pier/5/",
+    "phone": "(843) 762-9516",
+    "hours": "Apr–Oct 6 AM–10 PM; Nov 7 AM–sunset; Dec–Feb 8 AM–sunset. No fishing after sunset in winter months.",
+    "cost": "Fishing pass $7 adult; $4 kids 12 and under. Walk-ons free. Lot parking: Oct $10, Nov–Feb $5.",
+    "facilities": {
+      "restrooms": true,
+      "baitShop": "On-site gift + tackle shop (frozen bait)",
+      "rentals": "Rod $15/day + $25 deposit",
+      "food": "Koko's on the Pier; snacks, ice cream",
+      "parking": "County pier lot (seasonal fee)",
+      "ada": true
+    },
+    "whereToFish": "Near the beach in the shallow surf: whiting, black drum, trout (whiting in 2–5 ft on a moving tide). Mid-pier: straight down beside the pilings for sheepshead and black drum. End/diamond platform: bluefish, Spanish and king mackerel, fall bull reds on finger or cut mullet.",
+    "kidNotes": "~1,045-ft pier with railings and a 25-ft-wide deck; some shade. Cleaning tables, outdoor showers. No lifeguards; no pets. Birds steal bait, so keep containers closed.",
+    "rules": "Daily pass replaces the SC license. 2 rods per person; hooks 4/0 or smaller; cut bait under 2 in.; no wire leaders for bottom fishing; kings on trolley rigs only. No shark fishing.",
+    "extra": [
+      {
+        "tip": "Rental rods come with double hooks: put half a shrimp on each; dropping straight down by the pilings often beats casting. The shop waives the first line lost to a shark, ray or the reef.",
+        "source": "https://www.follycurrent.com/2024/05/catching-some-fun/"
+      },
+      {
+        "tip": "June 2026: black drum and trout in the shallow surf; mackerel and bluefish toward the end; the pass means no license needed.",
+        "source": "https://www.islands.com/2191427/edwin-s-taylor-folly-beach-fishing-pier-south-carolina-diamond-deck-ocean-views/"
+      }
+    ],
+    "status": "Open (CCPRC listing updated Oct 5, 2026)",
+    "sources": [
+      "https://www.ccprc.com/listing/folly-beach-pier/5/",
+      "https://www.ccprc.com/parks/park-facility-rules/folly-beach-pier-rules/"
+    ]
   }
 }
