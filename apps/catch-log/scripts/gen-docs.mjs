@@ -174,6 +174,12 @@ Water keys: \`santee-cooper\` = Lakes Marion & Moultrie + upper Santee · \`pee-
 | Combination | $25 | Hunting + big game + **freshwater** only. **No saltwater.** |
 | Sportsman | $50 | Adds WMA access. **No saltwater.** |
 | Under 16 | free | No license required |
+| Lifetime freshwater (16–63) | $300 | |
+| Lifetime saltwater (16–63) | $300 | Or $200 as an add-on to a $500 lifetime Combination |
+| Lifetime Combination (ages 2–15) | $400 | + $160 saltwater add-on. Only lifetime option sold to kids |
+| Senior fishing (64+) | $9 | Lifetime, **fresh + salt** |
+
+Lifetime licenses need 180 days of SC residency. Lifetime vs annual math: [license.md](license.md#lifetime-licenses-worth-it-prices-verified-dnrscgov-10112026).
 
 No license needed: on a licensed public pier (blanket license), on a licensed charter, or with ≤3 drop nets/traps/hookless handlines.
 SC license = exempt from the federal NOAA angler registry.

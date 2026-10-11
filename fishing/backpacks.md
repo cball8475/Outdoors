@@ -3,18 +3,22 @@
 > Prices checked Oct 10–11, 2026. Amazon prices move daily, so treat them as a snapshot.
 > Use case: bank, pier, and jetty fishing (fresh + salt) with four kids in tow, no boat.
 
-## The honest take first
+## Carry plan
 
-**The backpack isn't the bottleneck. Rods are.** No backpack carries five rods.
-With four kids, the real fix is a **rod bucket or pier cart** (or each kid
-carries their own rod). Pick the pack for *tackle + bait + dry storage*,
-not rod-carrying.
+- **Main pack (adult):** both adults' rods + all family tackle. Kids carry their own rods.
+- None of the packs below holds more than **2 rods**. Put 2 in the pack's holders and
+  bundle the rest with **velcro rod straps** (a few dollars) for a one-hand carry.
+- That makes the pack's job *6 people's tackle + rod holders*. **Evolution Drift 3600**
+  fits best: 6 trays (one per angler), 2 rod holders, waterproof bottom.
+- Optional: a cheap sling (KastKing BlowBak, $27) so the oldest kid carries their own
+  tackle tray and leader spool.
+- Long pier walks (Apache is 1,206 ft) still go easier with a pier cart, but you don't need one.
 
 ## Quick picks
 
 | Pick | Model | Price | Why |
 |---|---|---|---|
-| **Best overall (family)** | Evolution Drift Series 3600 | $139.99 | 6 trays (one per angler + spare), 2 rod holders, waterproof PVC bottom for wet pier decks and sand, rain cover |
+| **Best overall (family)** | Evolution Drift Series 3600 + velcro rod straps | $139.99 + ~$10 | 6 trays (one per angler), 2 rod holders (bundle the other adult rods), waterproof PVC bottom for wet pier decks and sand, rain cover |
 | Step-down | Evolution Largemouth 3.0 | $104.99 | Wired2Fish 2026 "Best Full-Size"; only 3 trays included (holds 6) |
 | **Best budget** | Piscifun Tackle Backpack (2 rod holders, 4 boxes, rain cover) | $54.99 | Most proven budget pack (4.8★ / ~5,900 ratings), rain cover included |
 | **Best pier pack** | MATEIN Tackle Backpack w/ Cooler | ~$43 | Cooler bottom for bait + drinks, 4 trays. Cheap enough that salt damage won't hurt |

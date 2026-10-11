@@ -7,7 +7,8 @@
 
 1. **You're licensed for freshwater only.** Buy the **$15 annual saltwater license** before any coast trip (not the $25
    Combination; that one doesn't include saltwater). Exception: **Myrtle Beach State Park Pier** has a blanket license,
-   so no saltwater license is needed *on that pier*. Kids under 16 need no license. → [license.md](license.md)
+   so no saltwater license is needed *on that pier*. Kids under 16 need no license, but **every adult does**,
+   including the one whose rod you're carrying. → [license.md](license.md)
 2. **Red drum rules changed July 1, 2026:** 18–25″ slot, **1 per person, 2 per boat**, and natural bait on 4/0+ hooks must
    be a non-offset, non-stainless **circle hook**. Most fall bull reds must go back. → [regulations.md](regulations.md)
 3. **Kids shouldn't eat fish from most Pee Dee-area rivers.** SCDES advises children under 14 to eat *no* fish from any
@@ -61,8 +62,8 @@ Full detail, with rigs for your saltwater rod, freshwater rod and the kids' Ugly
 
 ## Backpack
 
-**Evolution Drift Series 3600 ($139.99)** for the family: 6 trays, 2 rod holders, waterproof bottom. Budget: Piscifun ($55).
-The real constraint is **carrying rods for 6 people**, so add a rod bucket or pier cart. → [backpacks.md](backpacks.md)
+**Evolution Drift Series 3600 ($139.99)**: 6 trays (one per angler), 2 rod holders, waterproof bottom. The adult rods
+beyond those 2 go in velcro rod straps for a one-hand carry; kids carry their own. Budget: Piscifun ($55). → [backpacks.md](backpacks.md)
 
 ## The tracker app
 
