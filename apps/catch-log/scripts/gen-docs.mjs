@@ -14,6 +14,8 @@ import { SPOTS, SPOT_CLOSED, fmtDrive } from '../src/data/spots.js'
 import { RODS } from '../src/data/rods.js'
 import { SCIENCE, SCIENCE_SOURCES, EVIDENCE_LABEL } from '../src/data/science.js'
 import { regsSummary } from '../src/lib/regs.js'
+import { spotsForFish } from '../src/lib/explore.js'
+import { SPOT_INFO, SPOT_INFO_DATE } from '../src/data/spotInfo.js'
 
 const here = path.dirname(fileURLToPath(import.meta.url))
 const OUT = path.resolve(here, '../../../fishing')
@@ -35,6 +37,8 @@ function speciesBlock(s) {
   for (const sp of s.regs?.special || []) lines.push(`  - *${sp.water}:* ${regsSummary({ ...s.regs, ...sp })}${sp.note ? `. ${sp.note}` : ''}`)
   if (s.eat) lines.push(`- **Eating:** ${s.eat}`)
   if (s.fall) lines.push(`- **Oct–Nov:** ${s.fall}`)
+  const where = spotsForFish(s.id, SPOTS).filter((r) => r.listed).slice(0, 6)
+  if (where.length) lines.push(`- **Where (kid-friendliest first):** ${where.map((r) => r.spot.name).join(' · ')}`)
   if (s.baits?.length) lines.push(`- **Bait:** ${s.baits.join(' · ')}`)
   if (s.lures?.length) lines.push(`- **Lures:** ${s.lures.join(' · ')}`)
   const rigs = ['salt', 'fresh', 'kids'].filter((k) => s.rigs?.[k])
@@ -111,6 +115,32 @@ Most Pee Dee-area rivers have one. Check the live map before keeping fish: https
 | Water / spot | Advisory |
 |---|---|
 ${SPOTS.filter((s) => s.advisory).map((s) => `| ${esc(s.name)} | ${esc(s.advisory)} |`).join('\n')}
+
+## Spot details (researched ${SPOT_INFO_DATE})
+
+${SPOTS.map((sp) => {
+  const i = SPOT_INFO[sp.key]
+  if (!i) return ''
+  const f = i.facilities || {}
+  const fac = [
+    f.restrooms === true ? 'restrooms' : f.restrooms === false ? 'no restrooms' : null,
+    f.baitShop && `bait: ${f.baitShop}`, f.rentals && `rentals: ${f.rentals}`, f.food && `food: ${f.food}`,
+    f.parking && `parking: ${f.parking}`, f.ada === true ? 'ADA' : null,
+  ].filter(Boolean)
+  return [
+    `### ${sp.name}`,
+    '',
+    i.status && `- **Status:** ${i.status}`,
+    i.whereToFish && `- **Where to fish:** ${i.whereToFish}`,
+    i.kidNotes && `- **Kids:** ${i.kidNotes}`,
+    i.hours && `- **Hours:** ${i.hours}`,
+    i.cost && `- **Cost:** ${i.cost}`,
+    fac.length && `- **Facilities:** ${fac.join(' · ')}`,
+    i.rules && `- **Rules:** ${i.rules}`,
+    ...(i.extra || []).map((x) => `- ${x.tip}${x.source ? ` ([source](${x.source}))` : ''}`),
+    (i.website || i.phone) && `- ${[i.website && `[Website](${i.website})`, i.phone].filter(Boolean).join(' · ')}`,
+  ].filter(Boolean).join('\n')
+}).filter(Boolean).join('\n\n')}
 
 ## Closed / skip for now
 

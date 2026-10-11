@@ -561,3 +561,49 @@ export const SPECIES_BY_ID = Object.fromEntries(SPECIES.map((s) => [s.id, s]))
 export function speciesForWater(water) {
   return SPECIES.filter((s) => s.water === water || s.water === 'both')
 }
+
+// ---------------------------------------------------------------------------
+// SEASON + KID EASE: used by the Explore screens to rank "best fish here now".
+//   season[0..11] = Jan..Dec: 0 = rare/absent, 1 = fair, 2 = good, 3 = peak.
+//     General Grand Strand / Pee Dee patterns (SCDNR life-history pages +
+//     seasonal reports), not survey data. Tweak freely as your own log grows.
+//   kidEase 1–5 = how likely a 5–11-year-old on an Ugly Stik lands one
+//     (0 = not a kid fish; adult gear only).
+//   common = shows up almost anywhere in its water type, so it's suggested
+//     even at spots whose research didn't list it.
+//   bycatch = you'll catch it, but nobody targets it.
+// ---------------------------------------------------------------------------
+//                      J  F  M  A  M  J  J  A  S  O  N  D
+const EXTRA = {
+  'red-drum':         { kidEase: 2, season: [2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 2] },
+  'spotted-seatrout': { kidEase: 3, season: [1, 1, 2, 2, 2, 2, 2, 2, 2, 3, 3, 2] },
+  flounder:           { kidEase: 2, season: [0, 0, 1, 2, 2, 2, 2, 2, 3, 3, 2, 1] },
+  sheepshead:         { kidEase: 1, season: [2, 2, 3, 3, 2, 1, 1, 1, 2, 2, 2, 2] },
+  'black-drum':       { kidEase: 4, season: [2, 2, 3, 3, 2, 2, 2, 2, 2, 2, 3, 2] },
+  whiting:            { kidEase: 5, season: [1, 1, 2, 3, 3, 2, 2, 2, 2, 3, 3, 2] },
+  spot:               { kidEase: 5, season: [0, 0, 1, 2, 2, 1, 1, 2, 3, 3, 2, 0] },
+  croaker:            { kidEase: 5, season: [0, 0, 1, 2, 2, 2, 2, 3, 3, 2, 1, 0], common: true },
+  bluefish:           { kidEase: 3, season: [0, 0, 1, 3, 3, 2, 1, 1, 2, 3, 3, 1] },
+  'spanish-mackerel': { kidEase: 2, season: [0, 0, 0, 1, 3, 3, 3, 3, 3, 2, 0, 0] },
+  'king-mackerel':    { kidEase: 0, season: [0, 0, 0, 1, 2, 2, 2, 2, 3, 2, 1, 0] },
+  pompano:            { kidEase: 3, season: [0, 0, 1, 3, 3, 2, 2, 2, 2, 3, 2, 0] },
+  cobia:              { kidEase: 0, season: [0, 0, 0, 1, 3, 2, 1, 0, 0, 0, 0, 0] },
+  pinfish:            { kidEase: 5, season: [0, 0, 1, 2, 3, 3, 3, 3, 3, 2, 1, 0], common: true },
+  'hardhead-catfish': { kidEase: 0, season: [0, 0, 0, 1, 2, 3, 3, 3, 2, 1, 0, 0], bycatch: true },
+  'striped-bass':     { kidEase: 1, season: [2, 2, 3, 3, 2, 1, 0, 0, 0, 2, 3, 3] },
+  'largemouth-bass':  { kidEase: 3, season: [1, 2, 3, 3, 3, 2, 2, 1, 2, 3, 2, 1] },
+  bluegill:           { kidEase: 5, season: [0, 1, 1, 2, 3, 3, 3, 2, 2, 2, 1, 0], common: true },
+  redear:             { kidEase: 4, season: [0, 1, 2, 3, 3, 2, 2, 1, 1, 1, 1, 0] },
+  redbreast:          { kidEase: 4, season: [0, 0, 1, 2, 3, 3, 3, 2, 2, 2, 1, 0] },
+  warmouth:           { kidEase: 4, season: [0, 0, 1, 2, 3, 3, 3, 2, 2, 1, 1, 0] },
+  crappie:            { kidEase: 3, season: [2, 3, 3, 3, 2, 1, 1, 1, 1, 2, 3, 2] },
+  'channel-catfish':  { kidEase: 4, season: [1, 1, 2, 3, 3, 3, 3, 2, 2, 3, 2, 1], common: true },
+  'blue-catfish':     { kidEase: 2, season: [3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3] },
+  'flathead-catfish': { kidEase: 1, season: [0, 0, 1, 2, 3, 3, 3, 2, 2, 1, 0, 0] },
+  'white-perch':      { kidEase: 4, season: [1, 2, 3, 3, 2, 2, 2, 2, 2, 2, 2, 1] },
+  bowfin:             { kidEase: 2, season: [1, 1, 2, 3, 3, 2, 2, 2, 2, 2, 1, 1] },
+  'chain-pickerel':   { kidEase: 3, season: [3, 3, 2, 1, 1, 1, 1, 1, 1, 2, 3, 3] },
+}
+for (const s of SPECIES) Object.assign(s, EXTRA[s.id] || { kidEase: 0, season: new Array(12).fill(1) })
+
+export const SEASON_LABEL = ['Rare now', 'Fair now', 'Good now', 'Peak now']

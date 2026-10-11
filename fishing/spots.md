@@ -71,6 +71,10 @@ Most Pee Dee-area rivers have one. Check the live map before keeping fish: https
 | Lake Wateree State Park | PCB advisory: catfish, largemouth, striper, white bass 1/month; crappie 1/week. Kids under 14: don't eat. |
 | Lake Murray: Saluda Dam North Rec Area pier | Lake Murray not in the SCDES table. |
 
+## Spot details (researched 2026-10-11)
+
+
+
 ## Closed / skip for now
 
 - **Lake Wallace (Bennettsville)**: Dam breached May & July 2024; lake drained. $25M allocated, rebuild expected to start 2027.

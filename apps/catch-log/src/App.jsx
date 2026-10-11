@@ -14,7 +14,8 @@ import StartTrip from './screens/StartTrip.jsx'
 import CatchForm from './screens/CatchForm.jsx'
 import TripDetail from './screens/TripDetail.jsx'
 import Times from './screens/Times.jsx'
-import { SpotList, SpotDetail, AddSpot } from './screens/Spots.jsx'
+import { AddSpot } from './screens/Spots.jsx'
+import { Explore, SpotGuide, FishPlaces } from './screens/Explore.jsx'
 import { Guide, SpeciesDetail } from './screens/Guide.jsx'
 import Stats from './screens/Stats.jsx'
 import Settings from './screens/Settings.jsx'
@@ -64,13 +65,18 @@ export default function App() {
       screen = <Times spotId={q.spot ? Number(q.spot) : null} date={q.date} />
       tab = '/times'
       break
-    case 'spots':
-      screen = <SpotList />
-      tab = '/spots'
+    case 'explore':
+    case 'spots': // old link
+      screen = <Explore mode={q.mode || 'place'} />
+      tab = '/explore'
       break
     case 'spot':
-      screen = <SpotDetail spotId={Number(b)} />
-      tab = '/spots'
+      screen = <SpotGuide spotId={Number(b)} />
+      tab = '/explore'
+      break
+    case 'fish':
+      screen = <FishPlaces id={b} />
+      tab = '/explore'
       break
     case 'spot-new':
       screen = <AddSpot />

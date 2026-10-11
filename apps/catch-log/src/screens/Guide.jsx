@@ -56,6 +56,7 @@ export function SpeciesDetail({ id }) {
       <TopBar title={s.name} onBack={() => back('/guide')} />
       <div className="page">
         {s.aka?.length > 0 && <div className="muted">Also called: {s.aka.join(', ')}</div>}
+        {!s.bycatch && <a className="btn btn-primary" href={`#/fish/${s.id}`}>📍 Where to catch it</a>}
 
         <div className="card stack">
           <h3>How to ID it</h3>

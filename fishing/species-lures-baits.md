@@ -20,6 +20,7 @@
 - **Look-alikes:** Black drum has chin barbels and no tail spot. Spot (the small fish) has a shoulder spot, not a tail spot.
 - **SC limits:** 18–25" TL · 1/person/day · 2/boat. New July 1, 2026: 18–25″ slot, 1/person, 2/boat. Natural bait on hooks 4/0+ must be a non-offset, non-stainless CIRCLE hook. Nearly every fall bull red is over the slot: release it fast.
 - **Oct–Nov:** Peak season. Adults leave the inlets late Oct–Nov and run the beaches ("bull red run"). Slot reds stack in creeks and along jetties on falling tides.
+- **Where (kid-friendliest first):** Surfside Pier · Myrtle Beach State Park Pier · Murrells Inlet MarshWalk / Morse Park Landing · Mount Pleasant Pier · Apache Pier · Springmaid Pier
 - **Bait:** Cut or live finger mullet · Cut menhaden (pogy) · Blue crab (halved) · Live shrimp
 - **Lures:** Gold weedless spoon · 3–4″ paddletail on 1/4 oz jighead · Gulp! Shrimp · Topwater walker at dawn
 - **Rig it:**
@@ -35,6 +36,7 @@
 - **Look-alikes:** Weakfish: spots in wavy diagonal rows, no spots on fins. Silver seatrout: no spots.
 - **SC limits:** 14" min TL · 10/person/day. Saltwater gamefish: circle-hook rule applies to natural bait on 4/0+ hooks. No gigging Dec 1–Feb 28.
 - **Oct–Nov:** October–November is the peak. Cold fronts kick the bite on; fish move to deeper creek bends and channels as water drops below ~60°F.
+- **Where (kid-friendliest first):** Murrells Inlet MarshWalk / Morse Park Landing · Mount Pleasant Pier · Georgetown: East Bay Park / Winyah Bay · Pawleys Island (surf & creek) · Garris Landing (Cape Romain NWR) · Huntington Beach SP: Murrells Inlet South Jetty
 - **Bait:** Live shrimp (#1 bait by far) · Live finger mullet · Mud minnows
 - **Lures:** Popping cork + Vudu/Gulp shrimp · MirrOlure suspending twitchbait · 3″ paddletail on 1/8–1/4 oz jighead · Topwater at dawn
 - **Rig it:**
@@ -50,6 +52,7 @@
 - **Look-alikes:** Summer flounder: 5 eye-like spots. Gulf flounder: 3 eyespots in a triangle. Same limits either way.
 - **SC limits:** 16" min TL · 5/person/day · 10/boat. 16″ TL minimum since July 1, 2021. Limits apply to hook-and-line AND gig.
 - **Oct–Nov:** Big females stage at inlets and jetties in Oct–Nov before heading offshore to spawn. Last good shot of the year.
+- **Where (kid-friendliest first):** Myrtle Beach State Park Pier · Murrells Inlet MarshWalk / Morse Park Landing · Mount Pleasant Pier · Second Avenue Pier · Garden City Pier · Cherry Grove Pier
 - **Bait:** Live finger mullet · Live mud minnows · Live menhaden
 - **Lures:** Gulp! Swimming Mullet 3–4″ on 1/4 oz jighead · Bucktail tipped with Gulp
 - **Rig it:**
@@ -65,6 +68,7 @@
 - **Look-alikes:** Juvenile black drum also have bars but have chin barbels and no human teeth.
 - **SC limits:** 14" min TL · 10/person/day · 30/boat
 - **Oct–Nov:** Build up on jetties, pilings and bridges through late fall into winter.
+- **Where (kid-friendliest first):** Murrells Inlet MarshWalk / Morse Park Landing · Mount Pleasant Pier · Garris Landing (Cape Romain NWR) · Huntington Beach SP: Murrells Inlet South Jetty
 - **Bait:** Fiddler crabs · Barnacles / oysters scraped from pilings · Sand fleas
 - **Lures:** Not a lure fish. Use bait.
 - **Rig it:**
@@ -80,6 +84,7 @@
 - **Look-alikes:** Sheepshead: human teeth, no barbels. Red drum: tail spot, no barbels.
 - **SC limits:** 14–27" TL · 5/person/day
 - **Oct–Nov:** Steady at piers, bridges and inlets all fall.
+- **Where (kid-friendliest first):** Garden City Pier · Cherry Grove Pier · Georgetown: East Bay Park / Winyah Bay · Huntington Beach SP: Murrells Inlet South Jetty
 - **Bait:** Fresh shrimp (peeled or whole) · Clams · Cut blue crab
 - **Lures:** Rarely: Fishbites on a bottom rig
 - **Rig it:**
@@ -95,6 +100,7 @@
 - **Look-alikes:** Croaker has several barbels and a brassy color with wavy lines.
 - **SC limits:** 50/person/day. 50/person/day COMBINED with spot + croaker (hook & line). No size limit.
 - **Oct–Nov:** Strong fall fish in the surf troughs and around piers. The best kid fish on the coast.
+- **Where (kid-friendliest first):** Surfside Pier · Myrtle Beach State Park Pier · Second Avenue Pier · Apache Pier · Springmaid Pier · Cherry Grove Pier
 - **Bait:** Fresh shrimp (small pieces) · Sand fleas (mole crabs) · Bloodworms
 - **Lures:** Fishbites (shrimp or sand flea flavor) on bottom rig
 - **Rig it:**
@@ -110,6 +116,7 @@
 - **Look-alikes:** Pinfish: shoulder spot too, but blue/yellow stripes and spiny. Red drum: spot is on the TAIL.
 - **SC limits:** 50/person/day. 50/person/day COMBINED with whiting + croaker. No size limit.
 - **Oct–Nov:** October "spot run" along piers and in inlets (timing varies year to year).
+- **Where (kid-friendliest first):** Myrtle Beach State Park Pier · Apache Pier
 - **Bait:** Bloodworms · Small shrimp pieces
 - **Lures:** Bloodworm Fishbites
 - **Rig it:**
@@ -125,6 +132,7 @@
 - **Look-alikes:** Whiting: one barbel, plain silver.
 - **SC limits:** 50/person/day. 50/person/day COMBINED with whiting + spot. No size limit.
 - **Oct–Nov:** Common around piers and inlets into November.
+- **Where (kid-friendliest first):** Myrtle Beach State Park Pier · Second Avenue Pier · Apache Pier · Cherry Grove Pier · Pier 14
 - **Bait:** Shrimp · Bloodworms · Squid strips
 - **Lures:** Fishbites
 - **Rig it:**
@@ -140,6 +148,7 @@
 - **Look-alikes:** Spanish mackerel has gold spots; jacks have a hard scute line near the tail.
 - **SC limits:** 5/person/day. No size limit. 7/person on for-hire boats.
 - **Oct–Nov:** Blitz the mullet schools along the beach and piers in October.
+- **Where (kid-friendliest first):** Surfside Pier · Apache Pier · Springmaid Pier · Cherry Grove Pier · Folly Beach Pier · Pier 14
 - **Bait:** Cut mullet · Cut menhaden · Live finger mullet
 - **Lures:** Gotcha plug · Silver spoon (Hopkins, Clark) · Metal jig
 - **Rig it:**
@@ -155,6 +164,7 @@
 - **Look-alikes:** Young king mackerel: lateral line dips sharply under the 2nd back fin; no black on the 1st back fin.
 - **SC limits:** 12" min FL · 15/person/day
 - **Oct–Nov:** Leave as water cools through October; early-October pier mornings are the last shot.
+- **Where (kid-friendliest first):** Surfside Pier · Springmaid Pier
 - **Bait:** Live finger mullet · Glass minnows
 - **Lures:** Gotcha plug · Clark spoon · Small silver metal jig
 - **Rig it:**
@@ -171,6 +181,7 @@
 - **SC limits:** 24" min FL · 3/person/day
 - **Eating:** FDA lists king mackerel as a "choice to avoid" (high mercury), especially for kids and pregnant women.
 - **Oct–Nov:** Sept–Oct pier-end kings when bait is thick (Cherry Grove, Apache, Springmaid king passes).
+- **Where (kid-friendliest first):** Apache Pier · Springmaid Pier · Cherry Grove Pier · Folly Beach Pier
 - **Bait:** Live menhaden · Live bluefish
 - **Lures:** Pier king fishing is live bait
 - **Rig it:**
@@ -184,6 +195,7 @@
 - **Look-alikes:** Permit (rare here): deeper body, no yellow.
 - **SC limits:** No size limit. No SC size or creel limit listed.
 - **Oct–Nov:** Fall run along the beach in the surf, often with whiting.
+- **Where (kid-friendliest first):** Pawleys Island (surf & creek) · Folly Beach Pier
 - **Bait:** Sand fleas (#1) · Shrimp · Fishbites
 - **Lures:** Small 1/4–1/2 oz pompano jig (yellow/pink)
 - **Rig it:**
@@ -239,6 +251,7 @@
   - *pee-dee-rivers:* 26" min TL · 3/person/day · closed 06-16→09-30. Pee Dee-area rivers: SOURCES CONFLICT (statewide 10/day vs 26″ min, 3/day, closed Jun 16–Sep 30). The stricter rule is applied here. Check the posted regs.
   - *sc-salt:* 26" min TL · 3/person/day · closed 06-16→09-30. Salt water: 26″ TL min, 3/day Oct 1–Jun 15; possession prohibited Jun 16–Sep 30. Circle-hook rule applies.
 - **Oct–Nov:** Santee Cooper reopens Oct 1. Stripers school under birds and chase herring/shad as water cools. Mostly a boat fishery.
+- **Where (kid-friendliest first):** Santee State Park (Lake Marion) · Georgetown: East Bay Park / Winyah Bay · Lake Murray: Saluda Dam North Rec Area pier · Lake Wateree State Park · Great Pee Dee River: US 76/301 Bridge Landing
 - **Bait:** Live blueback herring · Live gizzard / threadfin shad · Cut herring
 - **Lures:** Bucktail jig · Topwater walker when schooling · 4–5″ swimbait · Umbrella rig (boat)
 - **Rig it:**
@@ -259,6 +272,7 @@
   - *wateree:* 14" min TL · 5/person/day. Lake Wateree: 14″ minimum, 5/day.
   - *ashwood:* 3/person/day. Lake Ashwood (SCDNR state lake): 3 bass/day. Follow posted signs.
 - **Oct–Nov:** Follow shad into creek arms and shallow flats; feed hard as water cools into the 60s°F. One of the best months of the year.
+- **Where (kid-friendliest first):** Prestwood Lake (Lawton Park) · Little Pee Dee State Park · Lake Ashwood (SCDNR) · Carolina Sandhills NWR · Santee State Park (Lake Marion) · Cheraw State Park (Lake Juniper)
 - **Bait:** Live shiners · Nightcrawlers (small bass)
 - **Lures:** Buzzbait / walking topwater (dawn) · Lipless crankbait (shad color) · Spinnerbait · ChatterBait · 5″ stick worm (wacky or Texas)
 - **Rig it:**
@@ -275,6 +289,7 @@
 - **SC limits:** 30/person/day. 30/day bream aggregate (bluegill, redear, warmouth, redbreast), no size limit.
   - *ashwood:* 15/person/day. Lake Ashwood: sources say 15–20 bream; 15 applied (stricter).
 - **Oct–Nov:** Leave the shallow beds for brush piles and docks in 6–12 ft.
+- **Where (kid-friendliest first):** Lynches River County Park · Prestwood Lake (Lawton Park) · Lee State Park · Little Pee Dee State Park · Lake Ashwood (SCDNR) · Carolina Sandhills NWR
 - **Bait:** Red wigglers · Crickets · Pieces of nightcrawler
 - **Lures:** 1/32 oz tube or curly-tail jig · Beetle Spin · Small inline spinner
 - **Rig it:**
@@ -290,6 +305,7 @@
 - **SC limits:** 30/person/day. 30/day bream aggregate.
   - *ashwood:* 15/person/day
 - **Oct–Nov:** Bottom feeders on snails; hold deeper than bluegill in fall.
+- **Where (kid-friendliest first):** Prestwood Lake (Lawton Park) · Lake Ashwood (SCDNR)
 - **Bait:** Red wigglers on the bottom · Crickets
 - **Lures:** Small jig fished on the bottom
 - **Rig it:**
@@ -304,6 +320,7 @@
 - **Look-alikes:** Bluegill (short ear flap, lakes).
 - **SC limits:** 30/person/day · (≤15 of this species). 30/day bream aggregate, but no more than 15 redbreast.
 - **Oct–Nov:** Hold in eddies behind logs and along shaded banks as rivers drop.
+- **Where (kid-friendliest first):** Lynches River County Park · Lee State Park · Black River State Park (The Meadows)
 - **Bait:** Crickets · Red wigglers
 - **Lures:** Beetle Spin · Small Rooster Tail
 - **Rig it:**
@@ -332,6 +349,7 @@
 - **Look-alikes:** Bluegill: small mouth, ear flap.
 - **SC limits:** 8" min TL · 20/person/day. 8″ minimum, 20/day statewide (incl. Santee Cooper).
 - **Oct–Nov:** Move from mid-depth brush piles to creek channels and suspend near shad. October minnow bite on Santee Cooper brush.
+- **Where (kid-friendliest first):** Santee State Park (Lake Marion) · Lake Murray: Saluda Dam North Rec Area pier · Lake Wateree State Park · Lake Moultrie: Fred L. Day Pier · Santee NWR (Lake Marion)
 - **Bait:** Live crappie minnows
 - **Lures:** 1/16–1/8 oz jig with 2″ tube or curly tail · Small hair jig
 - **Rig it:**
@@ -347,6 +365,7 @@
 - **SC limits:** No size limit. No statewide creel listed in the 2026–27 guide (verify on posted signs).
   - *ashwood:* 3/person/day. Lake Ashwood: sources say 3–5 catfish; 3 applied (stricter).
 - **Oct–Nov:** SCDNR: "October could be a very good month for catfish." Fish move deeper as water cools.
+- **Where (kid-friendliest first):** Lynches River County Park · Lee State Park · Little Pee Dee State Park · Lake Ashwood (SCDNR) · Carolina Sandhills NWR · Cheraw State Park (Lake Juniper)
 - **Bait:** Nightcrawlers · Chicken liver · Cut shad · Stink bait (punch bait)
 - **Lures:** Not a lure fish
 - **Rig it:**
@@ -365,6 +384,7 @@
   - *pee-dee-upper:* max 2 over 32" · 25/person/day. Pee Dee River NC line → US 301 bridge: 25/day, max 2 over 32″. (Below the bridge: 150/day.)
 - **Eating:** SCDES advisories cover blue catfish on several Pee Dee-area rivers. Check the spot's advisory before keeping any.
 - **Oct–Nov:** Drift or anchor cut bait on channel ledges; big fish start moving to deeper water for winter.
+- **Where (kid-friendliest first):** Santee State Park (Lake Marion) · Lake Moultrie: Fred L. Day Pier · Great Pee Dee River: US 76/301 Bridge Landing
 - **Bait:** Cut gizzard shad · Cut white perch · Cut herring
 - **Lures:** Not a lure fish
 - **Rig it:**
@@ -379,6 +399,7 @@
 - **Look-alikes:** Channel/blue cats have forked tails.
 - **SC limits:** No size limit. No statewide creel listed in the 2026–27 guide (verify on posted signs).
 - **Oct–Nov:** Feeds at night near deep wood in rivers (Pee Dee, Lynches).
+- **Where (kid-friendliest first):** Great Pee Dee River: US 76/301 Bridge Landing
 - **Bait:** Live bream (legal; counts toward your bream limit) · Live shad
 - **Lures:** Not a lure fish
 - **Rig it:**
@@ -392,6 +413,7 @@
 - **Look-alikes:** Striped/white bass have stripes.
 - **SC limits:** No size limit. No SC limit found. Verify.
 - **Oct–Nov:** Big schools on Santee Cooper. Fast action and great cut bait for blue cats.
+- **Where (kid-friendliest first):** Santee State Park (Lake Marion)
 - **Bait:** Small minnows · Worms
 - **Lures:** 1/8 oz jigging spoon · Small jig
 - **Rig it:**
@@ -407,6 +429,7 @@
 - **SC limits:** No size limit. No SC limit found. Verify.
 - **Eating:** Many Pee Dee-area waters carry DO-NOT-EAT advisories for bowfin. Release.
 - **Oct–Nov:** Swamps, backwaters and river oxbows; aggressive biters.
+- **Where (kid-friendliest first):** Lynches River County Park · Black River State Park (The Meadows) · Great Pee Dee River: US 76/301 Bridge Landing
 - **Bait:** Cut bait · Live minnows
 - **Lures:** Spinnerbait · Swimbait
 - **Rig it:**

@@ -53,8 +53,8 @@ export function TopBar({ title, onBack, right }) {
 
 const TABS = [
   ['/', '🎣', 'Trip'],
+  ['/explore', '🧭', 'Explore'],
   ['/times', '🌙', 'Times'],
-  ['/spots', '📍', 'Spots'],
   ['/guide', '📖', 'Guide'],
   ['/stats', '🏆', 'Stats'],
 ]
