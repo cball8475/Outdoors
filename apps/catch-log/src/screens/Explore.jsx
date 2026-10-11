@@ -50,9 +50,11 @@ function RodPicker({ rod, setRod }) {
 }
 
 /** One fish: name, season, how to catch it on the chosen rod. */
-function FishCard({ row, rod, open, onToggle, spotLink }) {
+function FishCard({ row, rod, open, onToggle, spotLink, spot }) {
   const s = row.species
   const rig = rigFor(s, rod)
+  // e.g. Lake Ashwood: no minnows as bait (SC Reg 123-210)
+  const banned = spot?.baitBan && [...(s.baits || []), rig?.text || ''].some((b) => spot.baitBan.words.some((w) => b.toLowerCase().includes(w)))
   return (
     <div className="card stack" style={{ gap: 8 }}>
       <button className="row between" onClick={onToggle} style={{ border: 0, padding: 0, minHeight: 0, background: 'transparent', textAlign: 'left' }}>
@@ -68,6 +70,7 @@ function FishCard({ row, rod, open, onToggle, spotLink }) {
       </button>
       {open && (
         <>
+          {banned && <div className="alert stop">⛔ {spot.baitBan.text}</div>}
           {s.baits?.length > 0 && <p><b>🪱 Bait:</b> {s.baits.slice(0, 3).join(', ')}</p>}
           {s.lures?.length > 0 && s.lures[0] && !/Not a lure|^Rarely/.test(s.lures[0]) && <p><b>✨ Lure:</b> {s.lures.slice(0, 2).join(', ')}</p>}
           {rig && (
@@ -311,7 +314,7 @@ export function SpotGuide({ spotId }) {
           <h2>🐟 Best fish here right now</h2>
           <RodPicker rod={rod} setRod={setRod} />
           {shown.map((row, i) => (
-            <FishCard key={row.species.id} row={row} rod={rod} open={open === i} onToggle={() => setOpen(open === i ? -1 : i)} />
+            <FishCard key={row.species.id} row={row} rod={rod} spot={spot} open={open === i} onToggle={() => setOpen(open === i ? -1 : i)} />
           ))}
           {fish.length > 5 && (
             <button className="btn-small btn-ghost" onClick={() => setShowAll(!showAll)}>

@@ -270,7 +270,7 @@
   - *santee-cooper:* 14" min TL · 5/person/day. Santee Cooper lakes: 14″ minimum, 5/day.
   - *murray:* 14" min TL · 5/person/day. Lake Murray: 14″ minimum, 5/day.
   - *wateree:* 14" min TL · 5/person/day. Lake Wateree: 14″ minimum, 5/day.
-  - *ashwood:* 3/person/day. Lake Ashwood (SCDNR state lake): 3 bass/day. Follow posted signs.
+  - *ashwood:* 3/person/day. Lake Ashwood (SC Reg 123-210): 3 bass/day. No minnows or shiners as bait.
 - **Oct–Nov:** Follow shad into creek arms and shallow flats; feed hard as water cools into the 60s°F. One of the best months of the year.
 - **Where (kid-friendliest first):** Prestwood Lake (Lawton Park) · Little Pee Dee State Park · Lake Ashwood (SCDNR) · Carolina Sandhills NWR · Santee State Park (Lake Marion) · Cheraw State Park (Lake Juniper)
 - **Bait:** Live shiners · Nightcrawlers (small bass)
@@ -287,7 +287,7 @@
 - **ID:** All-black "ear flap"; dark blotch at the back of the soft back fin; faint vertical bars; yellow-orange breast.
 - **Look-alikes:** Redear: orange-red edge on ear flap, no back-fin blotch. Redbreast: long skinny ear flap, river fish.
 - **SC limits:** 30/person/day. 30/day bream aggregate (bluegill, redear, warmouth, redbreast), no size limit.
-  - *ashwood:* 15/person/day. Lake Ashwood: sources say 15–20 bream; 15 applied (stricter).
+  - *ashwood:* 15/person/day. Lake Ashwood (SC Reg 123-210): 15 bream/day incl. redbreast.
 - **Oct–Nov:** Leave the shallow beds for brush piles and docks in 6–12 ft.
 - **Where (kid-friendliest first):** Lynches River County Park · Prestwood Lake (Lawton Park) · Lee State Park · Little Pee Dee State Park · Lake Ashwood (SCDNR) · Carolina Sandhills NWR
 - **Bait:** Red wigglers · Crickets · Pieces of nightcrawler
@@ -319,6 +319,7 @@
 - **ID:** LONG narrow black ear flap; males have a bright orange-red belly; lives in rivers (Lynches, Little Pee Dee, Black).
 - **Look-alikes:** Bluegill (short ear flap, lakes).
 - **SC limits:** 30/person/day · (≤15 of this species). 30/day bream aggregate, but no more than 15 redbreast.
+  - *ashwood:* 15/person/day · (≤15 of this species)
 - **Oct–Nov:** Hold in eddies behind logs and along shaded banks as rivers drop.
 - **Where (kid-friendliest first):** Lynches River County Park · Lee State Park · Black River State Park (The Meadows)
 - **Bait:** Crickets · Red wigglers
@@ -334,6 +335,7 @@
 - **ID:** Big mouth for a sunfish; red eye; dark lines radiating back from the eye; mottled brown.
 - **Look-alikes:** Rock bass (not common here), small largemouth.
 - **SC limits:** 30/person/day. 30/day bream aggregate.
+  - *ashwood:* 15/person/day
 - **Oct–Nov:** Around stumps and cypress knees in swamps and rivers.
 - **Bait:** Worms · Small minnows · Crickets
 - **Lures:** Small jig · Beetle Spin
@@ -363,7 +365,7 @@
 - **ID:** Deeply forked tail; ROUNDED anal fin (24–29 rays); small dark spots on younger fish.
 - **Look-alikes:** Blue catfish: straight-edged anal fin (30–36 rays), no spots.
 - **SC limits:** No size limit. No statewide creel listed in the 2026–27 guide (verify on posted signs).
-  - *ashwood:* 3/person/day. Lake Ashwood: sources say 3–5 catfish; 3 applied (stricter).
+  - *ashwood:* 5/person/day. Lake Ashwood (SC Reg 123-210, eff. 5/26/2023): 5 catfish/day. No minnows as bait.
 - **Oct–Nov:** SCDNR: "October could be a very good month for catfish." Fish move deeper as water cools.
 - **Where (kid-friendliest first):** Lynches River County Park · Lee State Park · Little Pee Dee State Park · Lake Ashwood (SCDNR) · Carolina Sandhills NWR · Cheraw State Park (Lake Juniper)
 - **Bait:** Nightcrawlers · Chicken liver · Cut shad · Stink bait (punch bait)

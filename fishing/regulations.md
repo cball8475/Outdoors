@@ -61,10 +61,12 @@ Statewide: **40 game fish/day aggregate**; max **4 rods** per bank angler.
 | Largemouth Bass | santee-cooper | 14" min TL · 5/person/day | Santee Cooper lakes: 14″ minimum, 5/day. |
 | Largemouth Bass | murray | 14" min TL · 5/person/day | Lake Murray: 14″ minimum, 5/day. |
 | Largemouth Bass | wateree | 14" min TL · 5/person/day | Lake Wateree: 14″ minimum, 5/day. |
-| Largemouth Bass | ashwood | 3/person/day | Lake Ashwood (SCDNR state lake): 3 bass/day. Follow posted signs. |
-| Bluegill | ashwood | 15/person/day | Lake Ashwood: sources say 15–20 bream; 15 applied (stricter). |
+| Largemouth Bass | ashwood | 3/person/day | Lake Ashwood (SC Reg 123-210): 3 bass/day. No minnows or shiners as bait. |
+| Bluegill | ashwood | 15/person/day | Lake Ashwood (SC Reg 123-210): 15 bream/day incl. redbreast. |
 | Redear Sunfish | ashwood | 15/person/day |  |
-| Channel Catfish | ashwood | 3/person/day | Lake Ashwood: sources say 3–5 catfish; 3 applied (stricter). |
+| Redbreast Sunfish | ashwood | 15/person/day · (≤15 of this species) |  |
+| Warmouth | ashwood | 15/person/day |  |
+| Channel Catfish | ashwood | 5/person/day | Lake Ashwood (SC Reg 123-210, eff. 5/26/2023): 5 catfish/day. No minnows as bait. |
 | Blue Catfish | santee-cooper | max 2 over 32" · 25/person/day | Santee Cooper: 25/day, max 2 over 32″. |
 | Blue Catfish | pee-dee-upper | max 2 over 32" · 25/person/day | Pee Dee River NC line → US 301 bridge: 25/day, max 2 over 32″. (Below the bridge: 150/day.) |
 
