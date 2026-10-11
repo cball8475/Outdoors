@@ -180,7 +180,8 @@ export const SPOTS = [
     access: 'Fishing pier (ADA); ramp, 10 hp max', cost: 'Free',
     targets: ['channel-catfish', 'largemouth-bass', 'bluegill', 'redear'], kids: 5,
     advisory: 'Largemouth 1 meal/week. Kids under 14: don\'t eat.',
-    tip: 'CLOSED TUESDAYS, daylight only. Special state-lake limits (sources conflict; the app uses the stricter: 3 bass, 3 catfish, 15 bream). Follow posted signs.',
+    baitBan: { words: ['minnow', 'shiner'], text: 'No minnows or shiners as bait at Lake Ashwood (SC Reg 123-210). Use worms, crickets or lures.' },
+    tip: 'CLOSED TUESDAYS, daylight only. State-lake limits (SC Reg 123-210): 3 bass, 15 bream, 5 catfish per day; NO MINNOWS as bait.',
   },
   {
     key: 'little-pee-dee-sp', name: 'Little Pee Dee State Park', area: 'Dillon', water: 'fresh',
