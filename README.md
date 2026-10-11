@@ -21,4 +21,4 @@ Everything outdoors for the family: fishing spots, gear, regs, tides, and tools.
 
 | App | What it does |
 |---|---|
-| [apps/catch-log](apps/catch-log/README.md) | Offline family fishing tracker: trips, catches w/ photo + GPS, tides, solunar times, SC limit checker |
+| [apps/catch-log](apps/catch-log/README.md) | Offline family fishing tracker: trips, catches w/ photo + GPS, tides, solunar times, SC limit checker, kid Explore mode. **Install: https://catch-log-sc.netlify.app** |

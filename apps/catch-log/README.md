@@ -34,7 +34,7 @@ project, not a weekend build. Use these instead:
 
 ## Install on your phone (Android / Chrome)
 
-1. Open the app URL in Chrome (see *Deploy* below).
+1. Open **https://catch-log-sc.netlify.app** in Chrome.
 2. Chrome menu ⋮ → **Add to Home screen** → Install.
 3. Open it once **with signal** at home: it caches itself and downloads a year of tides for every saltwater spot.
 4. From then on it works on the pier with no bars. Allow **Location** and **Camera** when asked.
@@ -52,7 +52,13 @@ npm run docs       # regenerate ../../fishing/*.md from src/data (single source 
 
 ## Deploy (static hosting, HTTPS required for GPS/camera)
 
-`dist/` is plain static files. Any HTTPS host works:
+**Live:** https://catch-log-sc.netlify.app (Netlify project `catch-log-sc`, built from `netlify.toml` at the repo root).
+To ship an update: ask Claude to redeploy with the Netlify MCP `deploy-site` operation, or run `npx netlify deploy --prod`
+from the repo root. Phones pick up the new version the next time the app is opened with signal.
+
+Other hosts work too:
+
+`dist/` is plain static files:
 
 - **Netlify:** drag-and-drop `dist/` at app.netlify.com/drop, or `npx netlify deploy --prod --dir=dist`
 - **Cloudflare Pages:** `npx wrangler pages deploy dist --project-name catch-log`
