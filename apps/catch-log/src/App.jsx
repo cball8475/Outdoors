@@ -20,6 +20,7 @@ import { Guide, SpeciesDetail } from './screens/Guide.jsx'
 import Stats from './screens/Stats.jsx'
 import Settings from './screens/Settings.jsx'
 import Learn from './screens/Learn.jsx'
+import Cast from './screens/Cast.jsx'
 
 export default function App() {
   const route = useRoute()
@@ -96,6 +97,10 @@ export default function App() {
       break
     case 'settings':
       screen = <Settings />
+      break
+    case 'cast':
+      screen = <Cast spotId={q.spot ? Number(q.spot) : null} />
+      tab = '/'
       break
     case 'learn':
       screen = <Learn spotId={q.spot ? Number(q.spot) : null} />

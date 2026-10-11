@@ -77,6 +77,10 @@ beyond those 2 go in velcro rod straps for a one-hand carry; kids carry their ow
 released/kept, with party totals and per-person leaderboards. The main angler is the default; everyone else in the crew is one tap away.
 Includes a kid-obvious "best time to go" card + week strip, Time School, SC limit warnings, an ID helper, and catch-per-hour insights. Works offline.
 
+**At the water: 🎯 Where do I cast?** GPS finds your spot (no signal needed), kids tap what they see (or point at it on a
+photo), and the app says where to cast, how deep, which bait or lure, and how to reel it in. Printable version:
+[read-the-water.md](read-the-water.md).
+
 **Water temp, live from home:** open any spot in the app with signal to see the live reading from the nearest sensor
 (Springmaid Pier, Charleston Harbor, Sampit River, Cooper River, Lake Marion, Moultrie/Wateree tailraces, Little Pee Dee),
 the normal for your trip date, and which fish are in their prime range. Normals and the sensor list are in [spots.md](spots.md#water-temperature-sensors--monthly-normals-f).
@@ -93,5 +97,6 @@ found no link to catch rates). The moon's real effect, bigger or smaller tides, 
 | [species-lures-baits.md](species-lures-baits.md) | 28 species: ID, limits, Oct–Nov pattern, bait, lures, rigs per rod |
 | [regulations.md](regulations.md) | SC limits incl. 2026 changes, special waters, license prices |
 | [science.md](science.md) | What moves catch rates, ranked by evidence |
+| [read-the-water.md](read-the-water.md) | Printable kid guide: what to look for, where to cast, how deep, how to reel |
 | [backpacks.md](backpacks.md) | 9 packs compared, Oct 2026 prices |
 | [license.md](license.md) | Your license status + checklist |

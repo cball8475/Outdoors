@@ -63,6 +63,9 @@ function NoTrip() {
         <button className="btn-primary btn-big" onClick={() => go('/start')}>
           ＋ Start a trip
         </button>
+        <button className="btn-big" onClick={() => go('/cast')} style={{ fontWeight: 700 }}>
+          🎯 Where do I cast? (at the water)
+        </button>
         <TodayAtMySpot />
         <div className="card">
           <h2>Recent trips</h2>
@@ -150,6 +153,12 @@ function LiveTrip({ trip }) {
             <div style={{ fontSize: '2.6rem' }}>{spot?.water === 'salt' ? '🌊' : '🏞️'}</div>
           </div>
         </div>
+
+        {spot && (
+          <button className="btn-big" onClick={() => go(`/cast?spot=${spot.id}`)} style={{ fontWeight: 700 }}>
+            🎯 Where do I cast?
+          </button>
+        )}
 
         <div className="chips">
           {party.map((a) => (

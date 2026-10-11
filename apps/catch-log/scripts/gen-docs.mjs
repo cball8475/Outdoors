@@ -17,6 +17,7 @@ import { regsSummary } from '../src/lib/regs.js'
 import { spotsForFish } from '../src/lib/explore.js'
 import { SPOT_INFO, SPOT_INFO_DATE } from '../src/data/spotInfo.js'
 import { WT_SOURCES, SPOT_WT, RELATION_LABEL, WT_COMPUTED } from '../src/data/watertemp.js'
+import { CLUES, LINES, FIGHT, DEPTH_TIPS, ZONE_LABEL, HANDLE } from '../src/data/clues.js'
 
 const here = path.dirname(fileURLToPath(import.meta.url))
 const OUT = path.resolve(here, '../../../fishing')
@@ -252,5 +253,52 @@ ${SCIENCE.map((f) => `| **${f.factor}** | ${EVIDENCE_LABEL[f.evidence]} | ${esc(
 ## Sources
 
 ${SCIENCE_SOURCES.map((s) => `- [${s.label}](${s.url})`).join('\n')}
+`,
+)
+
+// ---------------- read-the-water.md ----------------
+const SP = Object.fromEntries(SPECIES.map((x) => [x.id, x]))
+const nm = (id) => SP[id].name.replace(/ \(.*\)/, '')
+const WATER_TAG = { salt: '🌊 Salt', fresh: '🏞️ Fresh', both: '🌊🏞️ Both' }
+write(
+  'read-the-water.md',
+  `
+# Read the Water: Where to Cast, How Deep, How to Reel
+
+> Printable version of the app's **🎯 Where do I cast?** screen (Trip tab, every spot page, Guide tab).
+> In the app, GPS finds the spot you're standing at (no signal needed), you tap what you see (optionally on a photo),
+> and it ranks these using the tide, light and water temp right now plus the fish you're after.
+> Fish hang out where something is **different**: structure, moving water, shade, or food.
+
+## What do you see?
+
+| See this | Water | Why fish are there | Where to cast | Depth | Fish it with | Fish |
+|---|---|---|---|---|---|---|
+${CLUES.map(
+    (c) =>
+      `| ${c.icon} **${c.label}**<br>${esc(c.see)} | ${WATER_TAG[c.water]} | ${esc(c.why)}${c.tide ? ` Best on a **${c.tide}** tide.` : ''}${c.shade ? ' Better in bright sun.' : ''}${c.night ? ' After dark only.' : ''}${c.months ? ' April–August.' : ''} | ${esc(c.cast)}${c.safety ? ` ⚠️ **${esc(c.safety)}**` : ''} | ${ZONE_LABEL[c.zone]} | ${c.line.map((l) => LINES[l].name).join(' / ')} | ${c.fish.map(nm).join(', ')} |`,
+  ).join('\n')}
+
+## How to fish it
+
+${Object.values(LINES)
+    .map((l) => `### ${l.icon} ${l.name}\n*${l.rigHint}*\n\n${l.steps.map((x, i) => `${i + 1}. ${x}`).join('\n')}`)
+    .join('\n\n')}
+
+Kids' Ugly Stiks: stick to bait on the bottom, a bobber, or a spoon. Jigs and topwater need a feel for the line that comes later.
+
+## Fish on! How to reel it in
+
+${FIGHT.map((f) => `- ${f.icon} ${f.text}`).join('\n')}
+
+## How deep is it? (no depth finder needed)
+
+${DEPTH_TIPS.map((d) => `- ${d.icon} **${d.title}:** ${d.text}`).join('\n')}
+
+## Handle with care
+
+| Fish | Watch out for |
+|---|---|
+${Object.entries(HANDLE).map(([id, t]) => `| ${nm(id)} | ${esc(t)} |`).join('\n')}
 `,
 )

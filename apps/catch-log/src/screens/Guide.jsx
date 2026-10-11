@@ -17,6 +17,10 @@ export function Guide({ tab, water: waterParam }) {
           <b>🧠 Time School</b>
           <div className="muted" style={{ fontSize: '0.9rem' }}>Learn when fish bite (sun, tide, water temp) + a quiz with today's real times</div>
         </a>
+        <a className="card" href="#/cast" style={{ textDecoration: 'none', color: 'inherit' }}>
+          <b>🎯 Where do I cast?</b>
+          <div className="muted" style={{ fontSize: '0.9rem' }}>GPS finds your spot, you tap what you see → where to cast, how deep, the rig, and how to reel</div>
+        </a>
         <Toggle value={tab} onChange={setTab} options={[['species', 'Species'], ['id', 'ID help'], ['rods', 'Rods'], ['science', 'Science']]} />
         {tab === 'species' && <SpeciesList />}
         {tab === 'id' && <IdHelper initialWater={waterParam} />}

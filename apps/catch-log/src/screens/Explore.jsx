@@ -205,6 +205,7 @@ export function SpotGuide({ spotId }) {
         </div>
 
         <button className="btn-primary btn-big" onClick={() => go(`/start?spot=${spot.id}`)}>🎣 Fish here now</button>
+        <button className="btn-big" onClick={() => go(`/cast?spot=${spot.id}`)} style={{ fontWeight: 700 }}>🎯 Where do I cast here?</button>
 
         <BestTimeHero spot={spot} preds={preds} compact />
         <WeekStrip spot={spot} preds={preds} onPickDay={(k) => go(`/times?spot=${spot.id}&date=${k}`)} />
