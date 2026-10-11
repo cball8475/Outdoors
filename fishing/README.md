@@ -32,6 +32,10 @@ Score 0–100 = moving water (55%) + dawn/dusk light (45%). Tide size compares e
 
 Tides shrink through the week (heading toward the first-quarter moon), so early in the week brings stronger current.
 
+**Where this lives in the app:** the big "Best time to go today" card (Trip home screen, top of the Times tab, every spot
+page in Explore) and the **📅 This week** strip under it, which outlines the best day and says why in one sentence.
+Tap **🧠 How did we pick this?** for Time School: 3 lessons on the spot's real data + a "which time would you pick?" quiz.
+
 Freshwater option, closer to home: **Prestwood Lake (Hartsville, ~37 min)**, bobber + worm for bream off the Lawton Park
 shoreline, any day at dusk (6:15–7:45 PM). Catch-and-release for the kids per the advisory.
 
@@ -71,7 +75,7 @@ beyond those 2 go in velcro rod straps for a one-hand carry; kids carry their ow
 
 [apps/catch-log](../apps/catch-log/README.md): logs trips and catches with photo, GPS, time, species, size, weight and
 released/kept, with party totals and per-person leaderboards. The main angler is the default; everyone else in the crew is one tap away.
-Includes best times (tide movement + dawn/dusk), SC limit warnings, an ID helper, and catch-per-hour insights. Works offline.
+Includes a kid-obvious "best time to go" card + week strip, Time School, SC limit warnings, an ID helper, and catch-per-hour insights. Works offline.
 
 **Water temp, live from home:** open any spot in the app with signal to see the live reading from the nearest sensor
 (Springmaid Pier, Charleston Harbor, Sampit River, Cooper River, Lake Marion, Moultrie/Wateree tailraces, Little Pee Dee),

@@ -4,14 +4,16 @@ Offline-first family fishing tracker. It's a web app you install to your phone's
 
 | Feature | How it works |
 |---|---|
-| **Explore (kid mode)** | **📍 Pick a place** → best fish there *this month* (ranked for kids), bait, lure and the rig for the rod you pick (kids' Ugly Stik / fresh / salt), today's best times + next 2 days, and everything researched about the spot (where to stand, hours, cost, restrooms, bait shop, kid notes, rules, tips from online reports, website, phone). **🐟 Pick a fish** (or type one: "bream", "trout") → where to catch it, ranked by kid-friendliness, drive time or distance from you → same spot page. |
+| **Explore (kid mode)** | **📍 Pick a place** → best fish there *this month* (ranked for kids), bait, lure and the rig for the rod you pick (kids' Ugly Stik / fresh / salt), a big "best time to go" card + the 7-day strip, and everything researched about the spot (where to stand, hours, cost, restrooms, bait shop, kid notes, rules, tips from online reports, website, phone). **🐟 Pick a fish** (or type one: "bream", "trout") → where to catch it, ranked by kid-friendliness, drive time or distance from you → same spot page. |
 | **Water temp** | Live reading from the nearest NOAA pier sensor or USGS gauge whenever you have signal (check it **from home** before a trip), the normal for any date (2021–2025 averages, offline), how far off normal the water is running, and which fish are in their prime temperature range. Proxy sensors are labeled when a lake/river has none. |
 | **Trip game plan** | Pick what you're fishing for (at trip start or anytime) → for each fish: what to look for from shore, bait, lures, the rig for your rod, water-temp fit, and limits. "Pick today's best bets" does it in one tap. |
 | **Trips** | Pick a spot, tick who's fishing (you're the default), go. Live party tally + per-angler counts. |
 | **Catches** | Photo (camera or gallery), **GPS + date/time captured automatically**, species, length, weight (lb/oz), released vs kept, bait, notes. |
 | **Trip totals** | Total caught for the whole party, released/kept, leaderboard with each angler's biggest fish, species breakdown, one-tap text summary to share. |
 | **SC limit checker** | Warns *before* you keep an undersize, over-slot, closed-season or over-limit fish (incl. the July 2026 red drum rules and Santee Cooper striper slot). |
-| **Best times** | **NOAA tides** (salt spots) + dawn/dusk light → top fishing windows with reasons, tide size vs average (the moon's real effect), sun times, a 24-hr timeline, and a 7-day planner. No solunar periods: the evidence doesn't support them. |
+| **Best time to go (kid-obvious)** | One big card on the **Trip home screen**, the **top of Times**, and **every spot page**: "Best time to go today: 6:15–7:45 AM 🐟🐟🐟 Great" + the reasons in kid words ("Sun coming up", "Tide coming in fast"). Shows 🎯 RIGHT NOW when you're in a window and rolls to tomorrow once today's are over. Under it, **📅 This week**: 7 day tiles, the best day outlined, and one sentence on why (e.g. "Tides get SMALLER each day this week, so the current is strongest early in the week"). |
+| **🧠 Time School** | "How did we pick this?" on the card → 3 short lessons on the spot's real data (sunrise/sunset, a tide chart with the fast water in green, water temp + which fish love it), then a 5-question "which time would you pick?" quiz built from today's actual scores. |
+| **Best times (details)** | **NOAA tides** (salt spots) + dawn/dusk light → top fishing windows with reasons, tide size vs average (the moon's real effect), sun times, a 24-hr timeline. No solunar periods: the evidence doesn't support them. |
 | **Guide** | 28 local species: ID marks, look-alikes, SC limits, fall pattern, bait, lures, and a rig for each of your rods (salt rod, fresh rod, kids' Ugly Stiks). |
 | **ID helper** | Tap what you see (tail spot, chin whiskers, flat body…) → ranked matches. Fully offline. |
 | **Stats & Insights** | Personal bests per angler per species; **catch-per-hour by tide stage and light** from your own trips. |
@@ -47,7 +49,7 @@ project, not a weekend build. Use these instead:
 cd apps/catch-log
 npm install
 npm run dev        # local dev server (phone on same Wi-Fi: use the "Network" URL)
-npm test           # unit tests: sun times, tides, best-window scoring, SC limit checker, data integrity
+npm test           # unit tests: sun times, tides, best-window scoring, kid ratings + quiz, SC limit checker, data integrity
 npm run build      # production build → dist/
 npm run docs       # regenerate ../../fishing/*.md from src/data (single source of truth)
 ```
@@ -73,10 +75,12 @@ src/
   data/       species.js (ID, regs, baits, rigs, season, kid ease, water temp range, shore cues) · spots.js · spotInfo.js
               watertemp.js (sensors, 2021–2025 normals, spot → sensor)
               rods.js · science.js  ← edit these
-  lib/        sunmoon.js · tides.js (NOAA cache + tide range) · windows.js (scoring) · regs.js (limit checker) · explore.js (rankings) · watertemp(-core).js (live + normals)
+  lib/        sun.js · tides.js (NOAA cache + tide range) · windows.js (scoring) · regs.js (limit checker) · explore.js (rankings) · watertemp(-core).js (live + normals)
+              kidtimes.js (1–3 fish rating, kid reasons, best day of week, quiz)
               capture.js (photo + GPS) · conditions.js (per-catch snapshot + effort) · backup.js · db.js
+  components/ kid.jsx (BestTimeHero card + WeekStrip) · fishing.jsx (fish cards, rod picker, water temp card)
   screens/    Home (live trip) · Explore (place→fish, fish→places, spot guide) · StartTrip · CatchForm · TripDetail
-              Times · Spots (add your own) · Guide · Stats · Settings
+              Times · Learn (Time School) · Spots (add your own) · Guide · Stats · Settings
 scripts/gen-docs.mjs   writes fishing/*.md from src/data
 ```
 

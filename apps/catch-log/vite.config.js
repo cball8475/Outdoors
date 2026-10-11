@@ -44,5 +44,7 @@ export default defineConfig({
   build: { chunkSizeWarningLimit: 700 },
   test: {
     environment: 'node',
+    // sunrise/"family hours" tests assume South Carolina local time, whatever the machine's clock says
+    env: { TZ: 'America/New_York' },
   },
 })

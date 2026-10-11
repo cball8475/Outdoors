@@ -11,6 +11,8 @@ import { useWaterTemp } from '../lib/watertemp.js'
 import { fishForSpot } from '../lib/explore.js'
 import { SPOT_INFO } from '../data/spotInfo.js'
 import { useRod, RodPicker, FishCard, WaterTempCard } from '../components/fishing.jsx'
+import { BestTimeHero, useSpotTides } from '../components/kid.jsx'
+import { getSetting } from '../lib/db.js'
 
 export function speciesName(c) {
   return SPECIES_BY_ID[c.speciesId]?.name || c.speciesOther || 'Unknown fish'
@@ -61,6 +63,7 @@ function NoTrip() {
         <button className="btn-primary btn-big" onClick={() => go('/start')}>
           ＋ Start a trip
         </button>
+        <TodayAtMySpot />
         <div className="card">
           <h2>Recent trips</h2>
           {!trips?.length ? (
@@ -309,5 +312,26 @@ function GamePlan({ trip, spot, tempF }) {
         <FishCard key={row.species.id} row={row} rod={rod} spot={spot} tempF={tempF} open={open === i} onToggle={() => setOpen(open === i ? -1 : i)} />
       ))}
     </div>
+  )
+}
+
+/** "Best time today" for the spot you used last (or looked at last on Times). */
+function TodayAtMySpot() {
+  const spot = useLiveQuery(async () => {
+    const last = await db.trips.orderBy('startedAt').last()
+    const id = last?.spotId || (await getSetting('timesSpotId'))
+    return id ? db.spots.get(id) : db.spots.where('key').equals('mb-state-park-pier').first()
+  }, [])
+  const preds = useSpotTides(spot)
+  if (!spot) return null
+  return (
+    <>
+      <small className="muted">At {spot.name} (<a href="#/explore">pick another spot</a>)</small>
+      <BestTimeHero spot={spot} preds={preds} compact>
+        <a className="btn btn-small" href={`#/start?spot=${spot.id}`} style={{ background: 'rgba(255,255,255,0.15)', color: 'inherit', borderColor: 'transparent' }}>
+          🎣 Fish here
+        </a>
+      </BestTimeHero>
+    </>
   )
 }

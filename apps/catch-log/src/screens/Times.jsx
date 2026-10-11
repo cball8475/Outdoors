@@ -14,6 +14,7 @@ import { getCachedTides, downloadTides, extremesBetween, heightAt, tideRangeForD
 import { fmtTime, fmtRange, fmtDate, fmtDateLong, todayKey } from '../lib/format.js'
 import { useWaterTemp } from '../lib/watertemp.js'
 import { WaterTempCard } from '../components/fishing.jsx'
+import { BestTimeHero, WeekStrip } from '../components/kid.jsx'
 
 function shiftDay(key, n) {
   const [y, m, d] = key.split('-').map(Number)
@@ -116,21 +117,14 @@ function DayView({ spot, date, tides, onPickDay }) {
   const w = scored.usedTides ? WEIGHTS.salt : WEIGHTS.fresh
   const wt = useWaterTemp(spot, date)
 
-  const week = useMemo(() => {
-    const out = []
-    for (let i = 0; i < 7; i++) {
-      const k = shiftDay(todayKey(), i)
-      const d = sunDay(k, spot.lat, spot.lon)
-      const b = dayBounds(d.date)
-      const s = scoreDay(d, spot.water, preds)
-      out.push({ key: k, day: d, best: s.windows[0], range: salt ? tideRangeForDay(preds, b.start, b.end) : null })
-    }
-    return out
-  }, [spot.lat, spot.lon, spot.water, preds, salt])
-
   return (
     <>
       <TideStatus spot={spot} tides={tides} date={date} />
+
+      <BestTimeHero spot={spot} date={date} preds={preds} />
+      <WeekStrip spot={spot} preds={preds} selectedKey={date} onPickDay={onPickDay} />
+
+      <h2 style={{ marginTop: 8 }}>🔎 The details</h2>
 
       <div className="card stack" style={{ gap: 6 }}>
         <h2>{fmtDateLong(day.date)}</h2>
@@ -145,7 +139,7 @@ function DayView({ spot, date, tides, onPickDay }) {
       <WaterTempCard wt={wt} date={date} />
 
       <div className="card stack">
-        <h2>Best windows</h2>
+        <h2>All good windows</h2>
         {scored.windows.map((win, i) => (
           <div className="window" key={i}>
             <div className={`score ${i === 0 ? 'hi' : ''}`}>{win.score}</div>
@@ -191,23 +185,6 @@ function DayView({ spot, date, tides, onPickDay }) {
         </div>
       )}
 
-      <div className="card">
-        <h2>Next 7 days</h2>
-        <div className="list">
-          {week.map((d) => (
-            <button key={d.key} className="item" style={{ border: 0, borderRadius: 0, background: 'transparent', textAlign: 'left' }} onClick={() => onPickDay(d.key)}>
-              <div className="grow">
-                <b>{fmtDate(`${d.key}T12:00`)}</b>
-                <div className="muted" style={{ fontSize: '0.85rem' }}>
-                  Best {fmtRange(d.best.start, d.best.end)}
-                  {d.range ? ` · ${d.range.size === 'big' ? 'big tides' : d.range.size === 'small' ? 'small tides' : 'avg tides'}` : ''}
-                </div>
-              </div>
-              <div className={`badge ${d.best.score >= 70 ? 'good' : ''}`}>{d.best.score}</div>
-            </button>
-          ))}
-        </div>
-      </div>
     </>
   )
 }

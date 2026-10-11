@@ -13,6 +13,10 @@ export function Guide({ tab, water: waterParam }) {
     <>
       <TopBar title="Guide" />
       <div className="page">
+        <a className="card" href="#/learn" style={{ textDecoration: 'none', color: 'inherit' }}>
+          <b>🧠 Time School</b>
+          <div className="muted" style={{ fontSize: '0.9rem' }}>Learn when fish bite (sun, tide, water temp) + a quiz with today's real times</div>
+        </a>
         <Toggle value={tab} onChange={setTab} options={[['species', 'Species'], ['id', 'ID help'], ['rods', 'Rods'], ['science', 'Science']]} />
         {tab === 'species' && <SpeciesList />}
         {tab === 'id' && <IdHelper initialWater={waterParam} />}

@@ -5,11 +5,12 @@
 //   🐟 Pick a fish  → the places to catch it (ranked), then the same spot page
 // Big buttons, short words, kids' Ugly Stik rig shown first.
 // ---------------------------------------------------------------------------
-import { useMemo, useState } from 'react'
+import { useState } from 'react'
 import { useLiveQuery } from 'dexie-react-hooks'
 import { db } from '../lib/db.js'
 import { TopBar, Toggle, Stars, Empty, back, go } from '../components/ui.jsx'
 import { SeasonBadge, KidEase, FitBadge, useRod, RodPicker, FishCard, WaterTempCard, SEASON_ICON } from '../components/fishing.jsx'
+import { BestTimeHero, WeekStrip, useSpotTides } from '../components/kid.jsx'
 import { SPECIES_BY_ID, SEASON_LABEL } from '../data/species.js'
 import { SPOT_CLOSED, directionsUrl, fmtDrive } from '../data/spots.js'
 import { SPOT_INFO, SPOT_INFO_DATE } from '../data/spotInfo.js'
@@ -18,49 +19,7 @@ import { useWaterTemp, sourceForSpot, normalFor, tempFit } from '../lib/watertem
 import { fishForSpot, spotsForFish, fishInSeason, rigFor } from '../lib/explore.js'
 import { regsSummary } from '../lib/regs.js'
 import { getPosition } from '../lib/capture.js'
-import { sunDay } from '../lib/sun.js'
-import { scoreDay } from '../lib/windows.js'
-import { getCachedTides } from '../lib/tides.js'
-import { fmtRange, fmtDate } from '../lib/format.js'
-
-/** Today's top windows + best window for the next 2 days. */
-function BestTimesMini({ spot }) {
-  const tides = useLiveQuery(() => (spot.tideStation ? getCachedTides(spot.tideStation) : null), [spot.tideStation])
-  const preds = tides?.predictions || null
-  const days = useMemo(() => {
-    const out = []
-    for (let i = 0; i < 3; i++) {
-      const d = new Date()
-      d.setDate(d.getDate() + i)
-      const day = sunDay(d, spot.lat, spot.lon)
-      out.push({ day, scored: scoreDay(day, spot.water, preds) })
-    }
-    return out
-  }, [spot.lat, spot.lon, spot.water, preds])
-  const [today, ...next] = days
-  return (
-    <div className="card stack">
-      <h2>⏰ Best times</h2>
-      {today.scored.windows.slice(0, 2).map((w, i) => (
-        <div className="window" key={i}>
-          <div className={`score ${i === 0 ? 'hi' : ''}`}>{w.score}</div>
-          <div>
-            <b>Today {fmtRange(w.start, w.end)}</b>
-            <div className="muted" style={{ fontSize: '0.9rem' }}>{w.reasons.join(' · ')}</div>
-          </div>
-        </div>
-      ))}
-      {next.map(({ day, scored }) => (
-        <div key={day.date.toISOString()} className="row between" style={{ fontSize: '0.95rem' }}>
-          <span>{fmtDate(day.date)}</span>
-          <span><b>{fmtRange(scored.windows[0].start, scored.windows[0].end)}</b> <span className="badge">{scored.windows[0].score}</span></span>
-        </div>
-      ))}
-      {spot.water === 'salt' && !preds && <small className="muted">Tides download automatically next time you have signal.</small>}
-      <a href={`#/times?spot=${spot.id}`}>All times & tides →</a>
-    </div>
-  )
-}
+import { fmtDate } from '../lib/format.js'
 
 /** "About this spot": researched info baked in for offline use. */
 function SpotAbout({ spot }) {
@@ -219,6 +178,7 @@ export function SpotGuide({ spotId }) {
   const [open, setOpen] = useState(0)
   const [showAll, setShowAll] = useState(false)
   const wt = useWaterTemp(spot)
+  const preds = useSpotTides(spot)
   if (!spot) return null
   const tempF = wt?.best ?? null
   const fish = fishForSpot(spot, { forKids: rod === 'kids', tempF })
@@ -246,6 +206,8 @@ export function SpotGuide({ spotId }) {
 
         <button className="btn-primary btn-big" onClick={() => go(`/start?spot=${spot.id}`)}>🎣 Fish here now</button>
 
+        <BestTimeHero spot={spot} preds={preds} compact />
+        <WeekStrip spot={spot} preds={preds} onPickDay={(k) => go(`/times?spot=${spot.id}&date=${k}`)} />
         <WaterTempCard wt={wt} />
 
         <div className="stack" style={{ gap: 8 }}>
@@ -261,7 +223,6 @@ export function SpotGuide({ spotId }) {
           )}
         </div>
 
-        <BestTimesMini spot={spot} />
         <SpotAbout spot={spot} />
 
         {!spot.builtIn && <button className="btn-danger" onClick={remove}>Delete spot</button>}
