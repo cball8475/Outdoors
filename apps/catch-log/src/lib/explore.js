@@ -3,12 +3,14 @@
 //   1) "I'm going HERE. What should I fish for?"  → fishForSpot()
 //   2) "I want to catch THIS fish. Where?"        → spotsForFish()
 //
-// Ranking uses only offline data: the researched target list for each spot,
-// each species' month-by-month season rating, how kid-easy it is, closed
-// seasons at that water, the spot's kid-friendliness and drive time.
+// Ranking uses offline data (the researched target list for each spot, each
+// species' month-by-month season rating, how kid-easy it is, closed seasons
+// at that water, the spot's kid-friendliness and drive time) plus the water
+// temp when known (live sensor or the monthly normal).
 // ---------------------------------------------------------------------------
 import { SPECIES, SPECIES_BY_ID } from '../data/species.js'
 import { pickRegs, spotWaters } from './regs.js'
+import { tempFit } from './watertemp-core.js'
 
 const fits = (sp, water) => sp.water === water || sp.water === 'both'
 
@@ -34,7 +36,7 @@ export function closedAt(species, spot, date = new Date()) {
  * @param {object} [opts] { date, forKids }
  * @returns {Array<{species, season, kidEase, listed, closed, score, regs}>} best first
  */
-export function fishForSpot(spot, { date = new Date(), forKids = false } = {}) {
+export function fishForSpot(spot, { date = new Date(), forKids = false, tempF = null } = {}) {
   if (!spot) return []
   const month = new Date(date).getMonth()
   const listed = new Set(spot.targets || [])
@@ -47,10 +49,14 @@ export function fishForSpot(spot, { date = new Date(), forKids = false } = {}) {
       const closed = closedAt(s, spot, date)
       const kid = s.kidEase || 0
       // season dominates; listed-at-this-spot and kid-ease break ties
+      // water temp (live or normal) nudges the order: prime +8, too cold/warm −12
+      const fit = tempFit(s, tempF)
       let score = season * 10 + (listed.has(s.id) ? 6 : 0) + (forKids ? kid * 3 : 0)
+      if (fit?.level === 'prime') score += 8
+      if (fit?.level === 'slow') score -= 12
       if (forKids && kid === 0) score -= 40
       if (closed) score -= 50
-      return { species: s, season, kidEase: kid, listed: listed.has(s.id), closed, score, regs: pickRegs(s, spotWaters(spot)) }
+      return { species: s, season, kidEase: kid, listed: listed.has(s.id), closed, score, fit, regs: pickRegs(s, spotWaters(spot)) }
     })
     .sort((a, b) => b.score - a.score || a.species.name.localeCompare(b.species.name))
 }

@@ -20,6 +20,12 @@
 - **Look-alikes:** Black drum has chin barbels and no tail spot. Spot (the small fish) has a shoulder spot, not a tail spot.
 - **SC limits:** 18–25" TL · 1/person/day · 2/boat. New July 1, 2026: 18–25″ slot, 1/person, 2/boat. Natural bait on hooks 4/0+ must be a non-offset, non-stainless CIRCLE hook. Nearly every fall bull red is over the slot: release it fast.
 - **Oct–Nov:** Peak season. Adults leave the inlets late Oct–Nov and run the beaches ("bull red run"). Slot reds stack in creeks and along jetties on falling tides.
+- **Water temp:** feeds best at 68–80°F (active 60–85°F)
+- **From shore, look for:**
+  - Surf: the first trough/slough between the beach and the sandbar (darker green water = deeper).
+  - Creek mouths, points and oyster bars on a FALLING tide, where bait gets flushed out.
+  - Grass edges at high tide: watch for tails, wakes or "nervous" water.
+  - Diving birds or mullet schools getting pushed along the beach.
 - **Where (kid-friendliest first):** Surfside Pier · Myrtle Beach State Park Pier · Murrells Inlet MarshWalk / Morse Park Landing · Mount Pleasant Pier · Apache Pier · Springmaid Pier
 - **Bait:** Cut or live finger mullet · Cut menhaden (pogy) · Blue crab (halved) · Live shrimp
 - **Lures:** Gold weedless spoon · 3–4″ paddletail on 1/4 oz jighead · Gulp! Shrimp · Topwater walker at dawn
@@ -36,6 +42,12 @@
 - **Look-alikes:** Weakfish: spots in wavy diagonal rows, no spots on fins. Silver seatrout: no spots.
 - **SC limits:** 14" min TL · 10/person/day. Saltwater gamefish: circle-hook rule applies to natural bait on 4/0+ hooks. No gigging Dec 1–Feb 28.
 - **Oct–Nov:** October–November is the peak. Cold fronts kick the bite on; fish move to deeper creek bends and channels as water drops below ~60°F.
+- **Water temp:** feeds best at 65–78°F (active 58–82°F)
+- **From shore, look for:**
+  - Moving water at creek mouths and deep bends, where current rips past a point.
+  - Grass lines and oyster rakes; work a popping cork just off the edge.
+  - Dock and pier lights at night: trout sit on the shadow line.
+  - After a cool front in fall, try deeper holes in the creeks.
 - **Where (kid-friendliest first):** Murrells Inlet MarshWalk / Morse Park Landing · Mount Pleasant Pier · Georgetown: East Bay Park / Winyah Bay · Pawleys Island (surf & creek) · Garris Landing (Cape Romain NWR) · Huntington Beach SP: Murrells Inlet South Jetty
 - **Bait:** Live shrimp (#1 bait by far) · Live finger mullet · Mud minnows
 - **Lures:** Popping cork + Vudu/Gulp shrimp · MirrOlure suspending twitchbait · 3″ paddletail on 1/8–1/4 oz jighead · Topwater at dawn
@@ -52,6 +64,12 @@
 - **Look-alikes:** Summer flounder: 5 eye-like spots. Gulf flounder: 3 eyespots in a triangle. Same limits either way.
 - **SC limits:** 16" min TL · 5/person/day · 10/boat. 16″ TL minimum since July 1, 2021. Limits apply to hook-and-line AND gig.
 - **Oct–Nov:** Big females stage at inlets and jetties in Oct–Nov before heading offshore to spawn. Last good shot of the year.
+- **Water temp:** feeds best at 65–78°F (active 58–82°F)
+- **From shore, look for:**
+  - Tight to pilings, dock posts and jetty rocks: flounder lie flat right against structure.
+  - Sandy bottom beside structure where current sweeps bait past.
+  - Drop-offs and inlet edges on a falling tide.
+  - Drag bait SLOWLY on the bottom; a thump = flounder. Count to 10 before reeling.
 - **Where (kid-friendliest first):** Myrtle Beach State Park Pier · Murrells Inlet MarshWalk / Morse Park Landing · Mount Pleasant Pier · Second Avenue Pier · Garden City Pier · Cherry Grove Pier
 - **Bait:** Live finger mullet · Live mud minnows · Live menhaden
 - **Lures:** Gulp! Swimming Mullet 3–4″ on 1/4 oz jighead · Bucktail tipped with Gulp
@@ -68,6 +86,11 @@
 - **Look-alikes:** Juvenile black drum also have bars but have chin barbels and no human teeth.
 - **SC limits:** 14" min TL · 10/person/day · 30/boat
 - **Oct–Nov:** Build up on jetties, pilings and bridges through late fall into winter.
+- **Water temp:** feeds best at 60–72°F (active 55–80°F)
+- **From shore, look for:**
+  - Barnacle-crusted pilings, jetty rocks and bridge supports.
+  - Drop straight down tight to the structure (no casting).
+  - Bites are tiny taps; set the hook on the first feel.
 - **Where (kid-friendliest first):** Murrells Inlet MarshWalk / Morse Park Landing · Mount Pleasant Pier · Garris Landing (Cape Romain NWR) · Huntington Beach SP: Murrells Inlet South Jetty
 - **Bait:** Fiddler crabs · Barnacles / oysters scraped from pilings · Sand fleas
 - **Lures:** Not a lure fish. Use bait.
@@ -84,6 +107,11 @@
 - **Look-alikes:** Sheepshead: human teeth, no barbels. Red drum: tail spot, no barbels.
 - **SC limits:** 14–27" TL · 5/person/day
 - **Oct–Nov:** Steady at piers, bridges and inlets all fall.
+- **Water temp:** feeds best at 62–75°F (active 55–82°F)
+- **From shore, look for:**
+  - Deeper holes around pier and bridge pilings.
+  - Oyster bars and channel edges; they root on the bottom for crabs and clams.
+  - Bottom rig with shrimp; let them chew before reeling.
 - **Where (kid-friendliest first):** Garden City Pier · Cherry Grove Pier · Georgetown: East Bay Park / Winyah Bay · Huntington Beach SP: Murrells Inlet South Jetty
 - **Bait:** Fresh shrimp (peeled or whole) · Clams · Cut blue crab
 - **Lures:** Rarely: Fishbites on a bottom rig
@@ -100,6 +128,11 @@
 - **Look-alikes:** Croaker has several barbels and a brassy color with wavy lines.
 - **SC limits:** 50/person/day. 50/person/day COMBINED with spot + croaker (hook & line). No size limit.
 - **Oct–Nov:** Strong fall fish in the surf troughs and around piers. The best kid fish on the coast.
+- **Water temp:** feeds best at 60–72°F (active 55–80°F)
+- **From shore, look for:**
+  - The FIRST trough just past the shore break, so short casts work.
+  - Sandy bottom with some wave action; find sand fleas in the wash and fish there.
+  - Moving tide (either direction) beats slack.
 - **Where (kid-friendliest first):** Surfside Pier · Myrtle Beach State Park Pier · Second Avenue Pier · Apache Pier · Springmaid Pier · Cherry Grove Pier
 - **Bait:** Fresh shrimp (small pieces) · Sand fleas (mole crabs) · Bloodworms
 - **Lures:** Fishbites (shrimp or sand flea flavor) on bottom rig
@@ -116,6 +149,11 @@
 - **Look-alikes:** Pinfish: shoulder spot too, but blue/yellow stripes and spiny. Red drum: spot is on the TAIL.
 - **SC limits:** 50/person/day. 50/person/day COMBINED with whiting + croaker. No size limit.
 - **Oct–Nov:** October "spot run" along piers and in inlets (timing varies year to year).
+- **Water temp:** feeds best at 65–75°F (active 60–82°F)
+- **From shore, look for:**
+  - Around pier pilings over sandy bottom.
+  - Fall "spot run": when people around you are catching them, stay put; they travel in schools.
+  - Small #6 hooks + bloodworm bits.
 - **Where (kid-friendliest first):** Myrtle Beach State Park Pier · Apache Pier
 - **Bait:** Bloodworms · Small shrimp pieces
 - **Lures:** Bloodworm Fishbites
@@ -132,6 +170,10 @@
 - **Look-alikes:** Whiting: one barbel, plain silver.
 - **SC limits:** 50/person/day. 50/person/day COMBINED with whiting + spot. No size limit.
 - **Oct–Nov:** Common around piers and inlets into November.
+- **Water temp:** feeds best at 68–80°F (active 60–85°F)
+- **From shore, look for:**
+  - Sandy/muddy bottom near piers and inlets; deeper troughs.
+  - Evenings and night are best.
 - **Where (kid-friendliest first):** Myrtle Beach State Park Pier · Second Avenue Pier · Apache Pier · Cherry Grove Pier · Pier 14
 - **Bait:** Shrimp · Bloodworms · Squid strips
 - **Lures:** Fishbites
@@ -148,6 +190,11 @@
 - **Look-alikes:** Spanish mackerel has gold spots; jacks have a hard scute line near the tail.
 - **SC limits:** 5/person/day. No size limit. 7/person on for-hire boats.
 - **Oct–Nov:** Blitz the mullet schools along the beach and piers in October.
+- **Water temp:** feeds best at 64–72°F (active 60–80°F)
+- **From shore, look for:**
+  - Bait getting busted: splashing, diving birds, mullet jumping.
+  - October mullet schools along the beach; blues follow them.
+  - Pier ends and inlet mouths. Use a short wire or heavy leader.
 - **Where (kid-friendliest first):** Surfside Pier · Apache Pier · Springmaid Pier · Cherry Grove Pier · Folly Beach Pier · Pier 14
 - **Bait:** Cut mullet · Cut menhaden · Live finger mullet
 - **Lures:** Gotcha plug · Silver spoon (Hopkins, Clark) · Metal jig
@@ -164,6 +211,11 @@
 - **Look-alikes:** Young king mackerel: lateral line dips sharply under the 2nd back fin; no black on the 1st back fin.
 - **SC limits:** 12" min FL · 15/person/day
 - **Oct–Nov:** Leave as water cools through October; early-October pier mornings are the last shot.
+- **Water temp:** feeds best at 72–82°F (active 68–85°F)
+- **From shore, look for:**
+  - Clear green water off pier ends at sunrise.
+  - Birds diving on tiny glass minnows.
+  - Retrieve FAST; Spanish chase speed.
 - **Where (kid-friendliest first):** Surfside Pier · Springmaid Pier
 - **Bait:** Live finger mullet · Glass minnows
 - **Lures:** Gotcha plug · Clark spoon · Small silver metal jig
@@ -181,6 +233,9 @@
 - **SC limits:** 24" min FL · 3/person/day
 - **Eating:** FDA lists king mackerel as a "choice to avoid" (high mercury), especially for kids and pregnant women.
 - **Oct–Nov:** Sept–Oct pier-end kings when bait is thick (Cherry Grove, Apache, Springmaid king passes).
+- **Water temp:** feeds best at 70–78°F (active 68–85°F)
+- **From shore, look for:**
+  - Pier ends only: clean green water with menhaden (pogies) around. Specialized anchor-rig gear.
 - **Where (kid-friendliest first):** Apache Pier · Springmaid Pier · Cherry Grove Pier · Folly Beach Pier
 - **Bait:** Live menhaden · Live bluefish
 - **Lures:** Pier king fishing is live bait
@@ -195,6 +250,10 @@
 - **Look-alikes:** Permit (rare here): deeper body, no yellow.
 - **SC limits:** No size limit. No SC size or creel limit listed.
 - **Oct–Nov:** Fall run along the beach in the surf, often with whiting.
+- **Water temp:** feeds best at 70–80°F (active 68–85°F)
+- **From shore, look for:**
+  - Steeper beaches with a defined trough and sand fleas in the wash.
+  - Clear water; often right after a front passes.
 - **Where (kid-friendliest first):** Pawleys Island (surf & creek) · Folly Beach Pier
 - **Bait:** Sand fleas (#1) · Shrimp · Fishbites
 - **Lures:** Small 1/4–1/2 oz pompano jig (yellow/pink)
@@ -211,6 +270,9 @@
 - **Look-alikes:** Remora (sharksucker) has a suction disk on its head.
 - **SC limits:** 36" min FL · 1/person/day · 6/boat. North of 32°31′N (the Grand Strand): 1/person, 6/boat. Circle-hook rule applies to natural bait 4/0+.
 - **Oct–Nov:** Mostly a spring fish here; occasional pier-end fish.
+- **Water temp:** feeds best at 70–78°F (active 68–85°F)
+- **From shore, look for:**
+  - Sight fishing: big brown fish cruising near the surface around pier ends, buoys or rays.
 - **Bait:** Live eels · Live menhaden
 - **Lures:** Large bucktail jig
 - **Rig it:**
@@ -224,6 +286,9 @@
 - **Look-alikes:** Spot: shoulder spot but plain yellowish diagonal lines.
 - **SC limits:** No size limit. No limit. Excellent live bait for reds and flounder.
 - **Oct–Nov:** Everywhere around docks and pilings until water cools.
+- **Water temp:** feeds best at 70–85°F (active 60–88°F)
+- **From shore, look for:**
+  - Around any dock, piling or grass edge, usually the first thing to bite. Great live bait.
 - **Bait:** Tiny pieces of shrimp
 - **Lures:** Sabiki rig
 - **Rig it:**
@@ -251,6 +316,11 @@
   - *pee-dee-rivers:* 26" min TL · 3/person/day · closed 06-16→09-30. Pee Dee-area rivers: SOURCES CONFLICT (statewide 10/day vs 26″ min, 3/day, closed Jun 16–Sep 30). The stricter rule is applied here. Check the posted regs.
   - *sc-salt:* 26" min TL · 3/person/day · closed 06-16→09-30. Salt water: 26″ TL min, 3/day Oct 1–Jun 15; possession prohibited Jun 16–Sep 30. Circle-hook rule applies.
 - **Oct–Nov:** Santee Cooper reopens Oct 1. Stripers school under birds and chase herring/shad as water cools. Mostly a boat fishery.
+- **Water temp:** feeds best at 55–68°F (active 50–72°F)
+- **From shore, look for:**
+  - Below dams and in tailraces where current pushes bait.
+  - Diving birds over open water = schooling stripers.
+  - Points and humps at dawn in cool weather.
 - **Where (kid-friendliest first):** Santee State Park (Lake Marion) · Georgetown: East Bay Park / Winyah Bay · Lake Murray: Saluda Dam North Rec Area pier · Lake Wateree State Park · Great Pee Dee River: US 76/301 Bridge Landing
 - **Bait:** Live blueback herring · Live gizzard / threadfin shad · Cut herring
 - **Lures:** Bucktail jig · Topwater walker when schooling · 4–5″ swimbait · Umbrella rig (boat)
@@ -272,6 +342,11 @@
   - *wateree:* 14" min TL · 5/person/day. Lake Wateree: 14″ minimum, 5/day.
   - *ashwood:* 3/person/day. Lake Ashwood (SC Reg 123-210): 3 bass/day. No minnows or shiners as bait.
 - **Oct–Nov:** Follow shad into creek arms and shallow flats; feed hard as water cools into the 60s°F. One of the best months of the year.
+- **Water temp:** feeds best at 65–78°F (active 55–85°F)
+- **From shore, look for:**
+  - Cover: docks, fallen trees, grass edges, lily pads.
+  - Fall: points and creek mouths where shad gather.
+  - Shallow at dawn/dusk; shade lines and deeper edges at midday.
 - **Where (kid-friendliest first):** Prestwood Lake (Lawton Park) · Lake Ashwood (SCDNR) · Little Pee Dee State Park · Carolina Sandhills NWR · Santee State Park (Lake Marion) · Cheraw State Park (Lake Juniper)
 - **Bait:** Live shiners · Nightcrawlers (small bass)
 - **Lures:** Buzzbait / walking topwater (dawn) · Lipless crankbait (shad color) · Spinnerbait · ChatterBait · 5″ stick worm (wacky or Texas)
@@ -289,6 +364,11 @@
 - **SC limits:** 30/person/day. 30/day bream aggregate (bluegill, redear, warmouth, redbreast), no size limit.
   - *ashwood:* 15/person/day. Lake Ashwood (SC Reg 123-210): 15 bream/day incl. redbreast.
 - **Oct–Nov:** Leave the shallow beds for brush piles and docks in 6–12 ft.
+- **Water temp:** feeds best at 68–80°F (active 62–85°F)
+- **From shore, look for:**
+  - Docks, brush piles, overhanging trees: 2–6 ft deep just off the bank.
+  - Spring: pale circles in shallow sand = spawning beds.
+  - If the bobber doesn't move in 5 minutes, move 20 feet.
 - **Where (kid-friendliest first):** Lynches River County Park · Prestwood Lake (Lawton Park) · Lee State Park · Lake Ashwood (SCDNR) · Little Pee Dee State Park · Carolina Sandhills NWR
 - **Bait:** Red wigglers · Crickets · Pieces of nightcrawler
 - **Lures:** 1/32 oz tube or curly-tail jig · Beetle Spin · Small inline spinner
@@ -305,6 +385,9 @@
 - **SC limits:** 30/person/day. 30/day bream aggregate.
   - *ashwood:* 15/person/day
 - **Oct–Nov:** Bottom feeders on snails; hold deeper than bluegill in fall.
+- **Water temp:** feeds best at 66–78°F (active 62–82°F)
+- **From shore, look for:**
+  - On the bottom near shell beds, a little deeper than bluegill.
 - **Where (kid-friendliest first):** Prestwood Lake (Lawton Park) · Lake Ashwood (SCDNR)
 - **Bait:** Red wigglers on the bottom · Crickets
 - **Lures:** Small jig fished on the bottom
@@ -321,6 +404,10 @@
 - **SC limits:** 30/person/day · (≤15 of this species). 30/day bream aggregate, but no more than 15 redbreast.
   - *ashwood:* 15/person/day · (≤15 of this species)
 - **Oct–Nov:** Hold in eddies behind logs and along shaded banks as rivers drop.
+- **Water temp:** feeds best at 66–78°F (active 60–82°F)
+- **From shore, look for:**
+  - River eddies behind logs, undercut banks, slow water right next to current.
+  - Shaded banks on sunny days.
 - **Where (kid-friendliest first):** Lynches River County Park · Lee State Park · Black River State Park (The Meadows)
 - **Bait:** Crickets · Red wigglers
 - **Lures:** Beetle Spin · Small Rooster Tail
@@ -337,6 +424,9 @@
 - **SC limits:** 30/person/day. 30/day bream aggregate.
   - *ashwood:* 15/person/day
 - **Oct–Nov:** Around stumps and cypress knees in swamps and rivers.
+- **Water temp:** feeds best at 68–80°F (active 62–85°F)
+- **From shore, look for:**
+  - Stumps, cypress knees and thick wood in dark swampy water.
 - **Bait:** Worms · Small minnows · Crickets
 - **Lures:** Small jig · Beetle Spin
 - **Rig it:**
@@ -351,6 +441,11 @@
 - **Look-alikes:** Bluegill: small mouth, ear flap.
 - **SC limits:** 8" min TL · 20/person/day. 8″ minimum, 20/day statewide (incl. Santee Cooper).
 - **Oct–Nov:** Move from mid-depth brush piles to creek channels and suspend near shad. October minnow bite on Santee Cooper brush.
+- **Water temp:** feeds best at 58–70°F (active 50–75°F)
+- **From shore, look for:**
+  - Brush piles, docks and bridge pilings; crappie suspend at mid-depth, so set the bobber to match.
+  - Fall: creek channels and wherever shad are flickering.
+  - Lift gently; their mouths tear.
 - **Where (kid-friendliest first):** Santee State Park (Lake Marion) · Lake Murray: Saluda Dam North Rec Area pier · Lake Wateree State Park · Santee NWR (Lake Marion) · Lake Moultrie: Fred L. Day Pier
 - **Bait:** Live crappie minnows
 - **Lures:** 1/16–1/8 oz jig with 2″ tube or curly tail · Small hair jig
@@ -367,6 +462,10 @@
 - **SC limits:** No size limit. No statewide creel listed in the 2026–27 guide (verify on posted signs).
   - *ashwood:* 5/person/day. Lake Ashwood (SC Reg 123-210, eff. 5/26/2023): 5 catfish/day. No minnows as bait.
 - **Oct–Nov:** SCDNR: "October could be a very good month for catfish." Fish move deeper as water cools.
+- **Water temp:** feeds best at 70–84°F (active 62–88°F)
+- **From shore, look for:**
+  - Deeper holes, outside river bends, below spillways.
+  - Evening and night; rod in a holder, bait on the bottom.
 - **Where (kid-friendliest first):** Lynches River County Park · Lee State Park · Lake Ashwood (SCDNR) · Little Pee Dee State Park · Carolina Sandhills NWR · Cheraw State Park (Lake Juniper)
 - **Bait:** Nightcrawlers · Chicken liver · Cut shad · Stink bait (punch bait)
 - **Lures:** Not a lure fish
@@ -386,6 +485,9 @@
   - *pee-dee-upper:* max 2 over 32" · 25/person/day. Pee Dee River NC line → US 301 bridge: 25/day, max 2 over 32″. (Below the bridge: 150/day.)
 - **Eating:** SCDES advisories cover blue catfish on several Pee Dee-area rivers. Check the spot's advisory before keeping any.
 - **Oct–Nov:** Drift or anchor cut bait on channel ledges; big fish start moving to deeper water for winter.
+- **Water temp:** feeds best at 55–75°F (active 45–85°F)
+- **From shore, look for:**
+  - Deep channel ledges and river bends; cut shad on the bottom. Bites well in cool water.
 - **Where (kid-friendliest first):** Santee State Park (Lake Marion) · Great Pee Dee River: US 76/301 Bridge Landing · Lake Moultrie: Fred L. Day Pier
 - **Bait:** Cut gizzard shad · Cut white perch · Cut herring
 - **Lures:** Not a lure fish
@@ -401,6 +503,9 @@
 - **Look-alikes:** Channel/blue cats have forked tails.
 - **SC limits:** No size limit. No statewide creel listed in the 2026–27 guide (verify on posted signs).
 - **Oct–Nov:** Feeds at night near deep wood in rivers (Pee Dee, Lynches).
+- **Water temp:** feeds best at 72–84°F (active 65–88°F)
+- **From shore, look for:**
+  - Deep woody holes and logjams at night with live bream.
 - **Where (kid-friendliest first):** Great Pee Dee River: US 76/301 Bridge Landing
 - **Bait:** Live bream (legal; counts toward your bream limit) · Live shad
 - **Lures:** Not a lure fish
@@ -415,6 +520,9 @@
 - **Look-alikes:** Striped/white bass have stripes.
 - **SC limits:** No size limit. No SC limit found. Verify.
 - **Oct–Nov:** Big schools on Santee Cooper. Fast action and great cut bait for blue cats.
+- **Water temp:** feeds best at 58–72°F (active 50–78°F)
+- **From shore, look for:**
+  - Schools in open water near the bottom; when you catch one, keep fishing that exact spot.
 - **Where (kid-friendliest first):** Santee State Park (Lake Marion) · Lake Moultrie: Fred L. Day Pier
 - **Bait:** Small minnows · Worms
 - **Lures:** 1/8 oz jigging spoon · Small jig
@@ -431,6 +539,9 @@
 - **SC limits:** No size limit. No SC limit found. Verify.
 - **Eating:** Many Pee Dee-area waters carry DO-NOT-EAT advisories for bowfin. Release.
 - **Oct–Nov:** Swamps, backwaters and river oxbows; aggressive biters.
+- **Water temp:** feeds best at 65–82°F (active 58–88°F)
+- **From shore, look for:**
+  - Weedy shallow backwaters and swamp edges.
 - **Where (kid-friendliest first):** Lynches River County Park · Black River State Park (The Meadows) · Great Pee Dee River: US 76/301 Bridge Landing
 - **Bait:** Cut bait · Live minnows
 - **Lures:** Spinnerbait · Swimbait
@@ -445,6 +556,9 @@
 - **Look-alikes:** Redfin pickerel (smaller, bars instead of chains).
 - **SC limits:** 30/person/day. 30/day, no size limit.
 - **Oct–Nov:** Bites better as water cools; ambushes from weed and cypress edges.
+- **Water temp:** feeds best at 48–65°F (active 42–72°F)
+- **From shore, look for:**
+  - Weed edges, lily pads and cypress: ambush points. Best in cool months.
 - **Bait:** Live minnows
 - **Lures:** Inline spinner · Spoon · Jerkbait
 - **Rig it:**

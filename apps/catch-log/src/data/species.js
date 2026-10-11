@@ -607,3 +607,190 @@ const EXTRA = {
 for (const s of SPECIES) Object.assign(s, EXTRA[s.id] || { kidEase: 0, season: new Array(12).fill(1) })
 
 export const SEASON_LABEL = ['Rare now', 'Fair now', 'Good now', 'Peak now']
+
+// ---------------------------------------------------------------------------
+// WATER TEMP RANGES + SHORE CUES (used by the trip game plan + Explore)
+//   temp.active = °F range where the species feeds normally
+//   temp.best   = °F range where it's most aggressive
+//   General guideline values from fisheries / state-agency life-history
+//   literature; fish don't read charts, so treat edges as fuzzy.
+//   shore = what to look for when fishing from the bank, pier, dock or surf.
+// ---------------------------------------------------------------------------
+const SHORE = {
+  'red-drum': {
+    temp: { active: [60, 85], best: [68, 80] },
+    shore: [
+      'Surf: the first trough/slough between the beach and the sandbar (darker green water = deeper).',
+      'Creek mouths, points and oyster bars on a FALLING tide, where bait gets flushed out.',
+      'Grass edges at high tide: watch for tails, wakes or "nervous" water.',
+      'Diving birds or mullet schools getting pushed along the beach.',
+    ],
+  },
+  'spotted-seatrout': {
+    temp: { active: [58, 82], best: [65, 78] },
+    shore: [
+      'Moving water at creek mouths and deep bends, where current rips past a point.',
+      'Grass lines and oyster rakes; work a popping cork just off the edge.',
+      'Dock and pier lights at night: trout sit on the shadow line.',
+      'After a cool front in fall, try deeper holes in the creeks.',
+    ],
+  },
+  flounder: {
+    temp: { active: [58, 82], best: [65, 78] },
+    shore: [
+      'Tight to pilings, dock posts and jetty rocks: flounder lie flat right against structure.',
+      'Sandy bottom beside structure where current sweeps bait past.',
+      'Drop-offs and inlet edges on a falling tide.',
+      'Drag bait SLOWLY on the bottom; a thump = flounder. Count to 10 before reeling.',
+    ],
+  },
+  sheepshead: {
+    temp: { active: [55, 80], best: [60, 72] },
+    shore: [
+      'Barnacle-crusted pilings, jetty rocks and bridge supports.',
+      'Drop straight down tight to the structure (no casting).',
+      'Bites are tiny taps; set the hook on the first feel.',
+    ],
+  },
+  'black-drum': {
+    temp: { active: [55, 82], best: [62, 75] },
+    shore: [
+      'Deeper holes around pier and bridge pilings.',
+      'Oyster bars and channel edges; they root on the bottom for crabs and clams.',
+      'Bottom rig with shrimp; let them chew before reeling.',
+    ],
+  },
+  whiting: {
+    temp: { active: [55, 80], best: [60, 72] },
+    shore: [
+      'The FIRST trough just past the shore break, so short casts work.',
+      'Sandy bottom with some wave action; find sand fleas in the wash and fish there.',
+      'Moving tide (either direction) beats slack.',
+    ],
+  },
+  spot: {
+    temp: { active: [60, 82], best: [65, 75] },
+    shore: [
+      'Around pier pilings over sandy bottom.',
+      'Fall "spot run": when people around you are catching them, stay put; they travel in schools.',
+      'Small #6 hooks + bloodworm bits.',
+    ],
+  },
+  croaker: {
+    temp: { active: [60, 85], best: [68, 80] },
+    shore: [
+      'Sandy/muddy bottom near piers and inlets; deeper troughs.',
+      'Evenings and night are best.',
+    ],
+  },
+  bluefish: {
+    temp: { active: [60, 80], best: [64, 72] },
+    shore: [
+      'Bait getting busted: splashing, diving birds, mullet jumping.',
+      'October mullet schools along the beach; blues follow them.',
+      'Pier ends and inlet mouths. Use a short wire or heavy leader.',
+    ],
+  },
+  'spanish-mackerel': {
+    temp: { active: [68, 85], best: [72, 82] },
+    shore: [
+      'Clear green water off pier ends at sunrise.',
+      'Birds diving on tiny glass minnows.',
+      'Retrieve FAST; Spanish chase speed.',
+    ],
+  },
+  'king-mackerel': {
+    temp: { active: [68, 85], best: [70, 78] },
+    shore: ['Pier ends only: clean green water with menhaden (pogies) around. Specialized anchor-rig gear.'],
+  },
+  pompano: {
+    temp: { active: [68, 85], best: [70, 80] },
+    shore: [
+      'Steeper beaches with a defined trough and sand fleas in the wash.',
+      'Clear water; often right after a front passes.',
+    ],
+  },
+  cobia: {
+    temp: { active: [68, 85], best: [70, 78] },
+    shore: ['Sight fishing: big brown fish cruising near the surface around pier ends, buoys or rays.'],
+  },
+  pinfish: {
+    temp: { active: [60, 88], best: [70, 85] },
+    shore: ['Around any dock, piling or grass edge, usually the first thing to bite. Great live bait.'],
+  },
+  'striped-bass': {
+    temp: { active: [50, 72], best: [55, 68] },
+    shore: [
+      'Below dams and in tailraces where current pushes bait.',
+      'Diving birds over open water = schooling stripers.',
+      'Points and humps at dawn in cool weather.',
+    ],
+  },
+  'largemouth-bass': {
+    temp: { active: [55, 85], best: [65, 78] },
+    shore: [
+      'Cover: docks, fallen trees, grass edges, lily pads.',
+      'Fall: points and creek mouths where shad gather.',
+      'Shallow at dawn/dusk; shade lines and deeper edges at midday.',
+    ],
+  },
+  bluegill: {
+    temp: { active: [62, 85], best: [68, 80] },
+    shore: [
+      'Docks, brush piles, overhanging trees: 2–6 ft deep just off the bank.',
+      'Spring: pale circles in shallow sand = spawning beds.',
+      'If the bobber doesn\'t move in 5 minutes, move 20 feet.',
+    ],
+  },
+  redear: {
+    temp: { active: [62, 82], best: [66, 78] },
+    shore: ['On the bottom near shell beds, a little deeper than bluegill.'],
+  },
+  redbreast: {
+    temp: { active: [60, 82], best: [66, 78] },
+    shore: [
+      'River eddies behind logs, undercut banks, slow water right next to current.',
+      'Shaded banks on sunny days.',
+    ],
+  },
+  warmouth: {
+    temp: { active: [62, 85], best: [68, 80] },
+    shore: ['Stumps, cypress knees and thick wood in dark swampy water.'],
+  },
+  crappie: {
+    temp: { active: [50, 75], best: [58, 70] },
+    shore: [
+      'Brush piles, docks and bridge pilings; crappie suspend at mid-depth, so set the bobber to match.',
+      'Fall: creek channels and wherever shad are flickering.',
+      'Lift gently; their mouths tear.',
+    ],
+  },
+  'channel-catfish': {
+    temp: { active: [62, 88], best: [70, 84] },
+    shore: [
+      'Deeper holes, outside river bends, below spillways.',
+      'Evening and night; rod in a holder, bait on the bottom.',
+    ],
+  },
+  'blue-catfish': {
+    temp: { active: [45, 85], best: [55, 75] },
+    shore: ['Deep channel ledges and river bends; cut shad on the bottom. Bites well in cool water.'],
+  },
+  'flathead-catfish': {
+    temp: { active: [65, 88], best: [72, 84] },
+    shore: ['Deep woody holes and logjams at night with live bream.'],
+  },
+  'white-perch': {
+    temp: { active: [50, 78], best: [58, 72] },
+    shore: ['Schools in open water near the bottom; when you catch one, keep fishing that exact spot.'],
+  },
+  bowfin: {
+    temp: { active: [58, 88], best: [65, 82] },
+    shore: ['Weedy shallow backwaters and swamp edges.'],
+  },
+  'chain-pickerel': {
+    temp: { active: [42, 72], best: [48, 65] },
+    shore: ['Weed edges, lily pads and cypress: ambush points. Best in cool months.'],
+  },
+}
+for (const s of SPECIES) Object.assign(s, SHORE[s.id] || {})

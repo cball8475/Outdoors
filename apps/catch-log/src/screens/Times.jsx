@@ -1,17 +1,19 @@
 // ---------------------------------------------------------------------------
 // Times: best windows for a spot + day: tide movement + dawn/dusk light,
-// sun times, tide range vs average (salt), a 24-hour timeline, and a 7-day
-// planner. Solunar periods were removed in Oct 2026 (no evidence they help).
+// water temperature (live sensor + normal for the date), sun times, tide
+// range vs average (salt), a 24-hour timeline, and a 7-day planner.
 // Everything here works offline (tides once downloaded).
 // ---------------------------------------------------------------------------
 import { useEffect, useMemo, useState } from 'react'
 import { useLiveQuery } from 'dexie-react-hooks'
 import { db, getSetting, setSetting } from '../lib/db.js'
 import { TopBar, useOnline, go } from '../components/ui.jsx'
-import { sunDay, dayKey, dayBounds } from '../lib/sunmoon.js'
+import { sunDay, dayKey, dayBounds } from '../lib/sun.js'
 import { scoreDay, WEIGHTS } from '../lib/windows.js'
 import { getCachedTides, downloadTides, extremesBetween, heightAt, tideRangeForDay } from '../lib/tides.js'
 import { fmtTime, fmtRange, fmtDate, fmtDateLong, todayKey } from '../lib/format.js'
+import { useWaterTemp } from '../lib/watertemp.js'
+import { WaterTempCard } from '../components/fishing.jsx'
 
 function shiftDay(key, n) {
   const [y, m, d] = key.split('-').map(Number)
@@ -95,9 +97,9 @@ function TideStatus({ spot, tides, date }) {
   )
 }
 
-/** Badge for tide size: from NOAA data when cached, else the moon-phase hint. */
-function TideSize({ range, moonTide }) {
-  const info = range || moonTide
+/** Badge for tide size vs this station's yearly average (from NOAA data). */
+function TideSize({ range }) {
+  const info = range
   if (!info) return null
   const cls = info.size === 'big' ? 'good' : info.size === 'small' ? '' : 'info'
   return <span className={`badge ${cls}`}>🌊 {info.label}</span>
@@ -112,6 +114,7 @@ function DayView({ spot, date, tides, onPickDay }) {
   const hilo = preds ? extremesBetween(preds, start, end) : []
   const range = salt ? tideRangeForDay(preds, start, end) : null
   const w = scored.usedTides ? WEIGHTS.salt : WEIGHTS.fresh
+  const wt = useWaterTemp(spot, date)
 
   const week = useMemo(() => {
     const out = []
@@ -136,8 +139,10 @@ function DayView({ spot, date, tides, onPickDay }) {
           <br />
           🌇 Sunset {fmtTime(day.sunset)} · Last light {fmtTime(day.lastLight)}
         </div>
-        {salt && <div><TideSize range={range} moonTide={day.moonTide} /></div>}
+        {salt && range && <div><TideSize range={range} /></div>}
       </div>
+
+      <WaterTempCard wt={wt} date={date} />
 
       <div className="card stack">
         <h2>Best windows</h2>

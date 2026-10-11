@@ -6,7 +6,7 @@
 // more on a falling tide / at dusk?" using your own data: catches per HOUR
 // fished in each condition (CPUE), the same yardstick fisheries scientists use.
 // ---------------------------------------------------------------------------
-import { sunDay, lightPeriodAt, dayKey } from './sunmoon.js'
+import { sunDay, lightPeriodAt, dayKey } from './sun.js'
 import { stageAt } from './tides.js'
 
 const dayCache = new Map()

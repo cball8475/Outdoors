@@ -5,6 +5,8 @@ Offline-first family fishing tracker. It's a web app you install to your phone's
 | Feature | How it works |
 |---|---|
 | **Explore (kid mode)** | **📍 Pick a place** → best fish there *this month* (ranked for kids), bait, lure and the rig for the rod you pick (kids' Ugly Stik / fresh / salt), today's best times + next 2 days, and everything researched about the spot (where to stand, hours, cost, restrooms, bait shop, kid notes, rules, tips from online reports, website, phone). **🐟 Pick a fish** (or type one: "bream", "trout") → where to catch it, ranked by kid-friendliness, drive time or distance from you → same spot page. |
+| **Water temp** | Live reading from the nearest NOAA pier sensor or USGS gauge whenever you have signal (check it **from home** before a trip), the normal for any date (2021–2025 averages, offline), how far off normal the water is running, and which fish are in their prime temperature range. Proxy sensors are labeled when a lake/river has none. |
+| **Trip game plan** | Pick what you're fishing for (at trip start or anytime) → for each fish: what to look for from shore, bait, lures, the rig for your rod, water-temp fit, and limits. "Pick today's best bets" does it in one tap. |
 | **Trips** | Pick a spot, tick who's fishing (you're the default), go. Live party tally + per-angler counts. |
 | **Catches** | Photo (camera or gallery), **GPS + date/time captured automatically**, species, length, weight (lb/oz), released vs kept, bait, notes. |
 | **Trip totals** | Total caught for the whole party, released/kept, leaderboard with each angler's biggest fish, species breakdown, one-tap text summary to share. |
@@ -68,9 +70,10 @@ Other hosts work too:
 
 ```
 src/
-  data/       species.js (ID, regs, baits, rigs, season by month, kid ease) · spots.js · spotInfo.js (online research)
+  data/       species.js (ID, regs, baits, rigs, season, kid ease, water temp range, shore cues) · spots.js · spotInfo.js
+              watertemp.js (sensors, 2021–2025 normals, spot → sensor)
               rods.js · science.js  ← edit these
-  lib/        sunmoon.js · tides.js (NOAA cache + tide range) · windows.js (scoring) · regs.js (limit checker) · explore.js (rankings)
+  lib/        sunmoon.js · tides.js (NOAA cache + tide range) · windows.js (scoring) · regs.js (limit checker) · explore.js (rankings) · watertemp(-core).js (live + normals)
               capture.js (photo + GPS) · conditions.js (per-catch snapshot + effort) · backup.js · db.js
   screens/    Home (live trip) · Explore (place→fish, fish→places, spot guide) · StartTrip · CatchForm · TripDetail
               Times · Spots (add your own) · Guide · Stats · Settings

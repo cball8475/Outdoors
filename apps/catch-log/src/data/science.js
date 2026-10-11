@@ -13,7 +13,7 @@ export const SCIENCE = [
     factor: 'Water temperature',
     evidence: 'strong',
     what: 'Fish are cold-blooded: metabolism, feeding and location all track water temp. A 5°F change matters more than any moon table.',
-    use: 'Carry a $10 thermometer and log water temp on each trip (the app has a field). In fall, the first cool fronts that drop water into the 60s°F turn on bass, trout and reds.',
+    use: 'The app shows the live reading from the nearest NOAA/USGS sensor (check it from home before a trip), the normal for the date, and whether each fish is in its prime range. Log the real number on the trip with a $10 thermometer. In fall, the first cool fronts that drop water into the 60s°F turn on trout, reds and bass.',
   },
   {
     factor: 'Moving water (tide current)',

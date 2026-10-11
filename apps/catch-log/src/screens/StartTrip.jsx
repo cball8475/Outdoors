@@ -5,6 +5,8 @@ import { db } from '../lib/db.js'
 import { TopBar, Toggle, AnglerChip, back, go } from '../components/ui.jsx'
 import { getPosition } from '../lib/capture.js'
 import { fmtDrive } from '../data/spots.js'
+import { fishForSpot } from '../lib/explore.js'
+import { sourceForSpot, normalFor } from '../lib/watertemp.js'
 
 function distMiles(a, b) {
   const R = 3958.8
@@ -27,6 +29,7 @@ export default function StartTrip({ spotId: initialSpot }) {
   const [party, setParty] = useState(null)
   const [waterTemp, setWaterTemp] = useState('')
   const [notes, setNotes] = useState('')
+  const [targets, setTargets] = useState([])
 
   // Default party: whoever came last time, else just "me".
   useEffect(() => {
@@ -68,6 +71,7 @@ export default function StartTrip({ spotId: initialSpot }) {
       startedAt: new Date().toISOString(),
       endedAt: null,
       waterTempF: waterTemp ? Number(waterTemp) : null,
+      targetIds: targets,
       notes: notes.trim(),
     })
     go('/', { replace: true })
@@ -131,6 +135,28 @@ export default function StartTrip({ spotId: initialSpot }) {
             </>
           )}
         </div>
+
+        {chosen && (
+          <div className="card stack">
+            <h2>🎯 Fishing for? <small className="muted">(optional)</small></h2>
+            <div className="chips">
+              {fishForSpot(chosen, { tempF: sourceForSpot(chosen) ? normalFor(sourceForSpot(chosen).key) : null })
+                .filter((r) => !r.closed)
+                .slice(0, 10)
+                .map((r) => (
+                  <button
+                    key={r.species.id}
+                    type="button"
+                    className={`chip ${targets.includes(r.species.id) ? 'on' : ''}`}
+                    onClick={() => setTargets((t) => (t.includes(r.species.id) ? t.filter((x) => x !== r.species.id) : [...t, r.species.id]))}
+                  >
+                    {r.species.name.replace(/ \(.*\)/, '')}
+                  </button>
+                ))}
+            </div>
+            <small className="muted">You'll get a game plan (rig, bait, what to look for from shore) on the trip screen. You can change it there.</small>
+          </div>
+        )}
 
         <details className="card">
           <summary>Optional: water temp & notes</summary>

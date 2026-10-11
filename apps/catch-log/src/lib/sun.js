@@ -1,16 +1,12 @@
 // ---------------------------------------------------------------------------
-// Sun times + moon phase, computed 100% offline (SunCalc). No internet needed.
+// Sun times, computed 100% offline (SunCalc). No internet needed.
+//   • First light / sunrise / sunset / last light → the dawn and dusk
+//     feeding windows (moderate evidence; see src/data/science.js).
 //
-// What's here and why:
-//   • Sunrise / sunset / first + last light → the dawn and dusk feeding
-//     windows (moderate evidence; see src/data/science.js).
-//   • Moon phase → ONLY as a fallback hint for tide size when no NOAA data
-//     is cached: new + full moons make bigger "spring" tides with faster
-//     current; quarter moons make smaller "neap" tides.
-//
-// What's NOT here (removed Oct 2026): solunar major/minor periods and the
-// solunar day rating. Controlled studies found no link to catch rates, so
-// they were cluttering the screen without helping you catch fish.
+// No moon/solunar data (removed Oct 2026: controlled studies found no link
+// to catch rates). The moon's one real effect, tide size, is measured from
+// NOAA tide data in tides.js, and water temperature (the strongest factor)
+// comes from live sensors + normals in watertemp.js.
 // ---------------------------------------------------------------------------
 import * as SunCalc from 'suncalc'
 
@@ -42,38 +38,19 @@ export function dayBounds(date) {
   return { start, end }
 }
 
-/** Days from the nearest new or full moon (0 = on it). SunCalc phase: 0 new, 0.5 full. */
-export function daysFromNewOrFull(phase) {
-  const synodic = 29.530588
-  return Math.min(Math.min(phase, 1 - phase), Math.abs(phase - 0.5)) * synodic
-}
-
 /**
- * Moon-based tide-size hint (fallback when there's no NOAA data).
- * Spring tides run ~1–2 days after new/full moon.
- */
-export function moonTideHint(phase) {
-  const d = daysFromNewOrFull(phase)
-  if (d <= 3) return { size: 'big', label: 'Bigger tides (near new/full moon): stronger current' }
-  if (d >= 5) return { size: 'small', label: 'Smaller tides (quarter moon): gentler current' }
-  return { size: 'average', label: 'Average tides' }
-}
-
-/**
- * Everything the Times screen needs about the sky for one day at one spot.
+ * Sun times for one day at one spot.
  * @param {Date|string} day  any time on that day, or 'YYYY-MM-DD'
  */
 export function sunDay(day, lat, lon) {
   const noon = noonOf(day)
   const sun = SunCalc.getTimes(noon, lat, lon)
-  const phase = SunCalc.getMoonIllumination(noon).phase
   return {
     date: noon,
     sunrise: sun.sunrise,
     sunset: sun.sunset,
     firstLight: sun.dawn, // civil twilight start
     lastLight: sun.dusk, // civil twilight end
-    moonTide: moonTideHint(phase),
   }
 }
 

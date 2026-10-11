@@ -5,8 +5,12 @@ import { db, getActiveTrip } from '../lib/db.js'
 import { TopBar, AnglerChip, Thumb, Empty, go } from '../components/ui.jsx'
 import { fmtTime, fmtDate, fmtDuration, fmtLength, fmtWeight } from '../lib/format.js'
 import { SPECIES_BY_ID } from '../data/species.js'
-import { sunDay, lightPeriodAt, dayBounds } from '../lib/sunmoon.js'
+import { sunDay, lightPeriodAt, dayBounds } from '../lib/sun.js'
 import { getCachedTides, stageAt, STAGE_LABEL, tideRangeForDay } from '../lib/tides.js'
+import { useWaterTemp } from '../lib/watertemp.js'
+import { fishForSpot } from '../lib/explore.js'
+import { SPOT_INFO } from '../data/spotInfo.js'
+import { useRod, RodPicker, FishCard, WaterTempCard } from '../components/fishing.jsx'
 
 export function speciesName(c) {
   return SPECIES_BY_ID[c.speciesId]?.name || c.speciesOther || 'Unknown fish'
@@ -97,6 +101,7 @@ function LiveTrip({ trip }) {
     const tides = spot?.tideStation ? await getCachedTides(spot.tideStation) : null
     return { spot, catches: catches.sort((a, b) => b.caughtAt.localeCompare(a.caughtAt)), anglers, tides }
   }, [trip.id, trip.spotId])
+  const wt = useWaterTemp(data?.spot)
   if (!data) return null
   const { spot, catches, anglers, tides } = data
   const A = Object.fromEntries(anglers.map((a) => [a.id, a]))
@@ -177,6 +182,9 @@ function LiveTrip({ trip }) {
           </div>
         )}
 
+        {spot && <TripWater trip={trip} wt={wt} />}
+        {spot && <GamePlan trip={trip} spot={spot} tempF={trip.waterTempF ?? wt?.best ?? null} />}
+
         <div className="card">
           <h2>Catches</h2>
           {!catches.length ? (
@@ -209,5 +217,97 @@ function LiveTrip({ trip }) {
         ＋ Log catch
       </button>
     </>
+  )
+}
+
+/** Water temp on the trip: sensor reading + your own thermometer reading. */
+function TripWater({ trip, wt }) {
+  async function useSensor() {
+    if (wt?.live) await db.trips.update(trip.id, { waterTempF: wt.live.tempF })
+  }
+  async function enter() {
+    const v = prompt('Water temp from your thermometer (°F)', trip.waterTempF ?? '')
+    if (v != null && v !== '' && !isNaN(Number(v))) await db.trips.update(trip.id, { waterTempF: Number(v) })
+  }
+  return (
+    <div className="card stack" style={{ gap: 8 }}>
+      <WaterTempCard wt={wt} compact />
+      <div className="row wrap">
+        {trip.waterTempF != null ? (
+          <span className="badge good">📝 Logged for this trip: {trip.waterTempF}°F</span>
+        ) : (
+          <span className="badge">Not logged yet</span>
+        )}
+        {wt?.live && <button className="btn-small" onClick={useSensor}>Use sensor ({wt.live.tempF.toFixed(1)}°F)</button>}
+        <button className="btn-small" onClick={enter}>🌡️ Enter my reading</button>
+      </div>
+    </div>
+  )
+}
+
+/**
+ * "What are you fishing for?" → for each target fish: what to look for from
+ * shore, bait, lures, the rig for the rod you pick, and whether today's water
+ * temp suits it. Targets are saved on the trip (trip.targetIds).
+ */
+function GamePlan({ trip, spot, tempF }) {
+  const [rod, setRod] = useRod()
+  const [editing, setEditing] = useState(false)
+  const [open, setOpen] = useState(0)
+  const targets = trip.targetIds || []
+  const rows = fishForSpot(spot, { forKids: rod === 'kids', tempF })
+  const byId = Object.fromEntries(rows.map((r) => [r.species.id, r]))
+  const chosen = targets.map((id) => byId[id]).filter(Boolean)
+  const info = SPOT_INFO[spot.key]
+
+  async function toggle(id) {
+    const next = targets.includes(id) ? targets.filter((x) => x !== id) : [...targets, id]
+    await db.trips.update(trip.id, { targetIds: next })
+  }
+  async function bestBets() {
+    await db.trips.update(trip.id, { targetIds: rows.filter((r) => !r.closed).slice(0, 3).map((r) => r.species.id) })
+  }
+
+  const picker = (
+    <div className="stack" style={{ gap: 8 }}>
+      <div className="chips">
+        {rows.map((r) => (
+          <button key={r.species.id} type="button" className={`chip ${targets.includes(r.species.id) ? 'on' : ''}`} onClick={() => toggle(r.species.id)}>
+            {r.species.name.replace(/ \(.*\)/, '')}
+            {r.fit?.level === 'prime' ? ' 🔥' : ''}
+            {r.closed ? ' ⛔' : ''}
+          </button>
+        ))}
+      </div>
+      <small className="muted">🔥 = water temp is prime for it right now. ⛔ = closed season here.</small>
+    </div>
+  )
+
+  if (!chosen.length) {
+    return (
+      <div className="card stack">
+        <h2>🎯 What are you fishing for?</h2>
+        <p className="muted">Pick one or more and you'll get the rig, bait, and what to look for from shore.</p>
+        <button className="btn-primary" onClick={bestBets}>✨ Pick today's best bets for me</button>
+        {picker}
+      </div>
+    )
+  }
+
+  return (
+    <div className="stack" style={{ gap: 8 }}>
+      <div className="row between">
+        <h2>🎯 Game plan</h2>
+        <button className="btn-small" onClick={() => setEditing(!editing)}>{editing ? 'Done' : 'Change fish'}</button>
+      </div>
+      {editing && <div className="card">{picker}</div>}
+      {info?.whereToFish && (
+        <div className="alert info">📍 <b>At this spot:</b> {info.whereToFish}</div>
+      )}
+      <RodPicker rod={rod} setRod={setRod} />
+      {chosen.map((row, i) => (
+        <FishCard key={row.species.id} row={row} rod={rod} spot={spot} tempF={tempF} open={open === i} onToggle={() => setOpen(open === i ? -1 : i)} />
+      ))}
+    </div>
   )
 }

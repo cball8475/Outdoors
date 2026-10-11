@@ -16,6 +16,7 @@ import { SCIENCE, SCIENCE_SOURCES, EVIDENCE_LABEL } from '../src/data/science.js
 import { regsSummary } from '../src/lib/regs.js'
 import { spotsForFish } from '../src/lib/explore.js'
 import { SPOT_INFO, SPOT_INFO_DATE } from '../src/data/spotInfo.js'
+import { WT_SOURCES, SPOT_WT, RELATION_LABEL, WT_COMPUTED } from '../src/data/watertemp.js'
 
 const here = path.dirname(fileURLToPath(import.meta.url))
 const OUT = path.resolve(here, '../../../fishing')
@@ -37,6 +38,11 @@ function speciesBlock(s) {
   for (const sp of s.regs?.special || []) lines.push(`  - *${sp.water}:* ${regsSummary({ ...s.regs, ...sp })}${sp.note ? `. ${sp.note}` : ''}`)
   if (s.eat) lines.push(`- **Eating:** ${s.eat}`)
   if (s.fall) lines.push(`- **Oct–Nov:** ${s.fall}`)
+  if (s.temp) lines.push(`- **Water temp:** feeds best at ${s.temp.best[0]}–${s.temp.best[1]}°F (active ${s.temp.active[0]}–${s.temp.active[1]}°F)`)
+  if (s.shore?.length) {
+    lines.push('- **From shore, look for:**')
+    for (const t of s.shore) lines.push(`  - ${t}`)
+  }
   const where = spotsForFish(s.id, SPOTS).filter((r) => r.listed).slice(0, 6)
   if (where.length) lines.push(`- **Where (kid-friendliest first):** ${where.map((r) => r.spot.name).join(' · ')}`)
   if (s.baits?.length) lines.push(`- **Bait:** ${s.baits.join(' · ')}`)
@@ -141,6 +147,20 @@ ${SPOTS.map((sp) => {
     (i.website || i.phone) && `- ${[i.website && `[Website](${i.website})`, i.phone].filter(Boolean).join(' · ')}`,
   ].filter(Boolean).join('\n')
 }).filter(Boolean).join('\n\n')}
+
+## Water temperature: sensors + monthly normals (°F)
+
+Live readings (in the app when online) come from these public sensors; normals are monthly averages of the same sensors
+(computed ${WT_COMPUTED}). Water temp is the strongest single factor for where fish are and how hard they bite.
+**Check from home:** open a spot in the app with signal; it shows the live reading, today's normal, and how far off normal the water is running.
+
+| Sensor | Years | Jan | Feb | Mar | Apr | May | Jun | Jul | Aug | Sep | Oct | Nov | Dec |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+${Object.values(WT_SOURCES).map((w) => `| ${w.name} | ${w.years} | ${w.normals.map((v) => (v == null ? '–' : Math.round(v))).join(' | ')} |`).join('\n')}
+
+| Spot | Sensor used | How close |
+|---|---|---|
+${SPOTS.map((sp) => { const m = SPOT_WT[sp.key]; return m ? `| ${esc(sp.name)} | ${WT_SOURCES[m.src].short} | ${RELATION_LABEL[m.relation]}${m.note ? `. ${esc(m.note)}` : ''} |` : '' }).filter(Boolean).join('\n')}
 
 ## Closed / skip for now
 

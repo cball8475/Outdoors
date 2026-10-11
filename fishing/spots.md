@@ -452,6 +452,58 @@ Most Pee Dee-area rivers have one. Check the live map before keeping fish: https
 - SCDNR access database lists bank fishing (60 spaces, restrooms) and a paddle launch on Old Levi Mill Pond. ([source](https://services.arcgis.com/acgZYxoN5Oj8pDLa/arcgis/rest/services/South_Carolina_Public_Water_Access_PUBLIC_VIEW/FeatureServer/0))
 - [Website](https://southcarolinaparks.com/poinsett) · 803-494-8177
 
+## Water temperature: sensors + monthly normals (°F)
+
+Live readings (in the app when online) come from these public sensors; normals are monthly averages of the same sensors
+(computed 2026-10-11). Water temp is the strongest single factor for where fish are and how hard they bite.
+**Check from home:** open a spot in the app with signal; it shows the live reading, today's normal, and how far off normal the water is running.
+
+| Sensor | Years | Jan | Feb | Mar | Apr | May | Jun | Jul | Aug | Sep | Oct | Nov | Dec |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Springmaid Pier sensor (NOAA) | 2021–2025 | 50 | 52 | 59 | 67 | 74 | 79 | 84 | 84 | 80 | 72 | 64 | 54 |
+| Charleston Harbor sensor (NOAA) | 2021–2025 | 54 | 54 | 61 | 68 | 76 | 82 | 86 | 85 | 81 | 73 | 65 | 57 |
+| Sampit River at US 17, Georgetown (USGS) | ~1 year of data | 45 | 53 | 60 | 71 | 77 | 82 | 87 | 83 | 79 | 70 | 61 | 52 |
+| Cooper River at US 17, Charleston (USGS) | 2021–2025 | 53 | 54 | 61 | 68 | 76 | 81 | 85 | 85 | 81 | 73 | 64 | 57 |
+| Lake Marion near Pineville (USGS) | 2021–2025 | 50 | 52 | 60 | 67 | 74 | 81 | 86 | 84 | 80 | 71 | 62 | 54 |
+| Lake Murray near Columbia (USGS, surface) | 2021–2024 | 53 | 51 | 56 | 63 | 70 | 78 | 84 | 84 | 80 | 72 | 65 | 58 |
+| Lake Moultrie tailrace canal, Moncks Corner (USGS) | 2021–2025 | 50 | 51 | 59 | 66 | 73 | 79 | 84 | 84 | 80 | 71 | 62 | 54 |
+| Lake Wateree tailrace above Camden (USGS) | 2021–2025 (Apr–Nov) | – | – | – | 64 | 72 | 78 | 84 | 84 | 81 | 72 | 63 | – |
+| Little Pee Dee River at Galivants Ferry (USGS) | 2021–2025 | 47 | 52 | 61 | 67 | 74 | 81 | 83 | 81 | 77 | 67 | 58 | 50 |
+
+| Spot | Sensor used | How close |
+|---|---|---|
+| Cherry Grove Pier | Springmaid Pier | same water |
+| Apache Pier | Springmaid Pier | same water |
+| Pier 14 | Springmaid Pier | same water |
+| Second Avenue Pier | Springmaid Pier | same water |
+| Springmaid Pier | Springmaid Pier | sensor at this spot |
+| Myrtle Beach State Park Pier | Springmaid Pier | sensor at this spot |
+| Surfside Pier | Springmaid Pier | same water |
+| Garden City Pier | Springmaid Pier | same water |
+| Murrells Inlet MarshWalk / Morse Park Landing | Springmaid Pier | nearest sensor: different water, use as a guide. Marsh creeks warm faster on sunny afternoons and chill faster on cold nights than the ocean. |
+| Huntington Beach SP: Murrells Inlet South Jetty | Springmaid Pier | same water |
+| Pawleys Island (surf & creek) | Springmaid Pier | same water |
+| Georgetown: East Bay Park / Winyah Bay | Sampit River gauge | sensor at this spot |
+| Garris Landing (Cape Romain NWR) | Charleston Harbor | nearest sensor: different water, use as a guide |
+| Mount Pleasant Pier | Cooper River gauge | sensor at this spot |
+| Folly Beach Pier | Charleston Harbor | same water |
+| Great Pee Dee River: US 76/301 Bridge Landing | Little Pee Dee gauge | nearest sensor: different water, use as a guide. Great Pee Dee has no temp sensor; the Little Pee Dee is the closest similar river. |
+| Lynches River County Park | Little Pee Dee gauge | nearest sensor: different water, use as a guide |
+| Prestwood Lake (Lawton Park) | Lake Marion gauge | nearest sensor: different water, use as a guide. Small lakes warm and cool faster than Lake Marion. |
+| Lake Robinson | Lake Marion gauge | nearest sensor: different water, use as a guide. The power plant's warm-water discharge heats the upper lake, so expect it WARMER than this, especially in winter. |
+| Lee State Park | Little Pee Dee gauge | nearest sensor: different water, use as a guide |
+| Lake Ashwood (SCDNR) | Lake Marion gauge | nearest sensor: different water, use as a guide. Small lakes warm and cool faster than Lake Marion. |
+| Little Pee Dee State Park | Lake Marion gauge | nearest sensor: different water, use as a guide. Small lakes warm and cool faster than Lake Marion. |
+| Cheraw State Park (Lake Juniper) | Lake Marion gauge | nearest sensor: different water, use as a guide. Small lakes warm and cool faster than Lake Marion. |
+| Carolina Sandhills NWR | Lake Marion gauge | nearest sensor: different water, use as a guide. Small ponds warm and cool faster than Lake Marion. |
+| Black River State Park (The Meadows) | Little Pee Dee gauge | nearest sensor: different water, use as a guide |
+| Santee State Park (Lake Marion) | Lake Marion gauge | same water |
+| Santee NWR (Lake Marion) | Lake Marion gauge | same water |
+| Lake Moultrie: Fred L. Day Pier | Moultrie tailrace gauge | same water |
+| Lake Wateree State Park | Wateree tailrace gauge | same water |
+| Lake Murray: Saluda Dam North Rec Area pier | Lake Murray gauge | sensor at this spot |
+| Poinsett State Park | Lake Marion gauge | nearest sensor: different water, use as a guide. Small lakes warm and cool faster than Lake Marion. |
+
 ## Closed / skip for now
 
 - **Lake Wallace (Bennettsville)**: Dam breached May & July 2024; lake drained. $25M allocated, rebuild expected to start 2027.

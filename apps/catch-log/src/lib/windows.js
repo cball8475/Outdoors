@@ -22,7 +22,7 @@
 // real, but a 4 AM suggestion isn't useful with kids. The timeline still
 // shows the full 24 hours.
 // ---------------------------------------------------------------------------
-import { lightPeriodAt, dayBounds } from './sunmoon.js'
+import { lightPeriodAt, dayBounds } from './sun.js'
 import { rateAt, stageAt, STAGE_LABEL } from './tides.js'
 
 const STEP = 15 * 60 * 1000

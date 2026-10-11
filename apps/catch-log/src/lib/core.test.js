@@ -1,7 +1,7 @@
 // Unit tests for the offline math + rules. Run: npm test
 import { describe, it, expect } from 'vitest'
 import 'fake-indexeddb/auto'
-import { sunDay, lightPeriodAt, moonTideHint } from './sunmoon.js'
+import { sunDay, lightPeriodAt } from './sun.js'
 import { heightAt, rateAt, stageAt, parseNoaaGmt, refreshStations, getCachedTides, tideRangeForDay } from './tides.js'
 import { checkCatch, keptCounts, pickRegs, regsSummary, spotWaters } from './regs.js'
 import { scoreDay } from './windows.js'
@@ -10,16 +10,15 @@ import { SPOTS } from '../data/spots.js'
 
 const SPRINGMAID = { lat: 33.656, lon: -78.917 }
 
-describe('sun + moon', () => {
-  it('computes sun times and a moon-based tide hint for a Myrtle Beach day', () => {
+describe('sun', () => {
+  it('computes sun times for a Myrtle Beach day (no moon/solunar data)', () => {
     const d = sunDay('2026-10-11', SPRINGMAID.lat, SPRINGMAID.lon)
     expect(d.sunrise).toBeInstanceOf(Date)
     expect(d.sunset > d.sunrise).toBe(true)
     expect(d.firstLight < d.sunrise).toBe(true)
     expect(d.lastLight > d.sunset).toBe(true)
-    // ~1 day after the Oct 10, 2026 new moon → spring tides
-    expect(d.moonTide.size).toBe('big')
-    expect(d).not.toHaveProperty('periods') // solunar removed
+    expect(d).not.toHaveProperty('periods')
+    expect(d).not.toHaveProperty('moonTide')
   })
 
   it('light periods', () => {
@@ -28,13 +27,6 @@ describe('sun + moon', () => {
     expect(lightPeriodAt(d.sunset, d)).toBe('dusk')
     const noon = new Date(d.sunrise.getTime() + (d.sunset - d.sunrise) / 2)
     expect(lightPeriodAt(noon, d)).toBe('day')
-  })
-
-  it('moon tide hint: new/full big, quarters small', () => {
-    expect(moonTideHint(0).size).toBe('big')
-    expect(moonTideHint(0.5).size).toBe('big')
-    expect(moonTideHint(0.25).size).toBe('small')
-    expect(moonTideHint(0.75).size).toBe('small')
   })
 })
 

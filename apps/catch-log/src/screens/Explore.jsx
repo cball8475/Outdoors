@@ -7,89 +7,21 @@
 // ---------------------------------------------------------------------------
 import { useMemo, useState } from 'react'
 import { useLiveQuery } from 'dexie-react-hooks'
-import { db, getSetting, setSetting } from '../lib/db.js'
+import { db } from '../lib/db.js'
 import { TopBar, Toggle, Stars, Empty, back, go } from '../components/ui.jsx'
+import { SeasonBadge, KidEase, FitBadge, useRod, RodPicker, FishCard, WaterTempCard, SEASON_ICON } from '../components/fishing.jsx'
 import { SPECIES_BY_ID, SEASON_LABEL } from '../data/species.js'
 import { SPOT_CLOSED, directionsUrl, fmtDrive } from '../data/spots.js'
 import { SPOT_INFO, SPOT_INFO_DATE } from '../data/spotInfo.js'
 import { RODS } from '../data/rods.js'
+import { useWaterTemp, sourceForSpot, normalFor, tempFit } from '../lib/watertemp.js'
 import { fishForSpot, spotsForFish, fishInSeason, rigFor } from '../lib/explore.js'
 import { regsSummary } from '../lib/regs.js'
 import { getPosition } from '../lib/capture.js'
-import { sunDay } from '../lib/sunmoon.js'
+import { sunDay } from '../lib/sun.js'
 import { scoreDay } from '../lib/windows.js'
 import { getCachedTides } from '../lib/tides.js'
 import { fmtRange, fmtDate } from '../lib/format.js'
-
-const SEASON_BADGE = ['', 'badge', 'badge good', 'badge warn']
-const SEASON_ICON = ['💤', '🙂', '👍', '🔥']
-
-function SeasonBadge({ level }) {
-  return (
-    <span className={SEASON_BADGE[level] || 'badge'}>
-      {SEASON_ICON[level]} {SEASON_LABEL[level]}
-    </span>
-  )
-}
-
-function KidEase({ n }) {
-  if (!n) return <span className="badge stop">Grown-up rod</span>
-  return <span className="badge info">🧒 {n >= 5 ? 'Super easy' : n >= 4 ? 'Easy' : n >= 3 ? 'Medium' : 'Hard'}</span>
-}
-
-/** Which rod's rig to show. Remembered on the phone; defaults to the kids' rod. */
-function useRod() {
-  const saved = useLiveQuery(() => getSetting('rigFor', 'kids'), [])
-  const rod = saved || 'kids'
-  return [rod, (r) => setSetting('rigFor', r)]
-}
-
-function RodPicker({ rod, setRod }) {
-  const opts = [['kids', '🧒 Kids'], ['fresh', '🏞️ Fresh'], ['salt', '🌊 Salt']]
-  return <Toggle value={rod} onChange={setRod} options={opts} />
-}
-
-/** One fish: name, season, how to catch it on the chosen rod. */
-function FishCard({ row, rod, open, onToggle, spotLink, spot }) {
-  const s = row.species
-  const rig = rigFor(s, rod)
-  // e.g. Lake Ashwood: no minnows as bait (SC Reg 123-210)
-  const banned = spot?.baitBan && [...(s.baits || []), rig?.text || ''].some((b) => spot.baitBan.words.some((w) => b.toLowerCase().includes(w)))
-  return (
-    <div className="card stack" style={{ gap: 8 }}>
-      <button className="row between" onClick={onToggle} style={{ border: 0, padding: 0, minHeight: 0, background: 'transparent', textAlign: 'left' }}>
-        <div className="grow">
-          <h3 style={{ fontSize: '1.15rem' }}>{s.name}</h3>
-          <div className="chips" style={{ marginTop: 6, gap: 6 }}>
-            <SeasonBadge level={row.season} />
-            <KidEase n={row.kidEase} />
-            {row.closed && <span className="badge stop">⛔ Closed season</span>}
-          </div>
-        </div>
-        <span style={{ fontSize: '1.4rem' }}>{open ? '▴' : '▾'}</span>
-      </button>
-      {open && (
-        <>
-          {banned && <div className="alert stop">⛔ {spot.baitBan.text}</div>}
-          {s.baits?.length > 0 && <p><b>🪱 Bait:</b> {s.baits.slice(0, 3).join(', ')}</p>}
-          {s.lures?.length > 0 && s.lures[0] && !/Not a lure|^Rarely/.test(s.lures[0]) && <p><b>✨ Lure:</b> {s.lures.slice(0, 2).join(', ')}</p>}
-          {rig && (
-            <div className="alert good">
-              <b>🎣 {RODS[rig.rod].name}{rig.fallback ? ' (use this rod)' : ''}:</b> {rig.text}
-            </div>
-          )}
-          <p className="muted" style={{ fontSize: '0.9rem' }}>👀 {s.idTips}</p>
-          <p style={{ fontSize: '0.9rem' }}><b>📏 Keep it?</b> {regsSummary(row.regs)}</p>
-          {s.eat && <div className="alert warn">🍽️ {s.eat}</div>}
-          <div className="row wrap">
-            <a href={`#/species/${s.id}`}>Full fish guide →</a>
-            {spotLink}
-          </div>
-        </>
-      )}
-    </div>
-  )
-}
 
 /** Today's top windows + best window for the next 2 days. */
 function BestTimesMini({ spot }) {
@@ -223,7 +155,9 @@ function PickPlace() {
         ) : (
           <div className="list">
             {list.map((s) => {
-              const top = fishForSpot(s, { forKids: true }).filter((r) => !r.closed).slice(0, 3)
+              const src = sourceForSpot(s)
+              const tempF = src ? normalFor(src.key) : null
+              const top = fishForSpot(s, { forKids: true, tempF }).filter((r) => !r.closed).slice(0, 3)
               return (
                 <a key={s.id} className="item chev" href={`#/spot/${s.id}`}>
                   <div className="thumb" style={{ width: 48, height: 48, fontSize: '1.5rem' }}>{!s.builtIn ? '⭐' : s.water === 'salt' ? '🌊' : '🏞️'}</div>
@@ -284,8 +218,10 @@ export function SpotGuide({ spotId }) {
   const [rod, setRod] = useRod()
   const [open, setOpen] = useState(0)
   const [showAll, setShowAll] = useState(false)
+  const wt = useWaterTemp(spot)
   if (!spot) return null
-  const fish = fishForSpot(spot, { forKids: rod === 'kids' })
+  const tempF = wt?.best ?? null
+  const fish = fishForSpot(spot, { forKids: rod === 'kids', tempF })
   const shown = showAll ? fish : fish.slice(0, 5)
 
   async function remove() {
@@ -310,11 +246,13 @@ export function SpotGuide({ spotId }) {
 
         <button className="btn-primary btn-big" onClick={() => go(`/start?spot=${spot.id}`)}>🎣 Fish here now</button>
 
+        <WaterTempCard wt={wt} />
+
         <div className="stack" style={{ gap: 8 }}>
           <h2>🐟 Best fish here right now</h2>
           <RodPicker rod={rod} setRod={setRod} />
           {shown.map((row, i) => (
-            <FishCard key={row.species.id} row={row} rod={rod} spot={spot} open={open === i} onToggle={() => setOpen(open === i ? -1 : i)} />
+            <FishCard key={row.species.id} row={row} rod={rod} spot={spot} tempF={tempF} open={open === i} onToggle={() => setOpen(open === i ? -1 : i)} />
           ))}
           {fish.length > 5 && (
             <button className="btn-small btn-ghost" onClick={() => setShowAll(!showAll)}>
@@ -364,6 +302,13 @@ export function FishPlaces({ id }) {
         <div className="card stack">
           <h2>🎣 How to catch it</h2>
           <RodPicker rod={rod} setRod={setRod} />
+          {s.shore?.length > 0 && (
+            <div>
+              <b>👀 What to look for from shore</b>
+              <ul style={{ margin: '4px 0 0', paddingLeft: 18 }}>{s.shore.map((t) => <li key={t}>{t}</li>)}</ul>
+            </div>
+          )}
+          {s.temp && <p className="muted" style={{ fontSize: '0.9rem' }}>🌡️ Feeds best in {s.temp.best[0]}–{s.temp.best[1]}°F water.</p>}
           {s.baits?.length > 0 && <p><b>🪱 Bait:</b> {s.baits.join(', ')}</p>}
           {s.lures?.length > 0 && <p><b>✨ Lures:</b> {s.lures.join(', ')}</p>}
           {rig && <div className="alert good"><b>{RODS[rig.rod].name}{rig.fallback ? ' (use this rod)' : ''}:</b> {rig.text}</div>}
@@ -389,6 +334,12 @@ export function FishPlaces({ id }) {
                         {r.spot.kids ? ` · 🧒 ${r.spot.kids}/5` : ''}
                         {!r.listed ? ' · common everywhere' : ''}
                       </div>
+                      {(() => {
+                        const src = sourceForSpot(r.spot)
+                        const t = src ? normalFor(src.key) : null
+                        const fit = tempFit(s, t)
+                        return fit ? <FitBadge fit={{ ...fit, label: `${fit.label} (normal)` }} tempF={t} /> : null
+                      })()}
                       {r.closed && <span className="badge stop">⛔ Closed season here</span>}
                       {r.spot.advisory && <span className="badge warn">🍽️ Eating advisory</span>}
                     </div>
