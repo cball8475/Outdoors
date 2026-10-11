@@ -20,3 +20,8 @@ private/
 # OS junk
 .DS_Store
 Thumbs.db
+
+# Build output / dependencies (apps/*)
+node_modules/
+dist/
+dev-dist/

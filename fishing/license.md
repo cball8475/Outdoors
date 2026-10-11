@@ -17,10 +17,23 @@
 Winyah Bay until the saltwater license is bought. Plan: buy it before the first
 coast trip.
 
-**Renewal note:** Buying an annual saltwater license now puts it on a different
-renewal date (≈ October) than freshwater (April). At the 4/21/2027 freshwater
-renewal, compare a combination license against the two separate licenses. If the
-combo is cheaper, switch so both expire together.
+**What to buy:** Resident **Annual Saltwater** license, **$15** (or 3-year, $45;
+same price per year, one less renewal). Verified on dnr.sc.gov 10/11/2026.
+
+**Don't buy a Combination ($25) or Sportsman ($50) license for this.** Neither
+one includes saltwater. They cover hunting, big game, and *freshwater* fishing
+only. Saltwater is always a separate purchase (or a lifetime add-on).
+
+**Renewal dates:** Saltwater bought in October renews in October; freshwater
+renews in April. Two dates, $25/yr total. Turn on auto-renew for the saltwater
+license too so neither one lapses.
+
+**When you don't need the saltwater license** (verified, SCDNR):
+- Fishing from a **licensed public pier** that carries a blanket license (e.g.
+  Myrtle Beach State Park pier). This does *not* cover jetties, surf, docks, or
+  the MarshWalk.
+- Fishing on a licensed **charter / headboat**.
+- Using 3 or fewer drop nets, traps, or hookless handlines (crabbing with kids).
 
 ## Kids
 

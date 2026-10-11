@@ -24,7 +24,7 @@ not rod-carrying.
 
 | Tier | Model | Price (where seen) | Trays incl. | Rod holders | Saltwater suitability | Downside |
 |---|---|---|---|---|---|---|
-| Sling | KastKing BlowBak Tactical Sling | $26.99 (kastking.com) | 0 (fits 2×3600) | 1 sleeve | Water-repellent lining; no hard bottom | No trays; single strap tires you out. Good pack for Warren |
+| Sling | KastKing BlowBak Tactical Sling | $26.99 (kastking.com) | 0 (fits 2×3600) | 1 sleeve | Water-repellent lining; no hard bottom | No trays; single strap tires you out. Good starter pack for an older kid |
 | Budget / cooler | MATEIN Tackle Backpack w/ Cooler | $42.99 (matein.com); $40–70 Amazon | 4×3600 | Rod pockets (2 per Amazon) | Waterproof base; "rustproof" zippers (maker claim) | 26L; small cooler (~11.5×8×8 in). Several variants, so confirm before buying |
 | Budget | Piscifun Tackle Backpack | $54.99 (Amazon) | 4 (3600/3700) | 2 | 1200D nylon, rain cover; no hard bottom | Water-*resistant*, not waterproof |
 | Mid | Plano Z-Series Waterproof | $69.99 (planooutdoors.com) | 2×3700 | 0 | Roll-top, 500D PVC, welded seams | 20L; no rod holders; roll-top is slower to open |
