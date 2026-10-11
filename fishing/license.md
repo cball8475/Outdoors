@@ -82,6 +82,25 @@ license covers both. Annual fresh + salt = $25/yr.
 what $600 earns elsewhere. Buy it for convenience or as a hedge against fee hikes, not to save money. 3-year
 licenses ($30 + $45) give the "renew less often" benefit at the same $25/yr.
 
+### Household decision (Oct 2026): no lifetime licenses for the adults
+
+Run for both adults (late 30s), counting every renewal until each turns 64:
+
+| | Adult 1 | Adult 2 | Household |
+|---|---|---|---|
+| Annual fresh + salt until 64, flat fees | $650 | $700 | $1,350 |
+| Same, in today's dollars (5% return, fees +3%/yr) | $514 | $546 | $1,060 |
+| Lifetime fresh + salt | $600 | $600 | $1,200 |
+| Fee growth needed **every year** for lifetime to break even | 4.2%/yr | 3.8%/yr | |
+
+- Lifetime only wins if SC raises fees ~4%/yr, every year, for 25+ years.
+- It gets worse each year you wait (fewer years left before the $9 senior license), so for the adults it's effectively now or never.
+- $1,200 in cash is better kept in the house fund.
+
+**Plan:** 3-year licenses. They cost the same $25/yr, lock today's price for 3 years, and mean fewer renewals.
+- Now: Adult 1 → 3-yr saltwater ($45). Adult 2 → 3-yr freshwater ($30) + 3-yr saltwater ($45).
+- April 2027: Adult 1's annual freshwater auto-renews ($10). Nothing to do.
+
 **If you buy lifetime anyway:** buy the **lifetime saltwater now** instead of the $15 annual (no
 6-month overlap), buy **lifetime freshwater in April**, and **turn OFF auto-renew** on the annual
 freshwater license before 4/21/2027.
