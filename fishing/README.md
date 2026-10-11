@@ -28,7 +28,7 @@ score 0–100 = tide movement + low light + solunar.
 | **Wed 10/14** | **6:45–8:15 AM** | **79** | Dawn + rising mid-tide (high 10:29 AM) |
 | Thu 10/15 | 7:15–8:45 AM | 79 | Dawn + rising mid-tide (high 11:16 AM) |
 | Fri 10/16 | 7:15–8:45 AM | 74 | Dawn + rising tide |
-| **Sat 10/17** | **6:00–11:30 AM: Take a Kid Fishing (MBSP)** | — | Annual SC State Parks event. **Pre-registration required.** Most of the pier is closed to everyone else. |
+| **Sat 10/17** | ⚠️ MBSP mostly closed 6:00–11:30 AM | — | Take a Kid Fishing event (8–11 AM) is **sold out**. Fish Springmaid or Surfside that morning instead, or MBSP after 11:30. |
 
 Freshwater option, closer to home: **Prestwood Lake (Hartsville, ~37 min)**, bobber + worm for bream off the Lawton Park
 shoreline, any day at dusk (6:15–7:45 PM). Catch-and-release for the kids per the advisory.

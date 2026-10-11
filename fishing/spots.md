@@ -12,14 +12,14 @@ You need an SC saltwater license (16+) for everything below **except** fishing *
 
 | Spot | Drive | Access | Fall targets | Kids | Notes |
 |---|---|---|---|---|---|
-| **Cherry Grove Pier**<br>North Myrtle Beach | 82 mi · ~1h 48m | Pier (985 ft) | Red Drum, Black Drum, Southern Flounder, Whiting (Southern Kingfish), Atlantic Croaker, Bluefish, King Mackerel | 4/5 | SCDNR fall pier report: October excellent here for reds, flounder, black drum and whiting. Rebuilt after Ian, reopened March 2024. Open 6am–11pm.<br>💲 $3 walk-on + $10/rod; $30 king pass (3 rods); rod rental $26 |
-| **Apache Pier**<br>Myrtle Beach (Apache Campground) | 75 mi · ~1h 38m | Pier (1,206 ft, longest wooden pier on the East Coast) | Whiting (Southern Kingfish), Spot, Atlantic Croaker, Bluefish, Red Drum, King Mackerel | 4/5 | Long walk to the end: bring a pier cart. Kings off the end in Sept–Oct.<br>💲 2024 prices: $12 adult, $10 ages 6–10, under 6 free (verify) |
-| **Pier 14**<br>Myrtle Beach Boardwalk | 68 mi · ~1h 34m | Pier | Whiting (Southern Kingfish), Atlantic Croaker, Bluefish | 3/5 | Busy boardwalk crowd; better on weekday mornings. Fishing hours unverified.<br>💲 ~$7–10 (verify) |
-| **Second Avenue Pier**<br>Myrtle Beach | 68 mi · ~1h 35m | Pier (905 ft) | Whiting (Southern Kingfish), Atlantic Croaker, Southern Flounder | 4/5 | Next to Family Kingdom. Drop a mud minnow straight down along the pilings for flounder.<br>💲 ~$8–10 (verify) |
-| **Springmaid Pier**<br>Myrtle Beach (South) | 69 mi · ~1h 40m | Pier (1,060 ft) | Red Drum, Bluefish, Whiting (Southern Kingfish), Spanish Mackerel, King Mackerel | 4/5 | NOAA tide station sits on this pier, so tide times here are exact.<br>💲 ~$10–12 (official site down; verify) |
-| **Myrtle Beach State Park Pier**<br>Myrtle Beach | 71 mi · ~1h 44m | Pier (750 ft) | Whiting (Southern Kingfish), Spot, Atlantic Croaker, Red Drum, Southern Flounder | 5/5 | Best kid pier. Annual "Take a Kid Fishing" event (2026: Sat Oct 17, 6–11:30am, PRE-REGISTRATION required; most of the pier is closed to others that morning).<br>💲 Park entry $8 adult / $4 ages 6–15 + pier pass $8 adult / $3 ages 6–15; under 6 free |
-| **Surfside Pier**<br>Surfside Beach | 72 mi · ~1h 43m | Pier (830 ft), rebuilt, reopened March 2024 | Bluefish, Whiting (Southern Kingfish), Red Drum, Spanish Mackerel | 5/5 | Check in at Perry's Bait & Tackle at the pier.<br>💲 $14 adult, $2 per child (verify) |
-| **Garden City Pier**<br>Garden City Beach | 74 mi · ~1h 47m | Pier (~660 ft) | Red Drum, Southern Flounder, Black Drum | 4/5 | Listed for sale in Feb 2026. Call 843-651-9700 to confirm it's open before driving.<br>💲 ~$8–12 (verify) |
+| **Cherry Grove Pier**<br>North Myrtle Beach | 82 mi · ~1h 48m | Pier (985 ft) | Red Drum, Black Drum, Southern Flounder, Whiting (Southern Kingfish), Atlantic Croaker, Bluefish, King Mackerel | 4/5 | SCDNR fall pier report: October excellent here for reds, flounder, black drum and whiting. Rebuilt after Ian, reopened March 2024. Open 6am–11pm.<br>💲 $3 admission + $10/rod (no kid price); king pass $30 (3 rods); rod rental $26 |
+| **Apache Pier**<br>Myrtle Beach (Apache Campground) | 75 mi · ~1h 38m | Pier (1,206 ft, longest wooden pier on the East Coast) | Whiting (Southern Kingfish), Spot, Atlantic Croaker, Bluefish, Red Drum, King Mackerel | 4/5 | Long walk to the end: bring a pier cart. Kings off the end in Sept–Oct.<br>💲 $2 admission + fishing $12 (adults/over 10), $10 ages 6–10, under 6 free; rod rental $29 |
+| **Pier 14**<br>Myrtle Beach Boardwalk | 68 mi · ~1h 34m | Pier (~600 ft) | Whiting (Southern Kingfish), Atlantic Croaker, Bluefish | 3/5 | Busy boardwalk crowd; better on weekday mornings. Fishing hours unverified.<br>💲 Walk $1, fish $7, rod rental $8 (Apr 2026 guide) |
+| **Second Avenue Pier**<br>Myrtle Beach | 68 mi · ~1h 35m | Pier: END SECTION CLOSED since 2016; fish the inner/middle sections | Whiting (Southern Kingfish), Atlantic Croaker, Southern Flounder | 4/5 | Next to Family Kingdom. Drop a mud minnow straight down along the pilings for flounder.<br>💲 $2 walk / $10 fish (Apr 2026 guide) |
+| **Springmaid Pier**<br>Myrtle Beach (South) | 69 mi · ~1h 40m | Pier (1,060 ft, wide T at the end) | Red Drum, Bluefish, Whiting (Southern Kingfish), Spanish Mackerel, King Mackerel | 4/5 | NOAA tide station sits on this pier, so tide times here are exact.<br>💲 $14/day + tax, walking $4; rod rental $15 |
+| **Myrtle Beach State Park Pier**<br>Myrtle Beach | 71 mi · ~1h 44m | Pier (750 ft) | Whiting (Southern Kingfish), Spot, Atlantic Croaker, Red Drum, Southern Flounder | 5/5 | Best kid pier. Annual "Take a Kid Fishing" (2026: Sat Oct 17, 8–11am) is SOLD OUT; most of the pier is closed to everyone else 6–11:30am that day, so plan around it.<br>💲 Park entry $8 adult / $4 ages 6–15 + pier pass $8 adult / $3 ages 6–15; under 6 free |
+| **Surfside Pier**<br>Surfside Beach | 72 mi · ~1h 43m | Pier (814 ft, concrete), rebuilt March 2024; elevator | Bluefish, Whiting (Southern Kingfish), Red Drum, Spanish Mackerel | 5/5 | Check in at Perry's Bait & Tackle at the pier.<br>💲 $14/day; kids under 12 $2; parking $4/hr |
+| **Garden City Pier**<br>Garden City Beach | 74 mi · ~1h 47m | Pier (668 ft) | Red Drum, Southern Flounder, Black Drum | 4/5 | Listed for sale in Feb 2026. Call 843-651-9700 to confirm it's open before driving.<br>💲 Adults $12, kids 12 & under $6 (24-hr wristband) |
 | **Murrells Inlet MarshWalk / Morse Park Landing**<br>Murrells Inlet | 75 mi · ~1h 46m | Docks + boardwalk | Spotted Seatrout, Red Drum, Southern Flounder, Sheepshead | 5/5 | Fish the falling tide near creek mouths. Tide here runs ~1 hr behind the ocean piers (station: Parsonage Creek). Great crabbing for kids.<br>💲 Free (parking may cost) |
 | **Huntington Beach SP: Murrells Inlet South Jetty**<br>Murrells Inlet | 79 mi · ~1h 54m | Jetty + surf (~1 mile beach walk from the north lot) | Red Drum, Southern Flounder, Sheepshead, Spotted Seatrout, Black Drum | 2/5 | Rocks are slick: life jackets for little ones. Flounder: drag finger mullet on a Carolina rig parallel to the rocks. North End Road can close on very high tides.<br>💲 Park entry $8 adult / $4 ages 6–15 |
 | **Pawleys Island (surf & creek)**<br>Pawleys Island | 85 mi · ~1h 59m | Surf + creek (PIER CLOSED: rebuild ~14–18 months from ~Sept 2026) | Whiting (Southern Kingfish), Florida Pompano, Red Drum, Spotted Seatrout, Southern Flounder | 4/5 | South-end inlet and creek for trout/flounder; surf troughs for whiting and pompano on sand fleas.<br>💲 Free; very limited parking |
@@ -73,7 +73,296 @@ Most Pee Dee-area rivers have one. Check the live map before keeping fish: https
 
 ## Spot details (researched 2026-10-11)
 
+### Cherry Grove Pier
+- **Status:** Open; official 2026 pricing page checked 10/11/2026
+- **Where to fish:** 985 ft pier with a two-story observation deck at the end. Fall bottom fishing: red and black drum, flounder, whiting, croaker. Big fall reds near the end on fresh cut mullet or bluefish (UNVERIFIED, 2020 article). King anglers fish the end on the 3-rod king pass (UNVERIFIED).
+- **Kids:** Two-story observation deck at the end is a hit. Everyone needs the $3 arm band (no kid discount). Restaurant and ice cream on-site. Railing height/shade not documented.
+- **Hours:** Pier + tackle shop 6 AM–11 PM daily (closed Christmas; 8 AM–5 PM New Year's Day). Driftwood Restaurant 11 AM–9 PM.
+- **Cost:** $3 admission + $10 per rod (one person, one rod = $13). Walking pass $3; everyone on the pier wears an arm band. Rod rental $26/day incl. admission + pass ($30 deposit). Crab net $12.99. King pass $30/day (3 rods). No kid price listed.
+- **Facilities:** restrooms · bait: On-site Tackle & Gift Shop (bait, lures, rentals, ice cream) · rentals: Rod rental $26/day + $30 deposit · food: Driftwood Restaurant & Bar · parking: Parking fee noted in older SCDNR list (UNVERIFIED)
+- **Rules:** Arm band required on the pier. King pass max 3 rods. Pier pass covers the saltwater license (older sources, UNVERIFIED).
+- SCDNR pier report (late Sept 2024): red drum, flounder, black drum, whiting and croaker expected good in October; a king was caught Sept 30. ([source](https://www.dnr.sc.gov/news/saltpiers.html))
+- Aug 2025 angler report: ribbonfish, small whiting, a spadefish; ribbonfish strips got good hits as bait. ([source](https://www.pierandsurf.com/threads/cherry-grove-pier.166747/))
+- Reopened 2024 after Hurricane Ian, rebuilt higher with bigger support beams. ([source](https://www.wmbfnews.com/2024/05/28/were-doing-everything-we-can-newly-re-opened-cherry-grove-pier-prepares-hurricane-season/))
+- [Website](https://cherrygrovepier.com/) · 843-249-1625
 
+### Apache Pier
+- **Status:** Open; official page checked 10/11/2026
+- **Where to fish:** 1,206 ft, the longest wooden pier on the East Coast. The end is for king anglers (UNVERIFIED). Around 600 ft out: flounder, whiting, spot and drum. The north side can fish best in fall (UNVERIFIED, 2020).
+- **Kids:** Under-6s fish free; kids under 15 must be with an adult. Small arcade by the bait shop, campground playground. Accessible restrooms in the shop. No sitting on railings.
+- **Hours:** Website: 7 AM–9 PM daily, open 365 days. Fall posts: 10 PM close from Oct 1; 7 AM–9 PM from Nov 1; 7 AM–6 PM from Dec 1 (UNVERIFIED year).
+- **Cost:** Admission $2 (adults + kids over 6; under 6 and campers free). Fishing $12 adults/kids over 10, $10 ages 6–10, under 6 free on an adult's rod. Rod rental $29 incl. admission, pass, rod + shrimp ($35 deposit or driver's license).
+- **Facilities:** restrooms · bait: On-site Bait & Tackle (live bait, snacks) · rentals: $29 package; rods back 1 hr before close · food: Groupers At The Pier, 11 AM–9 PM · parking: At the entrance and behind the Cabana; seasonal rates, discount with a fishing pass · ADA
+- **Rules:** 2 rods per paid angler; pass required. No shark fishing or chumming. No bare feet, running, sitting on rails, bikes, pets, drones or outside alcohol. No license needed on the pier.
+- 3/26/2025: bottom of the outgoing tide into the start of the incoming produced small whiting and black drum. ([source](https://www.pierandsurf.com/threads/apache-pier-3-26-25.166563/))
+- Nov 2025 report: whiting, small pompano, black drum, tiny croaker, a few spot, reds, weakfish and blues (a slow fall). ([source](https://www.pierandsurf.com/threads/sc-piers.166846/))
+- King rig at the end: anchor rod + live bluefish clipped to the anchor line (undated). ([source](https://www.carolinasportsman.com/?p=120634))
+- [Website](https://apachefamilycampground.com/apache-pier/) · (843) 497-6486
+
+### Pier 14
+- **Status:** Open; no closures found (10/11/2026)
+- **Where to fish:** Short pier (~600 ft) at the north end of the Boardwalk. Reported: black and red drum, flounder, trout.
+- **Kids:** Busy Boardwalk near the SkyWheel (crowds in summer). Staff help fishing families. Short walk; restaurant on-site.
+- **Hours:** Restaurant 11:30 AM–9:30 PM daily. Fishing ~7 AM–11 PM (2024 guide; UNVERIFIED for 2026).
+- **Cost:** Walk $1, fish $7, rod rental $8 + $20 deposit (guide updated Apr 2026; official site lists no fishing prices).
+- **Facilities:** bait: On-site gift + tackle shop with live bait · rentals: $8 + $20 deposit · food: Pier 14 Restaurant & Lounge (kids' meals) · parking: Boardwalk-area paid parking (UNVERIFIED)
+- **Rules:** Leashed pets allowed on the pier and at the restaurant (unusual). Other rules not published.
+- ~600 ft long with a tackle/gift shop and a live webcam; staff help families who want to fish. ([source](https://www.visitmyrtlebeach.com/article/exploring-myrtle-beach-area-piers))
+- Leashed pets are allowed, unlike most Grand Strand piers. ([source](https://www.tripster.com/travelguide/myrtle-beach-fishing-piers/))
+- [Website](https://www.pier14.com/) · Restaurant (843) 448-4314; gift shop (843) 448-6500
+
+### Second Avenue Pier
+- **Status:** Partly open (end closed); no 2025–2026 confirmation found (UNVERIFIED)
+- **Where to fish:** END SECTION CLOSED since 2016 (part fell in 2022), so you fish the shoreward and middle sections only. Reported: mullet, trout, flounder, Spanish mackerel, ribbonfish.
+- **Kids:** South end of the Boardwalk near Family Kingdom and Splashes. Shorter pier than before; restaurant on-site.
+- **Hours:** Usually 7 AM–9 PM (2024 guide; 2026 UNVERIFIED).
+- **Cost:** $2 walk / $10 fish (Apr 2026 guide); rod package ~$25 + deposit (UNVERIFIED).
+- **Facilities:** bait: On-site tackle shop (UNVERIFIED) · rentals: Pass + rod + bait package (UNVERIFIED) · food: Pier House restaurant; Wicked Tuna at the Pier 11 AM–8 PM · parking: Free lot reported nearby (UNVERIFIED)
+- **Rules:** Not published (UNVERIFIED).
+- End section boarded up since 2016; the city said the rest was intact in 2022. ([source](https://www.wmbfnews.com/2022/09/14/myrtle-beach-crews-clear-out-debris-after-part-2nd-avenue-pier-falls-into-ocean/))
+- The old domain secondavenuepier.com is no longer the pier's site (now unrelated). Don't trust it.
+- (843) 626-8480
+
+### Springmaid Pier
+- **Status:** Open; official page updated 10/2/2026
+- **Where to fish:** 1,060 ft. The 110-ft-wide T at the end sits over the deepest water (kings, trophy fish). The 36-ft-wide promenade is good bottom fishing for croaker, flounder, trout, bluefish; Spanish in season.
+- **Kids:** Very wide deck, accessible restrooms on the pier, ramp at the entrance. Free beginner clinics in spring. Quieter south end.
+- **Hours:** October 6 AM–10 PM; November–December 6 AM–6 PM.
+- **Cost:** Fishing $14 + tax/day, $35 for 3 days, $400/yr. Walking $4/day. Rod rental $15 per use (no re-entry). No kid price listed.
+- **Facilities:** restrooms · bait: On-pier tackle shop (bait, ice, fish-cleaning sinks) + Fishtales snacks/ice cream · rentals: $15 per use · food: Southern Tide Bar & Grill at the entrance · parking: Free pier parking across the street + street parking · ADA
+- **Rules:** No fishing license required on the pier. Rentals don't include re-entry.
+- Free fishing clinics Thursdays + Saturdays 9 AM–noon in May–June (2026 run), supplies provided; register on Eventbrite or at the gift shop. ([source](https://www.visitmyrtlebeach.com/events/free-fishing-clinics))
+- Anglers use the Springmaid Pier Facebook page for current reports. ([source](https://www.pierandsurf.com/threads/sc-piers.166846/))
+- [Website](https://www.elliebeachresortmyrtlebeach.com/the-pier) · 843-315-7100 (gift shop 843-315-7156)
+
+### Myrtle Beach State Park Pier
+- **Status:** Open; most of the pier closed 6–11:30 AM Sat Oct 17, 2026 (kids' event)
+- **Where to fish:** Flounder, pompano, whiting and spot along the length; crabbing allowed. Fish ID photos are posted under the shelter at the end.
+- **Kids:** Cheapest kid pier pass ($3). Rangers help identify fish. Calm, natural setting next to the maritime forest.
+- **Hours:** Park 6 AM–10 PM (Mar–Nov), 6 AM–8 PM (Dec–Feb). Pier Store 6:30 AM–5 PM.
+- **Cost:** Park admission: adults $8, ages 6–15 $4, 5 and under free. Pier pass on top: 16+ $8, ages 6–15 $3, 5 and under free. King pass $11/day.
+- **Facilities:** restrooms · bait: Pier Store (bait stock UNVERIFIED) · rentals: $25/day + $25 deposit (includes daily pass); return 1 hr before the store closes · food: None at the pier (UNVERIFIED); picnic shelters in the park · parking: Included with admission; lots can fill 10 AM–2 PM
+- **Rules:** No license needed (blanket pier license) but the daily pier fee is required. No shark fishing. Swimmers stay 150 yards away. A state park passport doesn't cover fishing.
+- Take a Kid Fishing, Sat Oct 17, 2026, 8–11 AM: free, bait + 30 loaner poles, but registration shows SOLD OUT. Much of the pier is closed 6–11:30 AM that day. ([source](https://southcarolinaparks.com/products/10003403))
+- Reopened 2024 after damage from Hurricane Ian and a nor'easter. ([source](https://www.myhorrynews.com/news/everybody-loves-the-pier-after-storm-damage-pier-reopens-at-myrtle-beach-state-park/article_9d41cd1c-49c0-11ef-af0c-9f044b72c7e4.html))
+- [Website](https://southcarolinaparks.com/myrtle-beach) · Park office 843-238-5325; Pier Store 843-238-5326
+
+### Surfside Pier
+- **Status:** Open; town page checked 10/11/2026
+- **Where to fish:** 814 ft concrete-piling pier rebuilt in 2024; deck is 25 ft above the water, widening to 36 ft at the end. Kings at the end (UNVERIFIED); whiting, pompano and flounder near shore (UNVERIFIED).
+- **Kids:** 'Family Beach' town; elevator + ramp to the pier. Deck is 25 ft up, so bring a drop net for bigger fish. Ice cream on the pier. No bikes or skates.
+- **Hours:** Apr 1–Oct 31: 6 AM–1 AM. Nov 1–Mar 31: 7 AM–11 PM. Passes sold 6 AM–9 PM.
+- **Cost:** Walking free. Fishing $14/day, $55/week. King pass $16/day. Kids under 12: $2.
+- **Facilities:** bait: Perry's Bait & Tackle on the pier · rentals: $25/day (reel, line, 1 rig); bait extra · food: Whistling Duck, Surf Diner, Drippy's ice cream · parking: $4/hr, 8 AM–6 PM · ADA
+- **Rules:** Max 2 rods per paid angler; pass covers the license. No shark fishing. No pets (service animals only), outside alcohol, smoking, glass or feeding birds.
+- New pier opened March 14, 2024: 26 concrete pilings, synthetic decking designed to blow out in storms. ([source](https://www.postandcourier.com/myrtle-beach/business/surfside-beach-pier-opens-in-horry-county-sc/article_0cbd2aaa-e527-11ee-ba3f-0f39019845e8.html))
+- Kids under 12 used to fish free; now $2 to cover wristbands. ([source](https://www.aol.com/articles/fishing-just-got-more-expensive-102106327.html))
+- [Website](https://www.surfsidebeach.org/212/Surfside-Beach-Fishing-Pier) · Pier 843-913-6360; Perry's (fishing questions) 843-839-0392
+
+### Garden City Pier
+- **Status:** Open per official site (undated); sale status unknown, so call before driving
+- **Where to fish:** 668 ft pier with a rain shelter at the end. Early morning and evening are best; ask the tackle shop what's biting.
+- **Kids:** Arcade, ice cream, live music/karaoke Fri–Sun nights (two bars, so evenings feel like nightlife). Kids half price.
+- **Hours:** Summer 24/7; winter 6 AM–10 PM. October hours not stated, so call.
+- **Cost:** Adults $12, kids 12 and under $6 (24-hr wristband, 6 AM–6 AM, re-entry OK). Walking free.
+- **Facilities:** bait: On-site tackle shop (shrimp, worms, mullet, sand fleas, squid, crab bait) · rentals: $10 per rod · food: Café (breakfast 7–10:30 AM; burgers, hot dogs), Deck Bar, End Bar · parking: Under the pier building; cost unknown
+- **Rules:** 2 rods per person; pass covers the license. No shark fishing. No outside alcohol; coolers checked.
+- Closed for annual maintenance Feb–Mar 2026; listed for sale at $15M. ([source](https://www.wmbfnews.com/2026/03/04/residents-weigh-garden-city-pier-sale-listing/))
+- Rain shelter at the end; live entertainment usually Fri–Sun nights. ([source](https://www.visitmyrtlebeach.com/article/exploring-myrtle-beach-area-piers))
+- [Website](https://www.pieratgardencity.com/) · (843) 651-9700
+
+### Great Pee Dee River: US 76/301 Bridge Landing
+- **Status:** Open; no closure notices found (checked 10/11/2026)
+- **Where to fish:** SCDNR's 'Highway 301' ramp at the US 76/301 bridge (Peedee community, Marion County side). Bank by the ramp for channel and flathead catfish on cut bait. Deep outside bends and back eddies hold big flatheads; bream, crappie and largemouth on slack banks and creek mouths (UNVERIFIED).
+- **Kids:** Big river with current and no restrooms. Life jackets near the water, check the river level first. Best for older kids with an adult close by.
+- **Hours:** No posted hours (UNVERIFIED)
+- **Cost:** No fee listed (UNVERIFIED). SC freshwater license required 16+; kids under 16 free.
+- **Facilities:** no restrooms · parking: 1-lane concrete ramp (SCDNR 'Highway 301'), Marion County; courtesy dock (UNVERIFIED)
+- **Rules:** Act 120 (May 15, 2026): blue catfish 25/day with no more than 2 over 32" from the NC line down to the Highway 301 bridge; 150/day below it. Other limits statewide.
+- June 11, 2026: a reported 113.7-lb flathead catfish from the Pee Dee in lower Florence County beat the old state record. It came from a deep back eddy near a train trestle. ([source](https://fieldandstream.com/stories/fishing/freshwater-fishing/catfishing/south-carolina-record-flathead-catfish))
+- Great Pee Dee, I-95 to Winyah Bay: channel catfish, bluegill and crappie have no meal limit; largemouth bass and bowfin 1 meal/month. ([source](https://www.des.sc.gov/programs/bureau-water/aquatic-science/fish-consumption-advisories/great-pee-dee-river-fish-consumption-advisory))
+- USGS Pee Dee gauge read about 4.4 ft / 3,070 cfs, steady, in Oct 2026. ([source](https://www.howsyourriver.com/access_sites/highway-76301-bridge))
+
+### Lynches River County Park
+- **Status:** Open; splash pad closed for 2026 (checked 10/11/2026)
+- **Where to fish:** The Riverwalk boardwalk (overlook partway along) and the riverbank: redbreast and bream along the banks, catfish and bass in deeper bends (UNVERIFIED). Paddlers can float the 5 miles to the Hwy 52 landing.
+- **Kids:** Environmental Discovery Center with live animals, canopy walk, Kids in Parks TRACK Trail, climbing wall and playground. Splash pad closed for 2026. Rental boats: youths 50 lb+ and an adult 18+ in each boat.
+- **Hours:** Park 9 AM to sunset year-round (closed Thanksgiving, Christmas Eve, Christmas). Discovery Center + Canopy Walk Tue–Sat 9–5, Sun 1–5. Boat rentals: out by 2 PM, back by 4 PM.
+- **Cost:** Admission free (UNVERIFIED). Kayak $30, tandem kayak/canoe $35, plus $100 refundable deposit per boat (no debit cards).
+- **Facilities:** restrooms · rentals: Canoes and kayaks with life jackets; free shuttle back from the US 52 landing (~5-mile float). Call first. · parking: Paved lot at the Community Building / Riverwalk trailhead · ADA
+- **Rules:** No alcohol or firearms; pets on a 6-ft leash. Rentals suspended if the river is under 3 ft or 6.5 ft+, below 45°F, or wind over 30 mph.
+- Lynches River (US 15 → Great Pee Dee): do not eat channel catfish or bowfin; bluegill and redbreast have no limit. ([source](https://www.des.sc.gov/programs/bureau-water/aquatic-science/fish-consumption-advisories/lynches-river-fish-consumption-advisory))
+- Splash pad is closed for 2026 and reopens summer 2027. ([source](https://www.lynchesriverpark.com/splashpad))
+- [Website](https://www.lynchesriverpark.com) · (843) 389-0550
+
+### Prestwood Lake (Lawton Park)
+- **Status:** Open; no closure news (checked 10/11/2026)
+- **Where to fish:** Lawton Park boardwalk + pier for bream and bass; kayak dock there for paddlers. Sonovista Park ramp for small boats/kayaks. Cypress edges toward Black Creek hold bass (UNVERIFIED).
+- **Kids:** Playground with swings, two picnic shelters, restrooms and a boardwalk/pier, all in one small wooded park.
+- **Hours:** Lawton Park: dawn to dusk daily
+- **Cost:** Free city park (UNVERIFIED). SC license 16+.
+- **Facilities:** restrooms · parking: Lawton Park (716 Prestwood Dr) lot by the tennis courts; Sonovista Park (908 Sonovista Dr) 1-lane ramp, ~10 spaces (UNVERIFIED)
+- **Rules:** SC license 16+. Motor limits not found (UNVERIFIED).
+- Lake Prestwood: largemouth bass 1 meal/week; redear and bowfin no limit. ([source](https://www.des.sc.gov/programs/bureau-water/aquatic-science/fish-consumption-advisories/lake-prestwood-fish-consumption-advisory))
+- SCDNR's 2014 list shows a wooden pier at Lawton Park with picnic shelter, restrooms and 35 paved spaces. ([source](https://www.dnr.sc.gov/lakes/pdf/BankPierAccess.pdf))
+- [Website](https://www.hartsvillesc.gov/Home/Components/FacilityDirectory/FacilityDirectory/10/91) · (843) 917-0806
+
+### Lake Robinson
+- **Status:** Lake open at normal level (Oct 8, 2026); ramp status not confirmed
+- **Where to fish:** Duke public ramp at the north end: bream from the bank (UNVERIFIED). A public fishing pier is mentioned only in a 2017 Duke article (UNVERIFIED). By boat: lily pads + stump fields up-lake for spring bass; docks for winter bass.
+- **Kids:** Few family facilities confirmed; no pier or restroom confirmed since 2017. Better for older kids or by boat.
+- **Cost:** Ramp fee unknown (UNVERIFIED). SC license 16+.
+- **Facilities:** parking: Duke Energy public ramp at the north end (Chesterfield Co.): 1 lane, ~20 spaces
+- **Rules:** SC license 16+. The plant's discharge canal is closed to the public. Most shoreline is Duke land leased to homeowners.
+- NRC report (Mar 2026): bluegill were 41–67% of fish sampled, then largemouth bass and warmouth. ([source](https://www.nrc.gov/docs/ML2606/ML26062A118.pdf))
+- Lake level 220.9 ft on Oct 8, 2026 (normal 220.5–221.7). ([source](https://lakes.duke-energy.com/))
+- Do not eat bowfin; bass 1 meal/month; bluegill, warmouth, pickerel 1 meal/week (DES 2020 table). ([source](https://gis.des.sc.gov/Water_Docs/FishAdvisories/Fish_Advisory_Table.pdf))
+- Winter: the plant's warm water heats the upper lake, and docks across from the discharge hold bass (angler report, undated). ([source](https://omniafishing.com/w/lake-robinson-2/fishing-reports))
+- [Website](https://www.duke-energy.com/community/lakes/services/lake-robinson-guidelines)
+
+### Lee State Park
+- **Status:** Open (checked 10/11/2026)
+- **Where to fish:** Artesian Lake (stocked catfish; no fishing in the swim area). Lynches River banks for redbreast, sunfish, catfish and bass. Canoe/kayak put-in only; nearest paved ramp at the US 15 bridge ~4 mi north.
+- **Kids:** Kids fish for catfish at the artesian pond (an under-14-only rule appears in some listings, UNVERIFIED). Free loaner rods. Swimming Memorial Day–Labor Day, no lifeguard.
+- **Hours:** Day use 9 AM to sunset daily. Office: Tue–Thu 11 AM–12 PM, Fri–Sun 10 AM–5 PM, closed Monday.
+- **Cost:** Free admission. Loaner rods from a ranger. SC license 16+.
+- **Facilities:** restrooms · rentals: DNR tackle loaner (ask a ranger); no boat rentals · food: Park store: limited items · parking: ~20 spaces near the pond (UNVERIFIED, 2014 data)
+- **Rules:** SC license 16+. No fishing in the swim area. Pets on a 6-ft leash.
+- Lynches River here: do not eat channel catfish or bowfin; bluegill and redbreast are fine. ([source](https://www.des.sc.gov/programs/bureau-water/aquatic-science/fish-consumption-advisories/lynches-river-fish-consumption-advisory))
+- The park grew by 490 acres through land donations (Dec 2024). ([source](https://scdailygazette.com/2024/12/13/sc-to-expand-pee-dee-state-park-popular-among-horse-riders/))
+- [Website](https://southcarolinaparks.com/lee) · 803-428-5307
+
+### Lake Ashwood (SCDNR)
+- **Status:** Open (closed Tuesdays) (checked 10/11/2026)
+- **Where to fish:** 75-acre lake. Fishing pier (Access 3, off Lake Ashwood Rd) and banks for bluegill and shellcracker; boat ramp area and deeper water for catfish and bass.
+- **Kids:** Pier, picnic area, handicapped access. No swimming. Restrooms not listed (UNVERIFIED). Closed Tuesdays.
+- **Hours:** 30 min before sunrise to 30 min after sunset. CLOSED TUESDAYS.
+- **Cost:** No fee listed (UNVERIFIED). SC license 16+.
+- **Facilities:** no restrooms · parking: 3 access areas off US 15 / Lake Ashwood Rd, dirt lots (UNVERIFIED, 2014 data) · ADA
+- **Rules:** Reg 123-210 (eff. May 26, 2023): NO MINNOWS as bait. Daily: 3 largemouth bass, 15 bream (incl. redbreast), 5 catfish; no crappie size limit. Rod & reel or pole only. Boats: paddle, electric, or outboard ≤10 hp. No alcohol or swimming.
+- Largemouth bass: 1 meal/week. ([source](https://des.sc.gov/programs/bureau-water/aquatic-science/fish-consumption-advisories/lake-ashwood-fish-consumption-advisory))
+- SCDNR stocked about 750 channel catfish of 1–3 lb (article undated). ([source](https://discoversouthcarolina.com/articles/catfish-fishing-at-bishopvilles-lake-ashwood))
+- The lake reopened to the public July 1, 2021. ([source](https://www.dnr.sc.gov/lakes/state/ashwood/))
+- [Website](https://www.dnr.sc.gov/lakes/state/ashwood/) · 803-734-3808 (SCDNR)
+
+### Little Pee Dee State Park
+- **Status:** Open; swimming closed for the season (checked 10/11/2026)
+- **Where to fish:** 75-ft dock/pier on 54-acre Lake Norton for bream and crappie; banks behind the park office for bass and catfish. The blackwater Little Pee Dee River is also open (check its advisory).
+- **Kids:** Playground by the lake; the pier is a good kid spot; pedal boats. Electric motors only, so it's quiet. Swimming closed for the season.
+- **Hours:** Park 9 AM to sunset daily. Office 11 AM–12 PM daily (may be longer in summer).
+- **Cost:** Free admission. Boat rental prices not published; call ahead. SC license 16+.
+- **Facilities:** restrooms · rentals: Jon boats, canoes, kayaks (life jackets + paddles included) and pedal boats · parking: Gravel lot behind the park office (UNVERIFIED) · ADA
+- **Rules:** Private boats: electric trolling motor or no motor (no gas). SC license 16+.
+- Little Pee Dee River: do not eat largemouth, bowfin, chain pickerel, blue or flathead catfish; all other fish 1 meal/week. Lake Norton is not listed. ([source](https://des.sc.gov/programs/bureau-water/aquatic-science/fish-consumption-advisories/little-pee-dee-river-fish-consumption-advisory))
+- Hurricane Matthew breached the Lake Norton dam in 2016; a new park road opened March 2021 after repairs. ([source](https://www.scprt.com/articles/new-road-to-little-pee-dee-state-park-is-now-open))
+- [Website](https://southcarolinaparks.com/little-pee-dee) · 843-774-8872
+
+### Cheraw State Park (Lake Juniper)
+- **Status:** Open; boardwalk closed until further notice (checked 10/11/2026)
+- **Where to fish:** Lake Juniper (360 acres): shoreline near the boat dock shelter and day-use area for bream and catfish, ~200 yards from the ranger station. Boardwalk closed. By boat: grass, lily pads and standing timber for bass and chain pickerel (UNVERIFIED).
+- **Kids:** Big natural-style playground near the office. An adult 18+ must be in every rental canoe, kayak or pedal boat. Swimming May 1–Labor Day, no lifeguards.
+- **Hours:** Oct 7 AM–8 PM; Nov–Feb 7 AM–6 PM; Mar 7 AM–8 PM; Apr–Sep 7 AM–9 PM. Office Mon–Fri 8:30–5.
+- **Cost:** Free admission. Canoe/kayak/SUP/jon boat $15/hr; pedal boat $20/hr. SC license 16+ (sold at the Cheraw Walmart).
+- **Facilities:** restrooms · bait: Licenses at the Cheraw Walmart; no bait shop confirmed · rentals: Canoes, kayaks, pedal boats, jon boats, SUPs; DNR tackle loaner at the office (weather/staffing permitting) · parking: Day-use lot (2 accessible spaces); large gravel lot at the boat ramp · ADA
+- **Rules:** Motors up to 10 hp. SC license 16+.
+- The spillway boardwalk is closed until further notice after a fallen tree damaged it. ([source](https://southcarolinaparks.com/cheraw/things-to-do))
+- Spring and fall are the best seasons; fish from shore or by boat (undated). ([source](https://www.oldeenglishdistrict.com/blog/best-places-to-fish-in-the-olde-english-district/))
+- [Website](https://southcarolinaparks.com/cheraw) · 843-537-9656
+
+### Carolina Sandhills NWR
+- **Status:** Open; Martins Lake closes Nov 1, 2026 (checked 10/11/2026)
+- **Where to fish:** Lake Bee pier (accessible, restrooms) and Pool D pier for bream, bass and channel cats. Oxpen Lake (youth-adult only) for channel catfish. Mays + Honkers lakes for bass. Martins Lake: catch-and-release, Mar 1–Oct 31 only. Bank fishing on all open lakes.
+- **Kids:** Oxpen is the kids' pond: a youth must be actively fishing, max 2 adults per youth, and adults can't fish without a youth. Lake Bee has shade shelters, restrooms and short trails. No swimming/wading. Fall hunts and prescribed burns can close areas.
+- **Hours:** 1 hr before sunrise to 1 hr after sunset daily; Visitor Center Mon–Fri 7 AM–3:30 PM
+- **Cost:** Free; no refuge permit needed; SC license 16+
+- **Facilities:** restrooms · parking: ~5-car lots at each lake; Lake Bee has 3 picnic shelters · ADA
+- **Rules:** Electric motors only; ramps at Pool D, Pool L, Honkers, Martins, Mays. Mays/Honkers bass 5/day, 12" min. Oxpen channel cat 5/day. Martins Lake closed to all access Nov 1–Feb 28. No nets, trotlines, bowfishing, alcohol or drones.
+- Friends group ran its 16th annual Youth Fishing Day June 1, 2024; the refuge has 3 fishing piers among ~30 lakes. ([source](https://www.fws.gov/story/2024-05/get-outdoors-carolina-sandhills-national-wildlife-refuge))
+- Oxpen 'youth' age conflicts: FWS web page says under 16, the 2024 brochure says 17 and under. ([source](https://www.fws.gov/apps/sites/default/files/documents/2025-03/carolina-sandhills-fishing-508-2024.pdf))
+- [Website](https://www.fws.gov/refuge/carolina-sandhills) · (843) 335-8350
+
+### Black River State Park (The Meadows)
+- **Status:** Open (soft opening since Apr 2, 2026); Tue/Thu/Sat hours still listed 10/11/2026
+- **Where to fish:** The Meadows tract, 6252 US-521, Salters: riverbank along ~4 miles of Black River for largemouth, bream, catfish and crappie; canoe/kayak launch to the backwaters.
+- **Kids:** Covered riverside pavilion for shade; 0.6-mi River Birch Nature Trail; 'beach' swimming at your own risk (no lifeguard). Blackwater river with current: life jackets. No Wi-Fi.
+- **Hours:** Soft opening: Tue, Thu, Sat 8 AM–5 PM only
+- **Cost:** $3 adults; $1 ages 6–15; 5 and under free
+- **Facilities:** restrooms · rentals: None; bring your own canoe/kayak · food: None; picnic shelter + 2 grills · parking: 28 day-use spaces
+- **Rules:** SC license 16+. Black River stripers: Oct 1–Jun 15, 26" min, 3/day; closed Jun 16–Sep 30. Pets on a 6-ft leash.
+- The Meadows (~1,800 acres) is the first of 11 tracts; camping and cabins targeted for 2030. ([source](https://www.postandcourier.com/myrtle-beach/news/black-river-newest-state-park-sc/article_7d61b1d5-50c7-4ff8-9a19-5a21f3234b0e.html))
+- Pee Dee Tourism listed the soft-opening window as Apr 2–Sep 30, 2026, so confirm hours before going. ([source](https://peedeetourism.com/attractions/p/black-river-state-park---the-meadows-69bd863f0fba6a3b7bb3eda5))
+- Early visitor review: the kayak launch is easy to use. ([source](https://www.islands.com/2138474/black-river-state-park-south-carolina-new-large-stunning-views-2026/))
+- [Website](https://southcarolinaparks.com/black-river) · 803-563-1059
+
+### Santee State Park (Lake Marion)
+- **Status:** Open; no alerts (checked 10/11/2026)
+- **Where to fish:** Wheelchair-accessible pier next to the park store: catfish (good at night), bream, crappie. By boat: flooded cypress across from the landing for bream; lily pads for bass early/late.
+- **Kids:** 3 playgrounds; a viewfinder on the pier; sandy beach near Cypress View campground (own risk).
+- **Hours:** Park 6 AM–dark daily; office 8 AM–5 PM
+- **Cost:** $3 adults; $1 ages 6–15; 5 and under free
+- **Facilities:** restrooms · bait: Park store (Cypress Landing): snacks, ice, ice cream; bait/tackle UNVERIFIED; licenses at the visitor center · rentals: Self-serve kayak/SUP kiosk; Santee Boat Rentals (pontoons, motorized fishing kayaks) · food: Store snacks; frozen treats on weekends · parking: ~18 spaces at the pier; 59 at the main ramp · ADA
+- **Rules:** Lake Marion: largemouth 14" min, 5/day; blue cat 25/day (max 2 over 32"); stripers Oct 1–Jun 15 keep 23–25" (one over 26"), 3/day; crappie 8", 20/day.
+- Crickets under a cork for bluegill, worms on the bottom for shellcracker in the cypress. ([source](https://www.carolinasportsman.com/?p=116067))
+- SCDNR (Jan 2026): blue catfish catch rates rising, striper rates falling on the Santee Cooper lakes. ([source](https://www.des.sc.gov/sites/des/files/Documents/BOW/ANS/147thMeetingMinutes.docx))
+- [Website](https://southcarolinaparks.com/santee) · 803-854-2408
+
+### Santee NWR (Lake Marion)
+- **Status:** Open; seasonal closures start Nov 1, 2026 (checked 10/11/2026)
+- **Where to fish:** Bluff Unit: Scott's Lake fishing area by the Visitor Center (bass, bream, catfish). Dingle Pond and Cuddo ponds/canoe trail. Pine Island primitive launch (kayaks/small boats) to Lake Marion for catfish, crappie, stripers.
+- **Kids:** Visitor Center deck overlooks Scott's Lake. Alligators: no swimming or wading anywhere. Trails close for deer hunts: Bluff youth hunt Oct 24–25, 2026; Cuddo/Pine Island Oct 16–18 and Oct 30–Nov 1, 2026.
+- **Hours:** Dawn–dusk; Bluff & Cuddo gates 7 AM–5 PM Oct 1–Feb 28; Cuddo closed Mondays; Visitor Center Tue–Fri 8 AM–4 PM
+- **Cost:** Free; free self-issued refuge fishing permit (sign + carry) + SC license 16+
+- **Facilities:** restrooms · rentals: Free loaner binoculars + field-guide backpacks at the Visitor Center · parking: ~20 spaces at the Bluff Unit bank-fishing area
+- **Rules:** Cantey Bay, Black Bottom, Savannah Branch and refuge ponds closed to all access Nov 1–Mar 1. Inland ponds: canoes/kayaks only on the canoe trails. No fishing within 100 ft of nesting birds. Lake Marion limits apply.
+- Open Lake Marion waters inside the refuge are fishable 24 hrs except posted closed areas. ([source](https://www.fws.gov/refuge/santee/visit-us/activities/fishing))
+- 2026 hunt brochure: Bluff Unit youth deer hunt Oct 24–25, 2026. Avoid with kids. ([source](https://www.fws.gov/sites/default/files/documents/2026-08/santee_hunt2026_web.pdf))
+- [Website](https://www.fws.gov/refuge/santee) · (803) 478-2217
+
+### Lake Moultrie: Fred L. Day Pier
+- **Status:** Listed active in SCDNR's access database (edited Mar 2026); no closures found
+- **Where to fish:** Fred L. Day Fishing Pier + 1-lane ramp off SC-6 ~3 mi east of Cross (pier condition UNVERIFIED): catfish, bream, crappie, white perch, bass. Kid-friendlier 2026 upgrades nearby: Hatchery Landing (2 new platforms + restrooms); Amos Lee Gourdine, Russellville (new playground, 60-ft pier extension); Richardsons, Bonneau (pier +90 ft).
+- **Kids:** Fred L. Day has no restrooms, isn't ADA-listed, and sits inside the Moultrie Hunt Unit WMA (hunting in season). Hatchery Landing or Amos Lee Gourdine suit young kids better.
+- **Cost:** No fee found (UNVERIFIED); SC license 16+
+- **Facilities:** no restrooms · parking: Gravel lot, ~50 spaces
+- **Rules:** Largemouth 14" min, 5/day; blue cat 25/day (max 2 over 32"); stripers Oct 1–Jun 15 keep 23–25" (one over 26"), 3/day. Hatchery WMA closed to fishing Saturdays until noon in waterfowl season.
+- Santee Cooper (May 21, 2026): West Dike landing got 2 elevated fishing platforms; a General Moultrie pier/platform is under construction. ([source](https://newsroom.santeecooper.com/?p=1357))
+- SCDNR lists Fred L. Day Fishing Pier as Lake Moultrie's bank-access site. ([source](https://www.dnr.sc.gov/news/2018/nov/nov21_fishing.html))
+- [Website](https://www.santeecooper.com/community/lakes/) · 843-761-4068 (Santee Cooper Property Mgmt, M–F 8–5)
+
+### Lake Wateree State Park
+- **Status:** Open (checked 10/11/2026)
+- **Where to fish:** Bank fishing anywhere in the park on Desportes Island: bream, catfish, crappie, bass. No dedicated pier; the Dutchman Creek bridge walkway just outside the park is a crappie spot.
+- **Kids:** New playground by the park store; sandy swim area (own risk). Loaner tackle for first-timers.
+- **Hours:** Sunrise–sunset daily; office 8 AM–5 PM; Tackle Shop Mon–Thu 8–5, Fri–Sun 7–7
+- **Cost:** $3 adults; $1 ages 6–15; 5 and under free
+- **Facilities:** restrooms · bait: On-site Tackle Shop: minnows, nightcrawlers, worms, frozen shad, licenses (cash/check only) · rentals: Free SCDNR loaner rods at the store; kayaks $40 half day (conflicting info, UNVERIFIED) · food: Store snacks + basic groceries · parking: Ramp lot ~96; bank-fishing lot ~25
+- **Rules:** No fishing from the boat dock during park hours. Largemouth 14" min; crappie 8", 20/day; blue cat 150/day.
+- SCDNR (Jan 2026): 22 fish-attractor sites (6 added in 2024); ~300,000 striper fingerlings stocked in 2024; redear more common. ([source](https://www.des.sc.gov/sites/des/files/Documents/BOW/ANS/147thMeetingMinutes.docx))
+- Giant salvinia (invasive plant) found in the nearby Taylor Creek arm in 2025: clean boats and kayaks. ([source](https://www.des.sc.gov/sites/des/files/Documents/BOW/ANS/147thMeetingMinutes.docx))
+- [Website](https://southcarolinaparks.com/lake-wateree) · 803-482-6401
+
+### Lake Murray: Saluda Dam North Rec Area pier
+- **Status:** North side open year-round (cashless since Apr 1, 2026)
+- **Where to fish:** North Recreation Area fishing pier/docks at the Irmo end of the dam plus shoreline: crappie, bream/shellcracker, catfish, largemouth. Stripers school on the lower lake in fall and winter.
+- **Kids:** Accessible pier with restrooms nearby. No swimming on the Irmo side. Leashed pets, no alcohol.
+- **Hours:** Irmo (North) side: year-round, 5 AM–9 PM non-boaters. Lexington (South) beach: Apr–Labor Day only
+- **Cost:** North: $5 boat-ramp day pass, cashless; non-boater fee not stated (UNVERIFIED)
+- **Facilities:** restrooms · food: Picnic facilities only · parking: ~60 spaces near the pier · ADA
+- **Rules:** Largemouth 14" min; stripers Oct 1–May 31 21" min, 5/day; crappie 8", 20/day.
+- Lake level 355.2 ft (−4.8 ft) on Oct 10, 2026, so expect shallow water at the pier. ([source](https://www.dominionenergy.com/about/lakes-and-recreation/lake-murray-sc))
+- SCDNR (Jan 2026): 24 fish-attractor sites; heavy crappie harvest. ([source](https://www.des.sc.gov/sites/des/files/Documents/BOW/ANS/147thMeetingMinutes.docx))
+- [Website](https://www.dominionenergy.com/lakemurray) · 803-217-9221 (Dominion Lake Mgmt)
+
+### Poinsett State Park
+- **Status:** Open; swim area closed for the season (checked 10/11/2026)
+- **Where to fish:** 10-acre Old Levi Mill Lake: bank near the lake/paddle launch, along the Coquina Trail loop, or from a rented jon boat for bass, bream, catfish.
+- **Kids:** Small, calm, no-gas-motor lake, good for beginners. Coquina Trail (~1.5 mi) circles the lake to the stone spillway 'waterfall'. Swim area closed for the season.
+- **Hours:** Park 9 AM–dark year-round; office only 11 AM–noon and 4–5 PM
+- **Cost:** $3 adults; $1 ages 6–15; 5 and under free; jon boat, canoe, pedal boat, SUP $10/hr
+- **Facilities:** restrooms · rentals: 1 jon boat, 3 canoes, 1 pedal boat, 8 kayaks, 5 SUPs (rent at the office when open) · parking: ~60 spaces at the lake
+- **Rules:** No gas motors; private boats under 14 ft, hand-carried. Statewide limits.
+- SCDNR access database lists bank fishing (60 spaces, restrooms) and a paddle launch on Old Levi Mill Pond. ([source](https://services.arcgis.com/acgZYxoN5Oj8pDLa/arcgis/rest/services/South_Carolina_Public_Water_Access_PUBLIC_VIEW/FeatureServer/0))
+- [Website](https://southcarolinaparks.com/poinsett) · 803-494-8177
 
 ## Closed / skip for now
 
